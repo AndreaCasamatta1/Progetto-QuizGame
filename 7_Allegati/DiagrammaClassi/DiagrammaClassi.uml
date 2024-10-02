@@ -1,0 +1,32 @@
+@startuml
+class Giocatore {
+  - nomeUtente: String
+  - punteggio: int
+  + aggiornaPunteggio(punti: int): void
+}
+
+class Domanda {
+  - testo: String
+  - immagine: String
+  - audio: String
+  - filmato: String
+  - categoria: String
+  - difficolta: String
+  - tipoRisposta: String
+  - rispostaCorretta: String
+  + verificaRisposta(risposta: String): boolean
+}
+
+class QuizGame {
+  - domande: List<Domanda>
+  - giocatori: List<Giocatore>
+  + aggiungiGiocatore(giocatore: Giocatore): void
+  + aggiornaClassifica(): void
+  + visualizzaClassifica(): void
+}
+
+Giocatore-u->QuizGame
+Domanda-u->QuizGame
+
+
+@enduml
