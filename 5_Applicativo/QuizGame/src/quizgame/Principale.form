@@ -67,7 +67,7 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="precedente" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="636" max="32767" attributes="0"/>
+                  <EmptySpace pref="605" max="32767" attributes="0"/>
                   <Component id="prossima" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -115,7 +115,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="PRECEDENTE"/>
+            <Property name="text" type="java.lang.String" value="PAGINA INIZIALE"/>
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>
           <Events>

@@ -73,7 +73,7 @@ public class Principale extends javax.swing.JFrame {
         precedente.setBackground(new java.awt.Color(255, 102, 0));
         precedente.setFont(new java.awt.Font("Tw Cen MT", 1, 14)); // NOI18N
         precedente.setForeground(new java.awt.Color(0, 0, 0));
-        precedente.setText("PRECEDENTE");
+        precedente.setText("PAGINA INIZIALE");
         precedente.setEnabled(false);
         precedente.setVisible(false);
         precedente.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +89,7 @@ public class Principale extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CambioPaginaLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(precedente)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 636, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 605, Short.MAX_VALUE)
                 .addComponent(prossima)
                 .addContainerGap())
         );
@@ -158,6 +158,7 @@ public class Principale extends javax.swing.JFrame {
             getContentPane().add(domande1, java.awt.BorderLayout.CENTER);
             domande1.setVisible(true);
             domande1.setEnabled(true);
+            precedente.setText("PAGINA DOMANDE");
  
         }
         
@@ -185,6 +186,7 @@ public class Principale extends javax.swing.JFrame {
             domande1.setEnabled(false);
             getContentPane().remove(domande1);
             getContentPane().add(impostazioni1, java.awt.BorderLayout.CENTER);
+            precedente.setText("PAGINA INIZIALE");
             impostazioni1.setVisible(true);
             impostazioni1.setEnabled(true);
         }

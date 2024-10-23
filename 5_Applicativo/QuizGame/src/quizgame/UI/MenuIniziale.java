@@ -213,26 +213,34 @@ public class MenuIniziale extends javax.swing.JPanel {
         }
         else if(!jTextField4.isEnabled()){
             jTextField3.setEnabled(false);
+            jTextField3.setText("Inserisci nome");
         }
         else if(!jTextField5.isEnabled()){
             jTextField4.setEnabled(false);
+            jTextField4.setText("Inserisci nome");
         }
         else if(!jTextField6.isEnabled()){
             jTextField5.setEnabled(false);
+            jTextField5.setText("Inserisci nome");
         }
         else if(!jTextField7.isEnabled()){
             jTextField6.setEnabled(false);
+            jTextField6.setText("Inserisci nome");
         }
         else if(!jTextField8.isEnabled()){
             jTextField7.setEnabled(false);
+            jTextField7.setText("Inserisci nome");
         }
         else if(!jTextField9.isEnabled()){
             jTextField8.setEnabled(false);
+            jTextField8.setText("Inserisci nome");
         }
         else if(!jTextField10.isEnabled()){
             jTextField9.setEnabled(false);
+            jTextField9.setText("Inserisci nome");
         }
         jTextField10.setEnabled(false);
+        jTextField10.setText("Inserisci nome");
         aggGiocatore.setText("aggiungi giocatore");
         aggGiocatore.setEnabled(true);
     }//GEN-LAST:event_rimGiocatoreActionPerformed
