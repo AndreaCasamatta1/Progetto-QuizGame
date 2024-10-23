@@ -22,6 +22,17 @@ public class Giocatore {
     }
 
     public void setNomeUtente(String nomeUtente) {
+        if(nomeUtente.length() < 1){
+            String alfabeto = "abcdefghijklmnopqrstuvwxyz";
+            int numeroLettereAlfabeto = alfabeto.length();
+            String parola = "";
+            for (int i = 0; i < 5; i++) {
+                // scelgo una delle lettere dell'alfabeto.
+                int j = (int)(Math.random()*numeroLettereAlfabeto);
+                parola += alfabeto.charAt(j);
+            }
+            nomeUtente=parola;
+        }
         this.nomeUtente = nomeUtente;
     }
 
