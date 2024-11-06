@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package quizgame;
+import javax.swing.JTextField;
 import quizgame.UI.*;
 
 /**
@@ -110,38 +111,8 @@ public class Principale extends javax.swing.JFrame {
 
     private void prossimaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_prossimaActionPerformed
         // TODO add your handling code here:
-        if(menu1.isEnabled()){
-//            if(jTextField1.isEnabled()){
-//                Giocatore g1 = new Giocatore(jTextField1.getText(), 0);
-//            }
-//            else if(jTextField2.isEnabled()){
-//                Giocatore g2 = new Giocatore(jTextField2.getText(), 0);
-//            }
-//            else if(jTextField3.isEnabled()){
-//                Giocatore g3 = new Giocatore(jTextField3.getText(), 0);
-//            }
-//            else if(jTextField4.isEnabled()){
-//                Giocatore g4 = new Giocatore(jTextField4.getText(), 0);
-//            }
-//            else if(jTextField5.isEnabled()){
-//                Giocatore g5 = new Giocatore(jTextField5.getText(), 0);
-//            }
-//            else if(jTextField6.isEnabled()){
-//                Giocatore g6 = new Giocatore(jTextField6.getText(), 0);
-//            }
-//            else if(jTextField7.isEnabled()){
-//                Giocatore g7 = new Giocatore(jTextField7.getText(), 0);
-//            }
-//            else if(jTextField8.isEnabled()){
-//                Giocatore g8 = new Giocatore(jTextField8.getText(), 0);
-//            }
-//            else if(jTextField9.isEnabled()){
-//                Giocatore g9 = new Giocatore(jTextField9.getText(), 0);
-//            }
-//            else if(jTextField10.isEnabled()){
-//                Giocatore g10 = new Giocatore(jTextField10.getText(), 0);
-//            } 
-            
+        if(menu1.isEnabled()){      
+            menu1.inviaNomi();
             menu1.setVisible(false);
             menu1.setEnabled(false);
             getContentPane().remove(menu1);
@@ -231,7 +202,6 @@ public class Principale extends javax.swing.JFrame {
             }
         });
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel CambioPagina;
     private javax.swing.JPanel PaginaBase;

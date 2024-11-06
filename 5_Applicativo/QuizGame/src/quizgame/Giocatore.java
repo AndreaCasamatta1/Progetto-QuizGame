@@ -4,6 +4,8 @@
  */
 package quizgame;
 
+import quizgame.UI.MenuIniziale;
+
 /**
  *
  * @author Andrea.casamatta
@@ -32,6 +34,7 @@ public class Giocatore {
                 parola += alfabeto.charAt(j);
             }
             nomeUtente=parola;
+            System.out.println(nomeUtente);
         }
         this.nomeUtente = nomeUtente;
     }
@@ -47,4 +50,5 @@ public class Giocatore {
     public void aggiornaPunteggio(int punti){
         
     }
+    
 }

@@ -29,77 +29,109 @@ public class Impostazioni extends javax.swing.JPanel {
 
         diffGroup = new javax.swing.ButtonGroup();
         catGroup = new javax.swing.ButtonGroup();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
-        jRadioButton8 = new javax.swing.JRadioButton();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        facile = new javax.swing.JRadioButton();
+        medio = new javax.swing.JRadioButton();
+        difficile = new javax.swing.JRadioButton();
+        storia = new javax.swing.JRadioButton();
+        sport = new javax.swing.JRadioButton();
+        matScolastiche = new javax.swing.JRadioButton();
+        lingue = new javax.swing.JRadioButton();
+        geografia = new javax.swing.JRadioButton();
+        selezDiffTesto = new javax.swing.JLabel();
+        selezcatTesto = new javax.swing.JLabel();
 
-        jRadioButton1.setBackground(new java.awt.Color(51, 153, 0));
-        diffGroup.add(jRadioButton1);
-        jRadioButton1.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
-        jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton1.setSelected(true);
-        jRadioButton1.setText("FACILE");
-        jRadioButton1.setToolTipText("");
-        jRadioButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jRadioButton1.setBorderPainted(true);
-        jRadioButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jRadioButton1.setOpaque(true);
-        jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        facile.setBackground(new java.awt.Color(51, 153, 0));
+        diffGroup.add(facile);
+        facile.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
+        facile.setForeground(new java.awt.Color(255, 255, 255));
+        facile.setSelected(true);
+        facile.setText("FACILE");
+        facile.setToolTipText("");
+        facile.setBorderPainted(true);
+        facile.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        facile.setOpaque(true);
+        facile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton1ActionPerformed(evt);
+                facileActionPerformed(evt);
             }
         });
 
-        jRadioButton2.setBackground(new java.awt.Color(255, 153, 51));
-        diffGroup.add(jRadioButton2);
-        jRadioButton2.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
-        jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton2.setText("MEDIO");
-        jRadioButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jRadioButton2.setBorderPainted(true);
-        jRadioButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jRadioButton2.setOpaque(true);
+        medio.setBackground(new java.awt.Color(255, 153, 51));
+        diffGroup.add(medio);
+        medio.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
+        medio.setForeground(new java.awt.Color(255, 255, 255));
+        medio.setText("MEDIO");
+        medio.setBorderPainted(true);
+        medio.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        medio.setOpaque(true);
+        medio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                medioActionPerformed(evt);
+            }
+        });
 
-        jRadioButton3.setBackground(new java.awt.Color(204, 0, 0));
-        diffGroup.add(jRadioButton3);
-        jRadioButton3.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
-        jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton3.setText("DIFFICILE");
-        jRadioButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jRadioButton3.setBorderPainted(true);
-        jRadioButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jRadioButton3.setOpaque(true);
+        difficile.setBackground(new java.awt.Color(204, 0, 0));
+        diffGroup.add(difficile);
+        difficile.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
+        difficile.setForeground(new java.awt.Color(255, 255, 255));
+        difficile.setText("DIFFICILE");
+        difficile.setBorderPainted(true);
+        difficile.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        difficile.setOpaque(true);
+        difficile.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                difficileActionPerformed(evt);
+            }
+        });
 
-        catGroup.add(jRadioButton4);
-        jRadioButton4.setText("STORIA");
+        catGroup.add(storia);
+        storia.setText("STORIA");
+        storia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                storiaActionPerformed(evt);
+            }
+        });
 
-        catGroup.add(jRadioButton5);
-        jRadioButton5.setSelected(true);
-        jRadioButton5.setText("SPORT");
+        catGroup.add(sport);
+        sport.setSelected(true);
+        sport.setText("SPORT");
+        sport.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sportActionPerformed(evt);
+            }
+        });
 
-        catGroup.add(jRadioButton6);
-        jRadioButton6.setText("MATERIE SCOLASTICHE");
+        catGroup.add(matScolastiche);
+        matScolastiche.setText("MATERIE SCOLASTICHE");
+        matScolastiche.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                matScolasticheActionPerformed(evt);
+            }
+        });
 
-        catGroup.add(jRadioButton7);
-        jRadioButton7.setText("LINGUE");
+        catGroup.add(lingue);
+        lingue.setText("LINGUE");
+        lingue.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lingueActionPerformed(evt);
+            }
+        });
 
-        catGroup.add(jRadioButton8);
-        jRadioButton8.setText("GEOGRAFIA");
+        catGroup.add(geografia);
+        geografia.setText("GEOGRAFIA");
+        geografia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                geografiaActionPerformed(evt);
+            }
+        });
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("SELEZIONA DIFFICOLTÀ");
+        selezDiffTesto.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        selezDiffTesto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        selezDiffTesto.setText("SELEZIONA DIFFICOLTÀ");
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("SELEZIONA CATEGORIA");
+        selezcatTesto.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
+        selezcatTesto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        selezcatTesto.setText("SELEZIONA CATEGORIA");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -111,83 +143,116 @@ public class Impostazioni extends javax.swing.JPanel {
                         .addGap(217, 217, 217)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jRadioButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(facile, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(56, 56, 56)
-                                .addComponent(jRadioButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(medio, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(61, 61, 61)
-                                .addComponent(jRadioButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(difficile, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(75, 75, 75)
-                                .addComponent(jLabel2))))
+                                .addComponent(selezDiffTesto))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(170, 170, 170)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(120, 120, 120)
-                                .addComponent(jLabel3))
+                                .addComponent(selezcatTesto))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jRadioButton4)
+                                .addComponent(storia)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jRadioButton6)
+                                .addComponent(matScolastiche)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jRadioButton5)
+                                .addComponent(sport)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jRadioButton8)
+                                .addComponent(geografia)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jRadioButton7)))))
+                                .addComponent(lingue)))))
                 .addContainerGap(189, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(65, 65, 65)
-                .addComponent(jLabel2)
+                .addComponent(selezDiffTesto)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jRadioButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(facile, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jRadioButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                        .addComponent(jRadioButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)))
+                        .addComponent(difficile, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                        .addComponent(medio, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)))
                 .addGap(91, 91, 91)
-                .addComponent(jLabel3)
+                .addComponent(selezcatTesto)
                 .addGap(30, 30, 30)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton7)
-                    .addComponent(jRadioButton8)
-                    .addComponent(jRadioButton5)
-                    .addComponent(jRadioButton6)
-                    .addComponent(jRadioButton4))
+                    .addComponent(lingue)
+                    .addComponent(geografia)
+                    .addComponent(sport)
+                    .addComponent(matScolastiche)
+                    .addComponent(storia))
                 .addContainerGap(146, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
+private String diff = "";
+private String cat = "";
+    private void facileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_facileActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton1ActionPerformed
+        diff="facile";
+    }//GEN-LAST:event_facileActionPerformed
 
+    private void medioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_medioActionPerformed
+        // TODO add your handling code here:
+        diff="medio";
+    }//GEN-LAST:event_medioActionPerformed
 
-    public int getDifficolta(){
-        
-        return 0;
-    }
-    
+    private void difficileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_difficileActionPerformed
+        // TODO add your handling code here:
+        diff="difficile";
+    }//GEN-LAST:event_difficileActionPerformed
 
-    public int getCategoria(){
-        return 0;
-    }    
+    private void storiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_storiaActionPerformed
+        // TODO add your handling code here:
+        cat = "storia";
+    }//GEN-LAST:event_storiaActionPerformed
+
+    private void matScolasticheActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_matScolasticheActionPerformed
+        // TODO add your handling code here:
+        cat = "materia";
+    }//GEN-LAST:event_matScolasticheActionPerformed
+
+    private void sportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sportActionPerformed
+        // TODO add your handling code here:
+        cat = "sport";
+    }//GEN-LAST:event_sportActionPerformed
+
+    private void geografiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geografiaActionPerformed
+        // TODO add your handling code here:
+        cat = "geografia";
+    }//GEN-LAST:event_geografiaActionPerformed
+
+    private void lingueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lingueActionPerformed
+        // TODO add your handling code here:
+        cat = "lingue";
+    }//GEN-LAST:event_lingueActionPerformed
+public String getDifficolta(){
+    return diff;
+}
+
+public String getCategoria(){
+    return cat;
+}
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup catGroup;
     private javax.swing.ButtonGroup diffGroup;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton7;
-    private javax.swing.JRadioButton jRadioButton8;
+    private javax.swing.JRadioButton difficile;
+    private javax.swing.JRadioButton facile;
+    private javax.swing.JRadioButton geografia;
+    private javax.swing.JRadioButton lingue;
+    private javax.swing.JRadioButton matScolastiche;
+    private javax.swing.JRadioButton medio;
+    private javax.swing.JLabel selezDiffTesto;
+    private javax.swing.JLabel selezcatTesto;
+    private javax.swing.JRadioButton sport;
+    private javax.swing.JRadioButton storia;
     // End of variables declaration//GEN-END:variables
 }

@@ -29,21 +29,21 @@
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField1" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
-                                  <Component id="jTextField5" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente1" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente5" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
                                   <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                      <Component id="jTextField7" alignment="1" min="-2" pref="125" max="-2" attributes="0"/>
-                                      <Component id="jTextField9" alignment="1" min="-2" pref="125" max="-2" attributes="0"/>
+                                      <Component id="nomeUtente7" alignment="1" min="-2" pref="125" max="-2" attributes="0"/>
+                                      <Component id="nomeUtente9" alignment="1" min="-2" pref="125" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="jTextField3" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente3" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="160" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField6" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
-                                  <Component id="jTextField2" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
-                                  <Component id="jTextField10" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
-                                  <Component id="jTextField8" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
-                                  <Component id="jTextField4" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente6" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente2" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente10" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente8" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <Component id="nomeUtente4" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -64,28 +64,28 @@
               <Component id="titolo" pref="62" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextField1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="jTextField2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jTextField3" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="jTextField4" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente3" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente4" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jTextField6" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="jTextField5" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente6" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente5" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextField8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="jTextField7" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente7" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextField10" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="jTextField9" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente10" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="nomeUtente9" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -106,46 +106,46 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="aggGiocatoreActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField6">
+    <Component class="javax.swing.JTextField" name="nomeUtente6">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField6ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nomeUtente6ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField9">
+    <Component class="javax.swing.JTextField" name="nomeUtente9">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField8">
+    <Component class="javax.swing.JTextField" name="nomeUtente8">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField5">
+    <Component class="javax.swing.JTextField" name="nomeUtente5">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField4">
+    <Component class="javax.swing.JTextField" name="nomeUtente4">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField3">
+    <Component class="javax.swing.JTextField" name="nomeUtente3">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField10">
+    <Component class="javax.swing.JTextField" name="nomeUtente10">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
@@ -170,18 +170,18 @@
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField2">
+    <Component class="javax.swing.JTextField" name="nomeUtente2">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="nomeUtente1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField7">
+    <Component class="javax.swing.JTextField" name="nomeUtente7">
       <Properties>
         <Property name="text" type="java.lang.String" value="Inserisci nome"/>
         <Property name="enabled" type="boolean" value="false"/>

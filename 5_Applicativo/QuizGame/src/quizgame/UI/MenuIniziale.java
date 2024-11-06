@@ -4,6 +4,9 @@
  */
 package quizgame.UI;
 
+import javax.swing.JTextField;
+import quizgame.*;
+
 /**
  *
  * @author Andrea.casamatta
@@ -27,18 +30,18 @@ public class MenuIniziale extends javax.swing.JPanel {
     private void initComponents() {
 
         aggGiocatore = new javax.swing.JButton();
-        jTextField6 = new javax.swing.JTextField();
-        jTextField9 = new javax.swing.JTextField();
-        jTextField8 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField10 = new javax.swing.JTextField();
+        nomeUtente6 = new javax.swing.JTextField();
+        nomeUtente9 = new javax.swing.JTextField();
+        nomeUtente8 = new javax.swing.JTextField();
+        nomeUtente5 = new javax.swing.JTextField();
+        nomeUtente4 = new javax.swing.JTextField();
+        nomeUtente3 = new javax.swing.JTextField();
+        nomeUtente10 = new javax.swing.JTextField();
         rimGiocatore = new javax.swing.JButton();
         titolo = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField7 = new javax.swing.JTextField();
+        nomeUtente2 = new javax.swing.JTextField();
+        nomeUtente1 = new javax.swing.JTextField();
+        nomeUtente7 = new javax.swing.JTextField();
 
         aggGiocatore.setText("aggiungi giocatore");
         aggGiocatore.addActionListener(new java.awt.event.ActionListener() {
@@ -47,31 +50,31 @@ public class MenuIniziale extends javax.swing.JPanel {
             }
         });
 
-        jTextField6.setText("Inserisci nome");
-        jTextField6.setEnabled(false);
-        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+        nomeUtente6.setText("Inserisci nome");
+        nomeUtente6.setEnabled(false);
+        nomeUtente6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField6ActionPerformed(evt);
+                nomeUtente6ActionPerformed(evt);
             }
         });
 
-        jTextField9.setText("Inserisci nome");
-        jTextField9.setEnabled(false);
+        nomeUtente9.setText("Inserisci nome");
+        nomeUtente9.setEnabled(false);
 
-        jTextField8.setText("Inserisci nome");
-        jTextField8.setEnabled(false);
+        nomeUtente8.setText("Inserisci nome");
+        nomeUtente8.setEnabled(false);
 
-        jTextField5.setText("Inserisci nome");
-        jTextField5.setEnabled(false);
+        nomeUtente5.setText("Inserisci nome");
+        nomeUtente5.setEnabled(false);
 
-        jTextField4.setText("Inserisci nome");
-        jTextField4.setEnabled(false);
+        nomeUtente4.setText("Inserisci nome");
+        nomeUtente4.setEnabled(false);
 
-        jTextField3.setText("Inserisci nome");
-        jTextField3.setEnabled(false);
+        nomeUtente3.setText("Inserisci nome");
+        nomeUtente3.setEnabled(false);
 
-        jTextField10.setText("Inserisci nome");
-        jTextField10.setEnabled(false);
+        nomeUtente10.setText("Inserisci nome");
+        nomeUtente10.setEnabled(false);
 
         rimGiocatore.setText("rimuovi giocatore");
         rimGiocatore.setEnabled(false);
@@ -86,13 +89,13 @@ public class MenuIniziale extends javax.swing.JPanel {
         titolo.setText("QUIZ GAME");
         titolo.setToolTipText("");
 
-        jTextField2.setText("Inserisci nome");
-        jTextField2.setEnabled(false);
+        nomeUtente2.setText("Inserisci nome");
+        nomeUtente2.setEnabled(false);
 
-        jTextField1.setText("Inserisci nome");
+        nomeUtente1.setText("Inserisci nome");
 
-        jTextField7.setText("Inserisci nome");
-        jTextField7.setEnabled(false);
+        nomeUtente7.setText("Inserisci nome");
+        nomeUtente7.setEnabled(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -110,19 +113,19 @@ public class MenuIniziale extends javax.swing.JPanel {
                                 .addGap(56, 56, 56))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nomeUtente1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nomeUtente5, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(nomeUtente7, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(nomeUtente9, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(nomeUtente3, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(160, 160, 160)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(nomeUtente6, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nomeUtente2, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nomeUtente10, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nomeUtente8, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(nomeUtente4, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(276, 276, 276)
                         .addComponent(titolo, javax.swing.GroupLayout.PREFERRED_SIZE, 242, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -135,24 +138,24 @@ public class MenuIniziale extends javax.swing.JPanel {
                 .addComponent(titolo, javax.swing.GroupLayout.DEFAULT_SIZE, 62, Short.MAX_VALUE)
                 .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nomeUtente1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(nomeUtente2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nomeUtente3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(nomeUtente4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nomeUtente6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(nomeUtente5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nomeUtente8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(nomeUtente7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(nomeUtente10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(nomeUtente9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(57, 57, 57)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(aggGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -163,101 +166,113 @@ public class MenuIniziale extends javax.swing.JPanel {
 
     private void aggGiocatoreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aggGiocatoreActionPerformed
 
-        if (jTextField9.isEnabled()){
+        if (nomeUtente9.isEnabled()){
             aggGiocatore.setEnabled(false);
             aggGiocatore.setText("massimo raggiunto");
         }
-        if(jTextField9.isEnabled()){
-            jTextField10.setEnabled(true);
+        if(nomeUtente9.isEnabled()){
+            nomeUtente10.setEnabled(true);
         }
-        else if(jTextField8.isEnabled()){
-            jTextField9.setEnabled(true);
+        else if(nomeUtente8.isEnabled()){
+            nomeUtente9.setEnabled(true);
         }
-        else if(jTextField7.isEnabled()){
-            jTextField8.setEnabled(true);
+        else if(nomeUtente7.isEnabled()){
+            nomeUtente8.setEnabled(true);
         }
-        else if(jTextField6.isEnabled()){
-            jTextField7.setEnabled(true);
+        else if(nomeUtente6.isEnabled()){
+            nomeUtente7.setEnabled(true);
         }
-        else if(jTextField5.isEnabled()){
-            jTextField6.setEnabled(true);
+        else if(nomeUtente5.isEnabled()){
+            nomeUtente6.setEnabled(true);
         }
-        else if(jTextField4.isEnabled()){
-            jTextField5.setEnabled(true);
+        else if(nomeUtente4.isEnabled()){
+            nomeUtente5.setEnabled(true);
         }
-        else if(jTextField3.isEnabled()){
-            jTextField4.setEnabled(true);
+        else if(nomeUtente3.isEnabled()){
+            nomeUtente4.setEnabled(true);
         }
-        else if(jTextField2.isEnabled()){
-            jTextField3.setEnabled(true);
+        else if(nomeUtente2.isEnabled()){
+            nomeUtente3.setEnabled(true);
         }
-        else if(jTextField1.isEnabled()){
-            jTextField2.setEnabled(true);
+        else if(nomeUtente1.isEnabled()){
+            nomeUtente2.setEnabled(true);
 
         }
         rimGiocatore.setEnabled(true);
         rimGiocatore.setText("rimuovi giocatore");
-        jTextField1.setEnabled(true);
+        nomeUtente1.setEnabled(true);
     }//GEN-LAST:event_aggGiocatoreActionPerformed
 
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+    private void nomeUtente6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nomeUtente6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
+    }//GEN-LAST:event_nomeUtente6ActionPerformed
 
     private void rimGiocatoreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rimGiocatoreActionPerformed
         // TODO add your handling code here:
-        if(!jTextField3.isEnabled()){
-            jTextField2.setEnabled(false);
+        if(!nomeUtente3.isEnabled()){
+            nomeUtente2.setEnabled(false);
+            nomeUtente2.setText("Inserisci nome");
             rimGiocatore.setEnabled(false);
             rimGiocatore.setText("Minimo raggiunto");
         }
-        else if(!jTextField4.isEnabled()){
-            jTextField3.setEnabled(false);
-            jTextField3.setText("Inserisci nome");
+        else if(!nomeUtente4.isEnabled()){
+            nomeUtente3.setEnabled(false);
+            nomeUtente3.setText("Inserisci nome");
         }
-        else if(!jTextField5.isEnabled()){
-            jTextField4.setEnabled(false);
-            jTextField4.setText("Inserisci nome");
+        else if(!nomeUtente5.isEnabled()){
+            nomeUtente4.setEnabled(false);
+            nomeUtente4.setText("Inserisci nome");
         }
-        else if(!jTextField6.isEnabled()){
-            jTextField5.setEnabled(false);
-            jTextField5.setText("Inserisci nome");
+        else if(!nomeUtente6.isEnabled()){
+            nomeUtente5.setEnabled(false);
+            nomeUtente5.setText("Inserisci nome");
         }
-        else if(!jTextField7.isEnabled()){
-            jTextField6.setEnabled(false);
-            jTextField6.setText("Inserisci nome");
+        else if(!nomeUtente7.isEnabled()){
+            nomeUtente6.setEnabled(false);
+            nomeUtente6.setText("Inserisci nome");
         }
-        else if(!jTextField8.isEnabled()){
-            jTextField7.setEnabled(false);
-            jTextField7.setText("Inserisci nome");
+        else if(!nomeUtente8.isEnabled()){
+            nomeUtente7.setEnabled(false);
+            nomeUtente7.setText("Inserisci nome");
         }
-        else if(!jTextField9.isEnabled()){
-            jTextField8.setEnabled(false);
-            jTextField8.setText("Inserisci nome");
+        else if(!nomeUtente9.isEnabled()){
+            nomeUtente8.setEnabled(false);
+            nomeUtente8.setText("Inserisci nome");
         }
-        else if(!jTextField10.isEnabled()){
-            jTextField9.setEnabled(false);
-            jTextField9.setText("Inserisci nome");
+        else if(!nomeUtente10.isEnabled()){
+            nomeUtente9.setEnabled(false);
+            nomeUtente9.setText("Inserisci nome");
         }
-        jTextField10.setEnabled(false);
-        jTextField10.setText("Inserisci nome");
+        nomeUtente10.setEnabled(false);
+        nomeUtente10.setText("Inserisci nome");
         aggGiocatore.setText("aggiungi giocatore");
         aggGiocatore.setEnabled(true);
     }//GEN-LAST:event_rimGiocatoreActionPerformed
 
+    public void inviaNomi(){
+        JTextField fields[] = {nomeUtente1, nomeUtente2, nomeUtente3, nomeUtente4, nomeUtente5, nomeUtente6, nomeUtente7, nomeUtente8, nomeUtente9, nomeUtente10};
+        Giocatore giocatori[] = new Giocatore[fields.length];
+        for (int i = 0; i < fields.length; i++) {
+            if (fields[i].isEnabled()) {
+                giocatori[i] = new Giocatore(fields[i].getText(), 0);
+                System.out.println(i+1);
+            }
+        }
+    }
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton aggGiocatore;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
+    private javax.swing.JTextField nomeUtente1;
+    private javax.swing.JTextField nomeUtente10;
+    private javax.swing.JTextField nomeUtente2;
+    private javax.swing.JTextField nomeUtente3;
+    private javax.swing.JTextField nomeUtente4;
+    private javax.swing.JTextField nomeUtente5;
+    private javax.swing.JTextField nomeUtente6;
+    private javax.swing.JTextField nomeUtente7;
+    private javax.swing.JTextField nomeUtente8;
+    private javax.swing.JTextField nomeUtente9;
     private javax.swing.JButton rimGiocatore;
     private javax.swing.JLabel titolo;
     // End of variables declaration//GEN-END:variables
