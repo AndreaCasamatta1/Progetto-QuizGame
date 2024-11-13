@@ -11,17 +11,17 @@ import quizgame.UI.Impostazioni;
  * @author Andrea.casamatta
  */
 public class BaseDomanda { 
-    private Impostazioni i = new Impostazioni();
     private String testo;
     private String immagine;
     private String filmato;
-    private String categoria= i.getCategoria();
-    private String difficolta = i.getDifficolta();
+    private String categoria;
+    private String difficolta;
     private String tipoRisposta;
     private String rispostaCorretta;
+    private String giocatoreScelto;
 
 
-    public BaseDomanda(String testo, String immagine, String filmato, String categoria, String difficolta, String tipoRisposta, String rispostaCorretta) {
+    public BaseDomanda(String testo, String immagine, String filmato, String categoria, String difficolta, String tipoRisposta, String rispostaCorretta,String giocatoreScelto) {
         this.testo = testo;
         this.immagine = immagine;
         this.filmato = filmato;
@@ -29,6 +29,7 @@ public class BaseDomanda {
         this.difficolta = difficolta;
         this.tipoRisposta = tipoRisposta;
         this.rispostaCorretta = rispostaCorretta;
+        this.giocatoreScelto = giocatoreScelto;
     }
     public String getTesto() {
         return testo;
@@ -54,17 +55,11 @@ public class BaseDomanda {
         this.filmato = filmato;
     }
 
-    public String getCategoria() {
-        return categoria ;
-    }
 
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
-    public String getDifficolta() {
-        return difficolta;
-    }
 
     public void setDifficolta(String difficolta) {
         this.difficolta = difficolta;
@@ -85,6 +80,15 @@ public class BaseDomanda {
     public void setRispostaCorretta(String rispostaCorretta) {
         this.rispostaCorretta = rispostaCorretta;
     }
+
+    public String getGiocatoreScelto() {
+        return giocatoreScelto;
+    }
+
+    public void setGiocatoreScelto(String giocatoreScelto) {
+        this.giocatoreScelto = giocatoreScelto;
+    }
+    
     
     public void verificaRisposta(int punti){
         

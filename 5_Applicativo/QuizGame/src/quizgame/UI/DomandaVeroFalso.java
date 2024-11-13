@@ -8,12 +8,12 @@ package quizgame.UI;
  *
  * @author Andrea.casamatta
  */
-public class Domande extends javax.swing.JPanel {
+public class DomandaVeroFalso extends javax.swing.JPanel {
 
     /**
      * Creates new form Domanda
      */
-    public Domande() {
+    public DomandaVeroFalso() {
         initComponents();
     }
 

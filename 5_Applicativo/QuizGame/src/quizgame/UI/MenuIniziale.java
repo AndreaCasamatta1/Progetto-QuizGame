@@ -255,7 +255,7 @@ public class MenuIniziale extends javax.swing.JPanel {
         for (int i = 0; i < fields.length; i++) {
             if (fields[i].isEnabled()) {
                 giocatori[i] = new Giocatore(fields[i].getText(), 0);
-                System.out.println(i+1);
+                System.out.println(i);
             }
         }
     }

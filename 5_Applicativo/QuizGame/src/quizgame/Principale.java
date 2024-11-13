@@ -15,7 +15,7 @@ public class Principale extends javax.swing.JFrame {
     /**
      * Creates new form Principale
      */
-    Domande domande1 = new Domande();
+    DomandaVeroFalso domande1 = new DomandaVeroFalso();
     Impostazioni impostazioni1 = new Impostazioni();
     MenuIniziale menu1 = new MenuIniziale();
     

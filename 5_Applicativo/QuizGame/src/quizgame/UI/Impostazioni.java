@@ -192,8 +192,8 @@ public class Impostazioni extends javax.swing.JPanel {
                 .addContainerGap(146, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-private String diff = "";
-private String cat = "";
+    private String diff = "";
+    private String cat = "";
     private void facileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_facileActionPerformed
         // TODO add your handling code here:
         diff="facile";
@@ -233,13 +233,13 @@ private String cat = "";
         // TODO add your handling code here:
         cat = "lingue";
     }//GEN-LAST:event_lingueActionPerformed
-public String getDifficolta(){
-    return diff;
-}
+    public String getDifficolta(){
+        return diff;
+    }
 
-public String getCategoria(){
-    return cat;
-}
+    public String getCategoria(){
+        return cat;
+    }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup catGroup;
