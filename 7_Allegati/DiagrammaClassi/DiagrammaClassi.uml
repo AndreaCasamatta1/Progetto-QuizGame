@@ -5,11 +5,11 @@ class Giocatore {
   + aggiornaPunteggio(punti: int): void
 }
 
-class BaseDomanda {
+class Domanda {
   - testo: String
   - immagine: String
-  - audio: String
   - filmato: String
+  - audio: String
   - categoria: String
   - difficolta: String
   - tipoRisposta: String
@@ -21,12 +21,13 @@ class QuizGame {
   - domande: List<Domanda>
   - giocatori: List<Giocatore>
   + aggiungiGiocatore(giocatore: Giocatore): void
+  + rimuoviGiocatore(): void
   + aggiornaClassifica(): void
   + visualizzaClassifica(): void
 }
 
 Giocatore-u->QuizGame
-BaseDomanda-u->QuizGame
+Domanda-u->QuizGame
 
 
 @enduml

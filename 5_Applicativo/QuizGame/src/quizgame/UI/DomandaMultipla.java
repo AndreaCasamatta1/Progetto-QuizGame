@@ -6,7 +6,7 @@ package quizgame.UI;
 
 import java.util.List;
 import java.util.Random;
-import javax.swing.JLabel;
+import javax.swing.plaf.metal.MetalIconFactory;
 import quizgame.Giocatore;
 import quizgame.QuizGame;
 
@@ -14,19 +14,17 @@ import quizgame.QuizGame;
  *
  * @author Andrea.casamatta
  */
-public class DomandaVeroFalso extends javax.swing.JPanel {
+public class DomandaMultipla extends javax.swing.JPanel {
 
     /**
      * Creates new form Domanda
-     */
+     */    
     private QuizGame quizGame;
-
-    public DomandaVeroFalso(QuizGame quizGame) {
+    
+    public DomandaMultipla(QuizGame quizGame) {
         this.quizGame = quizGame;
         initComponents();
-        
     }
-          
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -40,9 +38,11 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         buttonGroup1 = new javax.swing.ButtonGroup();
         nomeGiocatore = new javax.swing.JLabel();
         numDomanda = new javax.swing.JLabel();
-        vero = new javax.swing.JRadioButton();
-        falso = new javax.swing.JRadioButton();
+        scelta1 = new javax.swing.JRadioButton();
+        scelta2 = new javax.swing.JRadioButton();
         risponde = new javax.swing.JLabel();
+        scelta3 = new javax.swing.JRadioButton();
+        scelta4 = new javax.swing.JRadioButton();
 
         nomeGiocatore.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 14)); // NOI18N
         nomeGiocatore.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -52,25 +52,41 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         numDomanda.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         numDomanda.setText("num domanda");
 
-        buttonGroup1.add(vero);
-        vero.setText("VERO");
-        vero.addActionListener(new java.awt.event.ActionListener() {
+        buttonGroup1.add(scelta1);
+        scelta1.setText("1");
+        scelta1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                veroActionPerformed(evt);
+                scelta1ActionPerformed(evt);
             }
         });
 
-        buttonGroup1.add(falso);
-        falso.setText("FALSO");
-        falso.addActionListener(new java.awt.event.ActionListener() {
+        buttonGroup1.add(scelta2);
+        scelta2.setText("2");
+        scelta2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                falsoActionPerformed(evt);
+                scelta2ActionPerformed(evt);
             }
         });
 
         risponde.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 12)); // NOI18N
         risponde.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         risponde.setText("risponde");
+
+        buttonGroup1.add(scelta3);
+        scelta3.setText("3");
+        scelta3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                scelta3ActionPerformed(evt);
+            }
+        });
+
+        buttonGroup1.add(scelta4);
+        scelta4.setText("4");
+        scelta4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                scelta4ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -84,12 +100,16 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 181, Short.MAX_VALUE)
                 .addComponent(numDomanda)
                 .addGap(15, 15, 15))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(164, 164, 164)
-                .addComponent(vero)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(189, 189, 189)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(scelta1)
+                    .addComponent(scelta3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(falso)
-                .addGap(193, 193, 193))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(scelta2)
+                    .addComponent(scelta4))
+                .addGap(187, 187, 187))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -98,36 +118,48 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
                     .addComponent(nomeGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(numDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(risponde, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 231, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 163, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(vero, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(falso, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(83, 83, 83))
+                    .addComponent(scelta1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(scelta2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(scelta3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(scelta4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(93, 93, 93))
         );
     }// </editor-fold>//GEN-END:initComponents
-    
-    private void falsoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_falsoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_falsoActionPerformed
 
-    private void veroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_veroActionPerformed
+    private void scelta2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta2ActionPerformed
         // TODO add your handling code here:
-       
-    }//GEN-LAST:event_veroActionPerformed
-    
+    }//GEN-LAST:event_scelta2ActionPerformed
+
+    private void scelta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_scelta1ActionPerformed
+
+    private void scelta3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_scelta3ActionPerformed
+
+    private void scelta4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_scelta4ActionPerformed
+
     public void scegliGiocatore(int numGiocatore) {
         List<Giocatore> nomiGiocatori = quizGame.getGiocatori();
         Giocatore giocatoreScelto = nomiGiocatori.get(numGiocatore);
         nomeGiocatore.setText(giocatoreScelto.getNomeUtente());
     }
-    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.JRadioButton falso;
     private javax.swing.JLabel nomeGiocatore;
     private javax.swing.JLabel numDomanda;
     private javax.swing.JLabel risponde;
-    private javax.swing.JRadioButton vero;
+    private javax.swing.JRadioButton scelta1;
+    private javax.swing.JRadioButton scelta2;
+    private javax.swing.JRadioButton scelta3;
+    private javax.swing.JRadioButton scelta4;
     // End of variables declaration//GEN-END:variables
 }

@@ -3,6 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package quizgame;
+
+import java.util.Random;
 import javax.swing.JTextField;
 import quizgame.UI.*;
 
@@ -15,12 +17,17 @@ public class Principale extends javax.swing.JFrame {
     /**
      * Creates new form Principale
      */
-    DomandaVeroFalso domande1 = new DomandaVeroFalso();
+    QuizGame quizGame = new QuizGame();
+    DomandaVeroFalso domande1 = new DomandaVeroFalso(quizGame);
+    DomandaMultipla domande2 = new DomandaMultipla(quizGame);
     Impostazioni impostazioni1 = new Impostazioni();
-    MenuIniziale menu1 = new MenuIniziale();
-    
+    MenuIniziale menu1 = new MenuIniziale(quizGame);
+    private boolean tipoDomanda=false;
+    Random rd = new Random(); // creating Random object https://www.tutorialspoint.com/generate-random-boolean-in-java
+    private int sceltaGiocatore = 0;
+
     public Principale() {
-        initComponents(); 
+        initComponents();
     }
 
     /**
@@ -111,7 +118,7 @@ public class Principale extends javax.swing.JFrame {
 
     private void prossimaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_prossimaActionPerformed
         // TODO add your handling code here:
-        if(menu1.isEnabled()){      
+        if (menu1.isEnabled()) {
             menu1.inviaNomi();
             menu1.setVisible(false);
             menu1.setEnabled(false);
@@ -121,8 +128,8 @@ public class Principale extends javax.swing.JFrame {
             impostazioni1.setEnabled(true);
             precedente.setVisible(true);
             precedente.setEnabled(true);
-        }
-        else if(impostazioni1.isEnabled()){   
+        } 
+        else if (impostazioni1.isEnabled()) {
             impostazioni1.setVisible(false);
             impostazioni1.setEnabled(false);
             getContentPane().remove(impostazioni1);
@@ -130,17 +137,53 @@ public class Principale extends javax.swing.JFrame {
             domande1.setVisible(true);
             domande1.setEnabled(true);
             precedente.setText("PAGINA DOMANDE");
- 
+            domande1.scegliGiocatore(sceltaGiocatore);
+            tipoDomanda = true;
+            
+
         }
         
+        else if ((tipoDomanda) && (rd.nextBoolean()==true)) {
+            domande2.setVisible(false);
+            domande2.setEnabled(false);
+            getContentPane().remove(domande2);
+            getContentPane().add(domande1, java.awt.BorderLayout.CENTER);
+            domande1.setVisible(true);
+            domande1.setEnabled(true);
+            precedente.setText("PAGINA DOMANDE");
+            sceltaGiocatore++;
+            if(sceltaGiocatore == quizGame.getGiocatori().size()){
+                sceltaGiocatore=0;
+            }
+            domande1.scegliGiocatore(sceltaGiocatore);
+            tipoDomanda = true;
+
+        }
+        else if ((tipoDomanda) && (rd.nextBoolean()==false)) {
+            domande1.setVisible(false);
+            domande1.setEnabled(false);
+            getContentPane().remove(domande1);
+            getContentPane().add(domande2, java.awt.BorderLayout.CENTER);
+            domande2.setVisible(true);
+            domande2.setEnabled(true);
+            precedente.setText("PAGINA DOMANDE");
+            sceltaGiocatore++;
+            if(sceltaGiocatore == quizGame.getGiocatori().size()){
+                sceltaGiocatore=0;
+            }
+            domande2.scegliGiocatore(sceltaGiocatore);
+            tipoDomanda = true;
+
+        }
         
+
+
 
     }//GEN-LAST:event_prossimaActionPerformed
 
     private void precedenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_precedenteActionPerformed
         // TODO add your handling code here:
-        if(impostazioni1.isEnabled())
-        {
+        if (impostazioni1.isEnabled()) {
             impostazioni1.setVisible(false);
             impostazioni1.setEnabled(false);
             getContentPane().remove(impostazioni1);
@@ -149,10 +192,10 @@ public class Principale extends javax.swing.JFrame {
             precedente.setEnabled(false);
             menu1.setVisible(true);
             menu1.setEnabled(true);
+            
         }
         
-        else if(domande1.isEnabled())
-        {
+        else if(domande1.isEnabled()) {
             domande1.setVisible(false);
             domande1.setEnabled(false);
             getContentPane().remove(domande1);
@@ -160,12 +203,27 @@ public class Principale extends javax.swing.JFrame {
             precedente.setText("PAGINA INIZIALE");
             impostazioni1.setVisible(true);
             impostazioni1.setEnabled(true);
+            tipoDomanda = false;
+            sceltaGiocatore=0;
+
+        } else if (domande2.isEnabled()) {
+            domande2.setVisible(false);
+            domande2.setEnabled(false);
+            getContentPane().remove(domande2);
+            getContentPane().add(impostazioni1, java.awt.BorderLayout.CENTER);
+            precedente.setText("PAGINA INIZIALE");
+            impostazioni1.setVisible(true);
+            impostazioni1.setEnabled(true);
+            tipoDomanda = false;
+            sceltaGiocatore=0;
+
         }
+
     }//GEN-LAST:event_precedenteActionPerformed
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
         // TODO add your handling code here:              
-        
+
     }//GEN-LAST:event_formWindowActivated
 
     /**

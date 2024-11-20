@@ -10,7 +10,7 @@ import quizgame.UI.MenuIniziale;
  *
  * @author Andrea.casamatta
  */
-public class Giocatore {
+public class Giocatore extends QuizGame {
     private String nomeUtente;
     private int punteggio;
 
@@ -34,9 +34,9 @@ public class Giocatore {
                 parola += alfabeto.charAt(j);
             }
             nomeUtente=parola;
-            System.out.println(nomeUtente);
         }
         this.nomeUtente = nomeUtente;
+        
     }
 
     public int getPunteggio() {
@@ -50,5 +50,6 @@ public class Giocatore {
     public void aggiornaPunteggio(int punti){
         
     }
+    
     
 }

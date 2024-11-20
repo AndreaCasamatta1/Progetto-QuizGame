@@ -4,6 +4,7 @@
  */
 package quizgame.UI;
 
+import java.util.*;
 import javax.swing.JTextField;
 import quizgame.*;
 
@@ -15,8 +16,11 @@ public class MenuIniziale extends javax.swing.JPanel {
 
     /**
      * Creates new form MenuIniziale
-     */
-    public MenuIniziale() {
+     */    
+    private QuizGame quizGame;
+    
+    public MenuIniziale(QuizGame quizGame) {
+        this.quizGame = quizGame;
         initComponents();
     }
 
@@ -249,13 +253,15 @@ public class MenuIniziale extends javax.swing.JPanel {
         aggGiocatore.setEnabled(true);
     }//GEN-LAST:event_rimGiocatoreActionPerformed
 
+
     public void inviaNomi(){
+        quizGame.rimuoviGiocatore();
         JTextField fields[] = {nomeUtente1, nomeUtente2, nomeUtente3, nomeUtente4, nomeUtente5, nomeUtente6, nomeUtente7, nomeUtente8, nomeUtente9, nomeUtente10};
-        Giocatore giocatori[] = new Giocatore[fields.length];
+        Giocatore utenti[] = new Giocatore[fields.length];
         for (int i = 0; i < fields.length; i++) {
             if (fields[i].isEnabled()) {
-                giocatori[i] = new Giocatore(fields[i].getText(), 0);
-                System.out.println(i);
+                utenti[i] = new Giocatore(fields[i].getText(), 0);    
+                quizGame.aggiungiGiocatore(utenti[i]);
             }
         }
     }
