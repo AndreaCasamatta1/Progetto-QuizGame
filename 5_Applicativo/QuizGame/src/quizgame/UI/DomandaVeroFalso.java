@@ -4,9 +4,11 @@
  */
 package quizgame.UI;
 
+import java.awt.Color;
 import java.util.List;
 import java.util.Random;
 import javax.swing.JLabel;
+import quizgame.Domanda;
 import quizgame.Giocatore;
 import quizgame.QuizGame;
 
@@ -61,6 +63,7 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         });
 
         buttonGroup1.add(falso);
+        falso.setSelected(true);
         falso.setText("FALSO");
         falso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,14 +108,16 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
                 .addGap(83, 83, 83))
         );
     }// </editor-fold>//GEN-END:initComponents
-    
+    private String risposta="false";
     private void falsoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_falsoActionPerformed
         // TODO add your handling code here:
+        
+        risposta= "false";
     }//GEN-LAST:event_falsoActionPerformed
 
     private void veroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_veroActionPerformed
         // TODO add your handling code here:
-       
+       risposta= "true";
     }//GEN-LAST:event_veroActionPerformed
     
     public void scegliGiocatore(int numGiocatore) {
@@ -120,8 +125,18 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         Giocatore giocatoreScelto = nomiGiocatori.get(numGiocatore);
         nomeGiocatore.setText(giocatoreScelto.getNomeUtente());
     }
+    public void rispostaCorretta(String rispostaInviata){
+        if((rispostaInviata.equals("true")) && (risposta.equals("true"))){
+            vero.setBackground(Color.green);
+            falso.setBackground(Color.red);
+        }
+        else{
+            falso.setBackground(Color.green);
+            vero.setBackground(Color.red);
+        }
+        vero.setText("*+R*Fxg");
+    }
     
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JRadioButton falso;

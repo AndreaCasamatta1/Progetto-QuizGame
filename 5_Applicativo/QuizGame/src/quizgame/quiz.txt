@@ -1,0 +1,18 @@
+# Domanda 1
+Qual è la capitale della Francia?
+Vero o Falso
+Falso
+Facile
+Parigi
+
+# Domanda 2
+Il sole è una stella?
+Vero o Falso
+Facile
+Vero
+
+# Domanda 3
+#Quale di questi è un pianeta del sistema solare?
+#Multipla
+#Marte,Venere,Giove,Luna
+#Giove

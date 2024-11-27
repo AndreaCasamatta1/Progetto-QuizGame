@@ -61,6 +61,7 @@ public class DomandaMultipla extends javax.swing.JPanel {
         });
 
         buttonGroup1.add(scelta2);
+        scelta2.setSelected(true);
         scelta2.setText("2");
         scelta2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

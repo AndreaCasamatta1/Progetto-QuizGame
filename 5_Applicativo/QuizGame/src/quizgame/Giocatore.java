@@ -47,8 +47,8 @@ public class Giocatore extends QuizGame {
         this.punteggio = punteggio;
     }
     
-    public void aggiornaPunteggio(int punti){
-        
+    public void aggiornaPunteggio(){
+        punteggio++;
     }
     
     

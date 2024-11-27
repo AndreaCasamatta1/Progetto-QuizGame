@@ -22,9 +22,14 @@ public class Principale extends javax.swing.JFrame {
     DomandaMultipla domande2 = new DomandaMultipla(quizGame);
     Impostazioni impostazioni1 = new Impostazioni();
     MenuIniziale menu1 = new MenuIniziale(quizGame);
-    private boolean tipoDomanda=false;
+    Classifica classifica = new Classifica();
+    private int quantitaDomanda;
+    private int numDomanda;
+    private boolean tipoDomanda = false;
     Random rd = new Random(); // creating Random object https://www.tutorialspoint.com/generate-random-boolean-in-java
     private int sceltaGiocatore = 0;
+    private boolean rispostaInviata = false;
+    boolean inizioDomanda = false;
 
     public Principale() {
         initComponents();
@@ -128,55 +133,83 @@ public class Principale extends javax.swing.JFrame {
             impostazioni1.setEnabled(true);
             precedente.setVisible(true);
             precedente.setEnabled(true);
-        } 
-        else if (impostazioni1.isEnabled()) {
-            impostazioni1.setVisible(false);
-            impostazioni1.setEnabled(false);
-            getContentPane().remove(impostazioni1);
-            getContentPane().add(domande1, java.awt.BorderLayout.CENTER);
-            domande1.setVisible(true);
-            domande1.setEnabled(true);
-            precedente.setText("PAGINA DOMANDE");
-            domande1.scegliGiocatore(sceltaGiocatore);
-            tipoDomanda = true;
-            
+            quantitaDomanda = 3 * (1 + (quizGame.getGiocatori().size()));
+            numDomanda = 0;
 
         }
-        
-        else if ((tipoDomanda) && (rd.nextBoolean()==true)) {
-            domande2.setVisible(false);
-            domande2.setEnabled(false);
-            getContentPane().remove(domande2);
-            getContentPane().add(domande1, java.awt.BorderLayout.CENTER);
-            domande1.setVisible(true);
-            domande1.setEnabled(true);
-            precedente.setText("PAGINA DOMANDE");
-            sceltaGiocatore++;
-            if(sceltaGiocatore == quizGame.getGiocatori().size()){
-                sceltaGiocatore=0;
+        if ((quantitaDomanda > numDomanda) && inizioDomanda) {
+            if ((tipoDomanda) && rispostaInviata && (rd.nextBoolean() == true)) {
+                domande1.rispostaCorretta("true");
+                System.out.println("Risposta Inviata VERO FALSO");
+
             }
-            domande1.scegliGiocatore(sceltaGiocatore);
-            tipoDomanda = true;
+            if (impostazioni1.isEnabled()) {
+                impostazioni1.setVisible(false);
+                impostazioni1.setEnabled(false);
+                getContentPane().remove(impostazioni1);
+                getContentPane().add(domande1, java.awt.BorderLayout.CENTER);
+                domande1.setVisible(true);
+                domande1.setEnabled(true);
+                prossima.setText("PROSSIMA");
+                precedente.setText("PAGINA DOMANDE");
+                domande1.scegliGiocatore(sceltaGiocatore);
+                tipoDomanda = true;
+                numDomanda++;
 
+            } else if ((tipoDomanda) && (rd.nextBoolean() == true)) {
+                domande2.setVisible(false);
+                domande2.setEnabled(false);
+                getContentPane().remove(domande2);
+                getContentPane().add(domande1, java.awt.BorderLayout.CENTER);
+                domande1.setVisible(true);
+                domande1.setEnabled(true);
+                precedente.setText("PAGINA DOMANDE");
+                sceltaGiocatore++;
+                if (quizGame.getGiocatori().size() == sceltaGiocatore) {
+                    sceltaGiocatore = 0;
+                }
+                domande1.scegliGiocatore(sceltaGiocatore);
+                tipoDomanda = true;
+                rispostaInviata = true;
+
+            } else if ((tipoDomanda) && (rd.nextBoolean() == false)) {
+                domande1.setVisible(false);
+                domande1.setEnabled(false);
+                getContentPane().remove(domande1);
+                getContentPane().add(domande2, java.awt.BorderLayout.CENTER);
+                domande2.setVisible(true);
+                domande2.setEnabled(true);
+                precedente.setText("PAGINA DOMANDE");
+                sceltaGiocatore++;
+                if (sceltaGiocatore == quizGame.getGiocatori().size()) {
+                    sceltaGiocatore = 0;
+                }
+                domande2.scegliGiocatore(sceltaGiocatore);
+                tipoDomanda = true;
+                rispostaInviata = true;
+
+            }
+            rispostaInviata = false;
+            numDomanda++;
         }
-        else if ((tipoDomanda) && (rd.nextBoolean()==false)) {
+        if (quantitaDomanda == numDomanda) {
             domande1.setVisible(false);
             domande1.setEnabled(false);
+            domande2.setVisible(false);
+            domande2.setEnabled(false);
             getContentPane().remove(domande1);
-            getContentPane().add(domande2, java.awt.BorderLayout.CENTER);
-            domande2.setVisible(true);
-            domande2.setEnabled(true);
-            precedente.setText("PAGINA DOMANDE");
-            sceltaGiocatore++;
-            if(sceltaGiocatore == quizGame.getGiocatori().size()){
-                sceltaGiocatore=0;
-            }
-            domande2.scegliGiocatore(sceltaGiocatore);
-            tipoDomanda = true;
-
+            getContentPane().remove(domande2);
+            getContentPane().add(classifica, java.awt.BorderLayout.CENTER);
+            classifica.setVisible(true);
+            classifica.setEnabled(true);
+            precedente.setVisible(true);
+            precedente.setEnabled(true);
+            precedente.setText("PAGINA INIZIALE");
+            prossima.setVisible(false);
+            numDomanda = 0;
+            sceltaGiocatore = 0;
         }
-        
-
+        inizioDomanda = true;
 
 
     }//GEN-LAST:event_prossimaActionPerformed
@@ -192,10 +225,12 @@ public class Principale extends javax.swing.JFrame {
             precedente.setEnabled(false);
             menu1.setVisible(true);
             menu1.setEnabled(true);
-            
-        }
-        
-        else if(domande1.isEnabled()) {
+            tipoDomanda = false;
+            sceltaGiocatore = 0;
+            numDomanda = 0;
+            inizioDomanda = false;
+
+        } else if (domande1.isEnabled()) {
             domande1.setVisible(false);
             domande1.setEnabled(false);
             getContentPane().remove(domande1);
@@ -204,7 +239,9 @@ public class Principale extends javax.swing.JFrame {
             impostazioni1.setVisible(true);
             impostazioni1.setEnabled(true);
             tipoDomanda = false;
-            sceltaGiocatore=0;
+            sceltaGiocatore = 0;
+            numDomanda = 0;
+            inizioDomanda = false;
 
         } else if (domande2.isEnabled()) {
             domande2.setVisible(false);
@@ -215,7 +252,23 @@ public class Principale extends javax.swing.JFrame {
             impostazioni1.setVisible(true);
             impostazioni1.setEnabled(true);
             tipoDomanda = false;
-            sceltaGiocatore=0;
+            sceltaGiocatore = 0;
+            numDomanda = 0;
+            inizioDomanda = false;
+
+        } else if (classifica.isEnabled()) {
+            classifica.setVisible(false);
+            classifica.setEnabled(false);
+            getContentPane().remove(classifica);
+            getContentPane().add(menu1, java.awt.BorderLayout.CENTER);
+            menu1.setVisible(true);
+            menu1.setEnabled(true);
+            prossima.setVisible(true);
+            prossima.setEnabled(true);
+            tipoDomanda = false;
+            sceltaGiocatore = 0;
+            numDomanda = 0;
+            inizioDomanda = false;
 
         }
 
@@ -254,10 +307,8 @@ public class Principale extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Principale().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new Principale().setVisible(true);
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables

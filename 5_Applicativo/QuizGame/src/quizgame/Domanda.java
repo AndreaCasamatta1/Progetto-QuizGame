@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package quizgame;
 
-import quizgame.UI.Impostazioni;
+import java.util.List;
+import quizgame.QuizGame;
 
-/**
- *
- * @author Andrea.casamatta
- */
-public class Domanda extends QuizGame{ 
+public class Domanda extends QuizGame { 
     private String testo;
     private String immagine;
     private String filmato;
@@ -19,8 +12,9 @@ public class Domanda extends QuizGame{
     private String difficolta;
     private String tipoRisposta;
     private String rispostaCorretta;
+    private List<String> risposte; 
 
-    public Domanda(String testo, String immagine, String filmato, String audio, String categoria, String difficolta, String tipoRisposta, String rispostaCorretta) {
+    public Domanda(String testo, String immagine, String filmato, String audio, String categoria, String difficolta, String tipoRisposta, String rispostaCorretta, List<String> risposte) {
         this.testo = testo;
         this.immagine = immagine;
         this.filmato = filmato;
@@ -29,9 +23,10 @@ public class Domanda extends QuizGame{
         this.difficolta = difficolta;
         this.tipoRisposta = tipoRisposta;
         this.rispostaCorretta = rispostaCorretta;
+        this.risposte = risposte;
     }
 
-    
+
     public String getTesto() {
         return testo;
     }
@@ -95,12 +90,16 @@ public class Domanda extends QuizGame{
     public void setRispostaCorretta(String rispostaCorretta) {
         this.rispostaCorretta = rispostaCorretta;
     }
-
-
     
-
-    public void verificaRisposta(int punti){
-        
+    public List<String> getRisposte() {
+        return risposte;
     }
-    
+
+    public void setRisposte(List<String> risposte) {
+        this.risposte = risposte;
+    }
+
+    public boolean verificaRisposta(String risposta) {
+        return this.rispostaCorretta.equals(risposta);
+    }
 }
