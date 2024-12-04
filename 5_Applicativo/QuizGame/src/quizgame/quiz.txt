@@ -1,18 +1,30 @@
-# Domanda 1
-Qual è la capitale della Francia?
-Vero o Falso
+Parigi è la capitale della Svizzera
+Geografia
+Facile
+VF
 Falso
-Facile
-Parigi
 
-# Domanda 2
-Il sole è una stella?
-Vero o Falso
+Berna è la capitale della Svizzera
+Geografia
 Facile
-Vero
+VF
+Falso
 
-# Domanda 3
-#Quale di questi è un pianeta del sistema solare?
-#Multipla
-#Marte,Venere,Giove,Luna
-#Giove
+Milano è la capitale della Svizzera
+Geografia
+Facile
+VF
+Falso
+
+Napoli è la capitale dell' Italia
+Geografia
+Facile
+VF
+Falso
+
+Quale di questi è un pianeta del sistema solare?
+Geografia
+Facile
+Multipla
+Marte
+Giove,Venere,Luna,Terra

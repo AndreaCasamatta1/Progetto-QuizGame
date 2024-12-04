@@ -4,6 +4,11 @@
  */
 package quizgame.UI;
 
+import java.util.List;
+import javax.swing.DefaultListModel;
+import quizgame.Giocatore;
+import quizgame.QuizGame;
+
 /**
  *
  * @author Andrea.casamatta
@@ -13,7 +18,11 @@ public class Classifica extends javax.swing.JPanel {
     /**
      * Creates new form Classifica
      */
-    public Classifica() {
+    private QuizGame quizGame;
+
+    public Classifica(QuizGame quizGame) {
+        this.quizGame = quizGame;
+
         initComponents();
     }
 
@@ -78,21 +87,22 @@ public class Classifica extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(261, 261, 261)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(posizioneList, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(50, 50, 50)
-                        .addComponent(nomeGiocatoreList, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(51, 51, 51)
-                        .addComponent(puntiList, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(classificaTitolo, javax.swing.GroupLayout.PREFERRED_SIZE, 278, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(layout.createSequentialGroup()
-                            .addComponent(posizione, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(posizioneList, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(posizione, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(nomeGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(punteggio))))
-                .addContainerGap(298, Short.MAX_VALUE))
+                            .addComponent(punteggio)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(97, 97, 97)
+                        .addComponent(nomeGiocatoreList, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(39, 39, 39)
+                        .addComponent(puntiList, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(286, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -113,7 +123,32 @@ public class Classifica extends javax.swing.JPanel {
                 .addContainerGap(100, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-    
+public void aggiornaClassifica() {
+        //giocatori dalla classe QuizGame
+        List<Giocatore> giocatori = quizGame.getGiocatori();
+
+        // Ordina i giocatori in base al punteggio 
+        giocatori.sort((g1, g2) -> Integer.compare(g2.getPunteggio(), g1.getPunteggio()));
+
+        // arraay per le colonne della classifica
+        String[] posizioni = new String[giocatori.size()];
+        String[] nomi = new String[giocatori.size()];
+        String[] punteggi = new String[giocatori.size()];
+
+        // Popolare gli array con i dati ordinati
+        for (int i = 0; i < giocatori.size(); i++) {
+            Giocatore giocatore = giocatori.get(i);
+            posizioni[i] = String.valueOf(i + 1); // Posizione
+            nomi[i] = giocatore.getNomeUtente(); // Nome del giocatore
+            punteggi[i] = String.valueOf(giocatore.getPunteggio()); // Punteggio
+        }
+
+        // Imposta i dati 
+        jList2.setListData(posizioni);
+        jList1.setListData(nomi);
+        jList3.setListData(punteggi);
+    }
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel classificaTitolo;

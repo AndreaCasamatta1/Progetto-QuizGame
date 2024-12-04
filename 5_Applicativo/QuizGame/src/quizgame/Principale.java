@@ -5,6 +5,8 @@
 package quizgame;
 
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JTextField;
 import quizgame.UI.*;
 
@@ -16,13 +18,13 @@ public class Principale extends javax.swing.JFrame {
 
     /**
      * Creates new form Principale
-     */
+     */    
     QuizGame quizGame = new QuizGame();
-    DomandaVeroFalso domande1 = new DomandaVeroFalso(quizGame);
-    DomandaMultipla domande2 = new DomandaMultipla(quizGame);
     Impostazioni impostazioni1 = new Impostazioni();
+    DomandaVeroFalso domande1 = new DomandaVeroFalso(quizGame,impostazioni1);
+    DomandaMultipla domande2 = new DomandaMultipla(quizGame);
     MenuIniziale menu1 = new MenuIniziale(quizGame);
-    Classifica classifica = new Classifica();
+    Classifica classifica = new Classifica(quizGame);
     private int quantitaDomanda;
     private int numDomanda;
     private boolean tipoDomanda = false;
@@ -122,7 +124,12 @@ public class Principale extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void prossimaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_prossimaActionPerformed
-        // TODO add your handling code here:
+        try {
+            // TODO add your handling code here:
+            Thread.sleep(200);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Principale.class.getName()).log(Level.SEVERE, null, ex);
+        }
         if (menu1.isEnabled()) {
             menu1.inviaNomi();
             menu1.setVisible(false);
@@ -133,16 +140,12 @@ public class Principale extends javax.swing.JFrame {
             impostazioni1.setEnabled(true);
             precedente.setVisible(true);
             precedente.setEnabled(true);
-            quantitaDomanda = 3 * (1 + (quizGame.getGiocatori().size()));
+            quantitaDomanda = 4 * (quizGame.getGiocatori().size());
             numDomanda = 0;
 
         }
         if ((quantitaDomanda > numDomanda) && inizioDomanda) {
-            if ((tipoDomanda) && rispostaInviata && (rd.nextBoolean() == true)) {
-                domande1.rispostaCorretta("true");
-                System.out.println("Risposta Inviata VERO FALSO");
 
-            }
             if (impostazioni1.isEnabled()) {
                 impostazioni1.setVisible(false);
                 impostazioni1.setEnabled(false);
@@ -153,6 +156,7 @@ public class Principale extends javax.swing.JFrame {
                 prossima.setText("PROSSIMA");
                 precedente.setText("PAGINA DOMANDE");
                 domande1.scegliGiocatore(sceltaGiocatore);
+                domande1.scegliDomanda();
                 tipoDomanda = true;
                 numDomanda++;
 
@@ -164,6 +168,7 @@ public class Principale extends javax.swing.JFrame {
                 domande1.setVisible(true);
                 domande1.setEnabled(true);
                 precedente.setText("PAGINA DOMANDE");
+                domande1.scegliDomanda();
                 sceltaGiocatore++;
                 if (quizGame.getGiocatori().size() == sceltaGiocatore) {
                     sceltaGiocatore = 0;
@@ -208,14 +213,20 @@ public class Principale extends javax.swing.JFrame {
             prossima.setVisible(false);
             numDomanda = 0;
             sceltaGiocatore = 0;
+            classifica.aggiornaClassifica();
         }
         inizioDomanda = true;
 
-
+       
     }//GEN-LAST:event_prossimaActionPerformed
 
     private void precedenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_precedenteActionPerformed
-        // TODO add your handling code here:
+        try {
+            // TODO add your handling code here:
+            Thread.sleep(200);
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Principale.class.getName()).log(Level.SEVERE, null, ex);
+        }
         if (impostazioni1.isEnabled()) {
             impostazioni1.setVisible(false);
             impostazioni1.setEnabled(false);

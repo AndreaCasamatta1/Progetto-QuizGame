@@ -14,7 +14,11 @@ public class Impostazioni extends javax.swing.JPanel {
     /**
      * Creates new form Impostazioni
      */
+    private String diff = "Facile";
+    private String cat = "Sport" ;
     public Impostazioni() {
+        this.diff = diff;
+        this.cat = cat;
         initComponents();
     }
 
@@ -192,46 +196,45 @@ public class Impostazioni extends javax.swing.JPanel {
                 .addContainerGap(146, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-    private String diff = "";
-    private String cat = "";
+    
     private void facileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_facileActionPerformed
         // TODO add your handling code here:
-        diff="facile";
+        diff="Facile";
     }//GEN-LAST:event_facileActionPerformed
 
     private void medioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_medioActionPerformed
         // TODO add your handling code here:
-        diff="medio";
+        diff="Medio";
     }//GEN-LAST:event_medioActionPerformed
 
     private void difficileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_difficileActionPerformed
         // TODO add your handling code here:
-        diff="difficile";
+        diff="Difficile";
     }//GEN-LAST:event_difficileActionPerformed
 
     private void storiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_storiaActionPerformed
         // TODO add your handling code here:
-        cat = "storia";
+        cat = "Storia";
     }//GEN-LAST:event_storiaActionPerformed
 
     private void matScolasticheActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_matScolasticheActionPerformed
         // TODO add your handling code here:
-        cat = "materia";
+        cat = "Materia";
     }//GEN-LAST:event_matScolasticheActionPerformed
 
     private void sportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sportActionPerformed
         // TODO add your handling code here:
-        cat = "sport";
+        cat = "Sport";
     }//GEN-LAST:event_sportActionPerformed
 
     private void geografiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_geografiaActionPerformed
         // TODO add your handling code here:
-        cat = "geografia";
+        cat = "Geografia";
     }//GEN-LAST:event_geografiaActionPerformed
 
     private void lingueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lingueActionPerformed
         // TODO add your handling code here:
-        cat = "lingue";
+        cat = "Lingue";
     }//GEN-LAST:event_lingueActionPerformed
     public String getDifficolta(){
         return diff;

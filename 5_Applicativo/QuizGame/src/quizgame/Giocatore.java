@@ -48,7 +48,7 @@ public class Giocatore extends QuizGame {
     }
     
     public void aggiornaPunteggio(){
-        punteggio++;
+        punteggio+=10;
     }
     
     

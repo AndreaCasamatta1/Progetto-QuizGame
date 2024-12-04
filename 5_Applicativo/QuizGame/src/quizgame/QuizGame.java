@@ -11,38 +11,64 @@ import java.util.Scanner;
  * @author Andrea.casamatta
  */
 public class QuizGame {
-    
+
     private List<Giocatore> giocatori = new ArrayList<>();
     private List<Domanda> domande = new ArrayList<>();
-    public void QuizGame(){
+    
+    public void QuizGame() {
         caricaDomande();
     }
-    private void caricaDomande() {
+    
+
+    private void caricaDomande()  {//Generato da AI
         try {
-            File file = new File("quiz.txt");
+            File file = new File(System.getProperty("user.dir") + "/src/quizgame/Quiz.txt");
             try (Scanner scanner = new Scanner(file)) {
                 while (scanner.hasNextLine()) {
-                    String testo = scanner.nextLine().trim();
-                    String tipo = scanner.nextLine().trim();
-                    String difficolta = scanner.nextLine().trim();
-                    String rispostaCorretta = scanner.nextLine().trim();
+                    // Leggi il testo della domanda
+                    String testo = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
+                    if (testo == null || testo.isEmpty()) {
+                        continue; // Salta righe vuote
+                    }
+                    
+                    String categoria = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
+                    
+                    String difficolta = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
+                    // Leggi il tipo di domanda
+                    String tipo = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
+                    
+                    // Leggi la risposta corretta
+                    String rispostaCorretta = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
+
+
                     List<String> risposte = new ArrayList<>();
-                    if (tipo.equals("Multipla")) {
-                        String[] opzioni = scanner.nextLine().trim().split(",");
-                        for (String opzione : opzioni) {
-                            risposte.add(opzione.trim());
+                    if ("Multipla".equalsIgnoreCase(tipo)) {
+                        // Leggi le risposte multiple
+                        String opzioni = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
+                        if (opzioni != null) {
+                            String[] opzioniArray = opzioni.split(",");
+                            for (String opzione : opzioniArray) {
+                                risposte.add(opzione.trim());
+                            }
                         }
                     }
-                    Domanda domanda = new Domanda(testo, null, null, null, null, difficolta, tipo, rispostaCorretta, risposte);
-                    domande.add(domanda);
-                    // Salta la linea vuota tra le domande
+
+                    // Controlla che i campi essenziali siano presenti
+                    if (testo != null && tipo != null && difficolta != null && rispostaCorretta != null && categoria != null) {
+                        Domanda domanda = new Domanda(testo, null, null, null, categoria, difficolta, tipo, rispostaCorretta, risposte);
+                        domande.add(domanda);
+                    }
+
+                    // Salta eventuali linee vuote tra le domande
                     if (scanner.hasNextLine()) {
                         scanner.nextLine();
                     }
                 }
             }
         } catch (FileNotFoundException e) {
-            System.out.println("File non trovato: " + e.getMessage());
+            System.err.println("File non trovato: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Errore durante il caricamento delle domande: " + e.getMessage());
         }
     }
 
@@ -68,11 +94,11 @@ public class QuizGame {
 
     public void rimuoviGiocatore() {
         giocatori.removeAll(giocatori);
-    
+
     }
 
     public void visualizzaClassifica() {
-        
+
     }
 
 }
