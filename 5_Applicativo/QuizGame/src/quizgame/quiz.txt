@@ -1,30 +1,181 @@
-Parigi è la capitale della Svizzera
-Geografia
-Facile
-VF
-Falso
+La Terra è il terzo pianeta dal Sole? Geografia Facile VF Vero
 
-Berna è la capitale della Svizzera
-Geografia
-Facile
-VF
-Falso
+La capitale dell'Italia è Roma? Geografia Facile VF Vero
 
-Milano è la capitale della Svizzera
-Geografia
-Facile
-VF
-Falso
+Il Nilo è il fiume più lungo del mondo? Geografia Facile VF Vero
 
-Napoli è la capitale dell' Italia
-Geografia
-Facile
-VF
-Falso
+Qual è la capitale della Francia? Geografia Facile Multipla Parigi Londra, Berlino, Madrid, Parigi
 
-Quale di questi è un pianeta del sistema solare?
-Geografia
-Facile
-Multipla
-Marte
-Giove,Venere,Luna,Terra
+L'Africa è il continente più grande del mondo? Geografia Facile VF Falso
+
+Il deserto del Sahara si trova in Africa? Geografia Facile VF Vero
+
+L'Australia è sia un paese che un continente? Geografia Facile VF Vero
+
+Il Monte Everest è la montagna più alta del mondo? Geografia Facile VF Vero
+
+Qual è il più grande oceano della Terra? Geografia Facile Multipla Oceano Pacifico Oceano Atlantico, Oceano Indiano, Oceano Artico, Oceano Pacifico
+
+La Groenlandia è la più grande isola del mondo? Geografia Facile VF Vero
+
+Il Brasile si trova in America del Sud? Geografia Facile VF Vero
+
+Il Mar Rosso separa l'Africa dall'Asia? Geografia Facile VF Vero
+
+Tokyo è la capitale del Giappone? Geografia Facile VF Vero
+
+Il fiume Amazonas attraversa il Brasile? Geografia Facile VF Vero
+
+La Russia è il paese più grande del mondo per superficie? Geografia Facile VF Vero
+
+Il Polo Nord si trova nell'Artico? Geografia Facile VF Vero
+
+L'Italia ha una forma simile a uno stivale? Geografia Facile VF Vero
+
+La città di New York si trova negli Stati Uniti? Geografia Facile VF Vero
+
+La capitale della Germania è Berlino? Geografia Facile VF Vero
+
+Il Canada è il secondo paese più grande del mondo per superficie? Geografia Facile VF Vero
+
+Il deserto del Gobi si trova in Asia? Geografia Facile VF Vero
+
+L'Oceania è composta da numerose isole? Geografia Facile VF Vero
+
+L'Antartide è un continente? Geografia Facile VF Vero
+
+La città di Sydney si trova in Australia? Geografia Facile VF Vero
+
+L'Islanda si trova nell'Oceano Atlantico? Geografia Facile VF Vero
+
+Qual è la capitale del Canada? Geografia Facile Multipla Ottawa Toronto, Vancouver, Montreal, Ottawa
+
+Il Mar Morto è il punto più basso della superficie terrestre? Geografia Facile VF Vero
+
+La foresta amazzonica si trova in Sud America? Geografia Facile VF Vero
+
+La città di Rio de Janeiro si trova in Brasile? Geografia Facile VF Vero
+
+La capitale dell'Egitto è Il Cairo? Geografia Facile VF Vero
+
+La capitale dell'Egitto è Il Cairo? Geografia Facile VF Vero
+
+La Norvegia confina con la Finlandia? Geografia Medio VF Vero
+
+Qual è la capitale della Norvegia? Geografia Medio Multipla Oslo Stoccolma, Copenaghen, Helsinki, Oslo
+
+Il deserto dell'Atacama è uno dei luoghi più aridi del mondo? Geografia Medio VF Vero
+
+Il fiume Danubio attraversa dieci paesi europei? Geografia Medio VF Vero
+
+La capitale del Nepal è Kathmandu? Geografia Medio VF Vero
+
+Il Mar Caspio è il più grande lago del mondo? Geografia Medio VF Vero
+
+La Groenlandia è un territorio autonomo della Danimarca? Geografia Medio VF Vero
+
+Qual è la capitale dell'Islanda? Geografia Medio Multipla Reykjavik Oslo, Stoccolma, Copenaghen, Reykjavik
+
+La città di Istanbul si trova sia in Europa che in Asia? Geografia Medio VF Vero
+
+Il deserto del Kalahari si trova in Africa meridionale? Geografia Medio VF Vero
+
+Qual è la lingua ufficiale del Canada? Geografia Medio Multipla Inglese e Francese Inglese, Francese, Spagnolo, Inglese e Francese
+
+Il clima mediterraneo è caratterizzato da estati calde e secche? Geografia Medio VF Vero
+
+La catena montuosa delle Alpi attraversa otto paesi europei? Geografia Medio VF Vero
+
+La città di Mosca è la capitale della Russia? Geografia Medio VF Vero
+
+Il fiume Huang He è anche conosciuto come il Fiume Giallo? Geografia Medio VF Vero
+
+La città di Atene è la capitale della Grecia? Geografia Medio VF Vero
+
+Il Mar Adriatico si trova tra l'Italia e i Balcani? Geografia Medio VF Vero
+
+Qual è la capitale dell'Argentina? Geografia Medio Multipla Buenos Aires Lima, Santiago, Montevideo, Buenos Aires
+
+L'isola di Madagascar si trova nell'Oceano Indiano? Geografia Medio VF Vero
+
+L'Himalaya è la catena montuosa più alta del mondo? Geografia Medio VF Vero
+
+La città di Bangkok è la capitale della Thailandia? Geografia Medio VF Vero
+
+Il Lago Vittoria si trova in Africa? Geografia Medio VF Vero
+
+La città di Dubai si trova negli Emirati Arabi Uniti? Geografia Medio VF Vero
+
+Il Monte Kilimanjaro si trova in Tanzania? Geografia Medio VF Vero
+
+La città di Wellington è la capitale della Nuova Zelanda? Geografia Medio VF Vero
+
+Il Canale di Panama collega l'Oceano Atlantico e l'Oceano Pacifico? Geografia Medio VF Vero
+
+La città di Lima è la capitale del Perù? Geografia Medio VF Vero
+
+La catena montuosa degli Appalachi si trova negli Stati Uniti? Geografia Medio VF Vero
+
+La città di Seoul è la capitale della Corea del Sud? Geografia Medio VF Vero
+
+La città di Dublino è la capitale dell'Irlanda? Geografia Medio VF Vero
+
+Il Lago Baikal è il lago più profondo del mondo? Geografia Difficile VF Vero
+
+La città di Nuuk è la capitale della Groenlandia? Geografia Difficile VF Vero
+
+Qual è la capitale del Bhutan? Geografia Difficile Multipla Thimphu Kathmandu, Thimphu, Dhaka, Naypyidaw
+
+Il fiume Congo attraversa dieci paesi africani? Geografia Difficile VF Falso
+
+La città di Antananarivo è la capitale del Madagascar? Geografia Difficile VF Vero
+
+Il deserto del Namib si trova in Namibia? Geografia Difficile VF Vero
+
+La città di Vientiane è la capitale del Laos? Geografia Difficile VF Vero
+
+Qual è la capitale del Turkmenistan? Geografia Difficile Multipla Ashgabat Tashkent, Baku, Bishkek, Ashgabat
+
+Il fiume Mekong attraversa sei paesi? Geografia Difficile VF Vero
+
+La città di Yamoussoukro è la capitale della Costa d'Avorio? Geografia Difficile VF Vero
+
+Qual è il paese più piccolo del mondo per superficie? Geografia Difficile Multipla Vaticano Monaco, San Marino, Vaticano, Liechtenstein
+
+Il fiume Volga è il più lungo d'Europa? Geografia Difficile VF Vero
+
+La città di Malabo è la capitale della Guinea Equatoriale? Geografia Difficile VF Vero
+
+Qual è la capitale dell'Uzbekistan? Geografia Difficile Multipla Tashkent Ashgabat, Dushanbe, Tashkent, Almaty
+
+Il deserto di Atacama si trova in Cile? Geografia Difficile VF Vero
+
+La città di Port Louis è la capitale delle Mauritius? Geografia Difficile VF Vero
+
+La città di Ouagadougou è la capitale del Burkina Faso? Geografia Difficile VF Vero
+
+Qual è il fiume più lungo dell'Asia? Geografia Difficile Multipla Yangtze Gange, Mekong, Yangtze, Ob
+
+La città di N'Djamena è la capitale del Ciad? Geografia Difficile VF Vero
+
+Il Mar Nero confina con sei paesi? Geografia Difficile VF Vero
+
+Qual è la montagna più alta del Giappone? Geografia Difficile Multipla Monte Fuji Monte Everest, Monte Fuji, Monte Kilimanjaro, Monte K2
+
+La città di Bishkek è la capitale del Kirghizistan? Geografia Difficile VF Vero
+
+Qual è la capitale della Papua Nuova Guinea? Geografia Difficile Multipla Port Moresby Suva, Nuku'alofa, Port Vila, Port Moresby
+
+La città di Dili è la capitale di Timor Est? Geografia Difficile VF Vero
+
+Il fiume Zambesi è noto per le Cascate Vittoria? Geografia Difficile VF Vero
+
+La città di Tbilisi è la capitale della Georgia? Geografia Difficile VF Vero
+
+Qual è la capitale del Lesotho? Geografia Difficile Multipla Maseru Pretoria, Maseru, Mbabane, Lobamba
+
+La città di Paramaribo è la capitale del Suriname? Geografia Difficile VF Vero
+
+Il Lago Titicaca si trova tra il Perù e la Bolivia? Geografia Difficile VF Vero
+
+La città di Funafuti è la capitale di Tuvalu? Geografia Difficile VF Vero

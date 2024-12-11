@@ -20,7 +20,7 @@ public class QuizGame {
     }
     
 
-    private void caricaDomande()  {//Generato da AI
+    private void caricaDomande()  {     //Generato da AI
         try {
             File file = new File(System.getProperty("user.dir") + "/src/quizgame/Quiz.txt");
             try (Scanner scanner = new Scanner(file)) {
@@ -94,10 +94,6 @@ public class QuizGame {
 
     public void rimuoviGiocatore() {
         giocatori.removeAll(giocatori);
-
-    }
-
-    public void visualizzaClassifica() {
 
     }
 

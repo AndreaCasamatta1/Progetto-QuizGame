@@ -26,7 +26,7 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
     private QuizGame quizGame;
     private Impostazioni impo1;
 
-    public DomandaVeroFalso(QuizGame quizGame,Impostazioni impo1) {
+    public DomandaVeroFalso(QuizGame quizGame, Impostazioni impo1) {
         this.quizGame = quizGame;
         this.impo1 = impo1;
         initComponents();
@@ -123,48 +123,51 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
     private String risposta = "false";
+    private String rispostaCorretta;
+    Giocatore giocatore1;
     private void falsoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_falsoActionPerformed
         // TODO add your handling code here:
 
-        risposta = "false";
+        risposta = "Falso";
     }//GEN-LAST:event_falsoActionPerformed
 
     private void veroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_veroActionPerformed
         // TODO add your handling code here:
-        risposta = "true";
+        risposta = "Vero";
     }//GEN-LAST:event_veroActionPerformed
 
     public void scegliGiocatore(int numGiocatore) {
         List<Giocatore> nomiGiocatori = quizGame.getGiocatori();
         Giocatore giocatoreScelto = nomiGiocatori.get(numGiocatore);
         nomeGiocatore.setText(giocatoreScelto.getNomeUtente());
+        giocatore1 = giocatoreScelto;
     }
 
-    public void rispostaCorretta(String rispostaCorretta) {
-        if ((rispostaCorretta.equals("true")) && (risposta.equals("true"))) {
-            vero.setBackground(Color.green);
-            falso.setBackground(Color.red);
-        } else {
-            falso.setBackground(Color.green);
-            vero.setBackground(Color.red);
-        }
+    public void verificaRisposta() {
+        System.out.println("Verifico");
+        giocatore1.aggiornaPunteggio();
 
     }
 
-    public void scegliDomanda() {
+    public void scegliDomanda(int numeroDomanda) {
+        String cat = impo1.getCategoria();
+        String diff = impo1.getDifficolta();
+        contentDomanda.setText("");
+        numDomanda.setText(Integer.toString(numeroDomanda));
         quizGame.QuizGame();
         List<Domanda> domande = quizGame.getDomande();
         Random random = new Random();
         int indiceCasuale = random.nextInt(0, domande.size());
         Domanda domandaCasuale = domande.get(indiceCasuale);
-        System.out.println(impo1.getDifficolta());
-        if ((domandaCasuale.getTipoRisposta().equals("VF"))&& (domandaCasuale.getDifficolta().equals(impo1.getDifficolta()))&& (domandaCasuale.getCategoria().equals(impo1.getCategoria()))) {
+        if ((domandaCasuale.getTipoRisposta().equals("VF")) && domandaCasuale.getCategoria().equals(cat)&& domandaCasuale.getDifficolta().equals(diff)) {
             contentDomanda.setText(domandaCasuale.getTesto());
+            rispostaCorretta = domandaCasuale.getRispostaCorretta();
         }
-        
+        else{
+            scegliDomanda(numeroDomanda);
+        }
+
     }
-
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel contentDomanda;

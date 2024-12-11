@@ -18,11 +18,11 @@ public class Principale extends javax.swing.JFrame {
 
     /**
      * Creates new form Principale
-     */    
+     */
     QuizGame quizGame = new QuizGame();
     Impostazioni impostazioni1 = new Impostazioni();
-    DomandaVeroFalso domande1 = new DomandaVeroFalso(quizGame,impostazioni1);
-    DomandaMultipla domande2 = new DomandaMultipla(quizGame);
+    DomandaVeroFalso domande1 = new DomandaVeroFalso(quizGame, impostazioni1);
+    DomandaMultipla domande2 = new DomandaMultipla(quizGame, impostazioni1);
     MenuIniziale menu1 = new MenuIniziale(quizGame);
     Classifica classifica = new Classifica(quizGame);
     private int quantitaDomanda;
@@ -140,13 +140,27 @@ public class Principale extends javax.swing.JFrame {
             impostazioni1.setEnabled(true);
             precedente.setVisible(true);
             precedente.setEnabled(true);
-            quantitaDomanda = 4 * (quizGame.getGiocatori().size());
+            quantitaDomanda = (4 * (quizGame.getGiocatori().size())) - 1;
             numDomanda = 0;
 
         }
         if ((quantitaDomanda > numDomanda) && inizioDomanda) {
-
+            numDomanda++;
+            if (rispostaInviata) {
+                domande1.verificaRisposta();
+                domande2.verificaRisposta();
+                rispostaInviata = false;
+            }
+            if (!rispostaInviata) {
+                domande1.scegliGiocatore(sceltaGiocatore);
+                domande2.scegliGiocatore(sceltaGiocatore);
+                sceltaGiocatore++;
+                if (quizGame.getGiocatori().size() == sceltaGiocatore) {
+                    sceltaGiocatore = 0;
+                }
+            }
             if (impostazioni1.isEnabled()) {
+
                 impostazioni1.setVisible(false);
                 impostazioni1.setEnabled(false);
                 getContentPane().remove(impostazioni1);
@@ -155,12 +169,11 @@ public class Principale extends javax.swing.JFrame {
                 domande1.setEnabled(true);
                 prossima.setText("PROSSIMA");
                 precedente.setText("PAGINA DOMANDE");
-                domande1.scegliGiocatore(sceltaGiocatore);
-                domande1.scegliDomanda();
+                domande1.scegliDomanda(numDomanda);
                 tipoDomanda = true;
-                numDomanda++;
 
             } else if ((tipoDomanda) && (rd.nextBoolean() == true)) {
+                domande1.scegliDomanda(numDomanda);
                 domande2.setVisible(false);
                 domande2.setEnabled(false);
                 getContentPane().remove(domande2);
@@ -168,16 +181,10 @@ public class Principale extends javax.swing.JFrame {
                 domande1.setVisible(true);
                 domande1.setEnabled(true);
                 precedente.setText("PAGINA DOMANDE");
-                domande1.scegliDomanda();
-                sceltaGiocatore++;
-                if (quizGame.getGiocatori().size() == sceltaGiocatore) {
-                    sceltaGiocatore = 0;
-                }
-                domande1.scegliGiocatore(sceltaGiocatore);
                 tipoDomanda = true;
                 rispostaInviata = true;
-
             } else if ((tipoDomanda) && (rd.nextBoolean() == false)) {
+                domande2.scegliDomanda(numDomanda);
                 domande1.setVisible(false);
                 domande1.setEnabled(false);
                 getContentPane().remove(domande1);
@@ -185,17 +192,11 @@ public class Principale extends javax.swing.JFrame {
                 domande2.setVisible(true);
                 domande2.setEnabled(true);
                 precedente.setText("PAGINA DOMANDE");
-                sceltaGiocatore++;
-                if (sceltaGiocatore == quizGame.getGiocatori().size()) {
-                    sceltaGiocatore = 0;
-                }
-                domande2.scegliGiocatore(sceltaGiocatore);
                 tipoDomanda = true;
                 rispostaInviata = true;
 
             }
-            rispostaInviata = false;
-            numDomanda++;
+
         }
         if (quantitaDomanda == numDomanda) {
             domande1.setVisible(false);
@@ -217,7 +218,7 @@ public class Principale extends javax.swing.JFrame {
         }
         inizioDomanda = true;
 
-       
+
     }//GEN-LAST:event_prossimaActionPerformed
 
     private void precedenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_precedenteActionPerformed

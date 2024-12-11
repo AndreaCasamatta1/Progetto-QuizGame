@@ -7,6 +7,7 @@ package quizgame.UI;
 import java.util.List;
 import java.util.Random;
 import javax.swing.plaf.metal.MetalIconFactory;
+import quizgame.Domanda;
 import quizgame.Giocatore;
 import quizgame.QuizGame;
 
@@ -18,11 +19,13 @@ public class DomandaMultipla extends javax.swing.JPanel {
 
     /**
      * Creates new form Domanda
-     */    
+     */
     private QuizGame quizGame;
-    
-    public DomandaMultipla(QuizGame quizGame) {
+    private Impostazioni impo1;
+
+    public DomandaMultipla(QuizGame quizGame,Impostazioni impo1) {
         this.quizGame = quizGame;
+        this.impo1 = impo1;
         initComponents();
     }
 
@@ -43,6 +46,7 @@ public class DomandaMultipla extends javax.swing.JPanel {
         risponde = new javax.swing.JLabel();
         scelta3 = new javax.swing.JRadioButton();
         scelta4 = new javax.swing.JRadioButton();
+        contentDomanda = new javax.swing.JLabel();
 
         nomeGiocatore.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 14)); // NOI18N
         nomeGiocatore.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -89,6 +93,10 @@ public class DomandaMultipla extends javax.swing.JPanel {
             }
         });
 
+        contentDomanda.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        contentDomanda.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        contentDomanda.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -111,6 +119,10 @@ public class DomandaMultipla extends javax.swing.JPanel {
                     .addComponent(scelta2)
                     .addComponent(scelta4))
                 .addGap(187, 187, 187))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(contentDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 652, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(59, 59, 59))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -119,7 +131,9 @@ public class DomandaMultipla extends javax.swing.JPanel {
                     .addComponent(nomeGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(numDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(risponde, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 163, Short.MAX_VALUE)
+                .addGap(45, 45, 45)
+                .addComponent(contentDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(scelta1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(scelta2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -130,7 +144,8 @@ public class DomandaMultipla extends javax.swing.JPanel {
                 .addGap(93, 93, 93))
         );
     }// </editor-fold>//GEN-END:initComponents
-
+    private String rispostaCorretta;
+    Giocatore giocatore1;
     private void scelta2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_scelta2ActionPerformed
@@ -147,14 +162,48 @@ public class DomandaMultipla extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_scelta4ActionPerformed
 
+    
     public void scegliGiocatore(int numGiocatore) {
         List<Giocatore> nomiGiocatori = quizGame.getGiocatori();
         Giocatore giocatoreScelto = nomiGiocatori.get(numGiocatore);
         nomeGiocatore.setText(giocatoreScelto.getNomeUtente());
+        giocatore1 = giocatoreScelto;
+    }
+    
+        public void verificaRisposta() {
+        System.out.println("Verifico");
+        giocatore1.aggiornaPunteggio();
+
+    }
+    
+
+    public void scegliDomanda(int numeroDomanda) {
+        String cat = impo1.getCategoria();
+        String diff = impo1.getDifficolta();
+        contentDomanda.setText("");
+        numDomanda.setText(Integer.toString(numeroDomanda));
+        quizGame.QuizGame();
+        List<Domanda> domande = quizGame.getDomande();
+        Random random = new Random();
+        int indiceCasuale = random.nextInt(0, domande.size());
+        Domanda domandaCasuale = domande.get(indiceCasuale);
+        if ((domandaCasuale.getTipoRisposta().equals("Multipla")) && domandaCasuale.getCategoria().equals(cat) && domandaCasuale.getDifficolta().equals(diff)) {
+            contentDomanda.setText(domandaCasuale.getTesto());
+            List<String> scelte = domandaCasuale.getRisposte();
+            scelta1.setText(scelte.get(0));
+            scelta2.setText(scelte.get(1));
+            scelta3.setText(scelte.get(2));
+            scelta4.setText(scelte.get(3));
+            rispostaCorretta = domandaCasuale.getRispostaCorretta();
+        } else {
+            scegliDomanda(numeroDomanda);
+        }
+
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
+    private javax.swing.JLabel contentDomanda;
     private javax.swing.JLabel nomeGiocatore;
     private javax.swing.JLabel numDomanda;
     private javax.swing.JLabel risponde;
