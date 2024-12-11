@@ -44,6 +44,9 @@ public class Impostazioni extends javax.swing.JPanel {
         selezDiffTesto = new javax.swing.JLabel();
         selezcatTesto = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(51, 153, 255));
+        setPreferredSize(new java.awt.Dimension(793, 443));
+
         facile.setBackground(new java.awt.Color(51, 153, 0));
         diffGroup.add(facile);
         facile.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
@@ -51,6 +54,7 @@ public class Impostazioni extends javax.swing.JPanel {
         facile.setSelected(true);
         facile.setText("FACILE");
         facile.setToolTipText("");
+        facile.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         facile.setBorderPainted(true);
         facile.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         facile.setOpaque(true);
@@ -65,6 +69,7 @@ public class Impostazioni extends javax.swing.JPanel {
         medio.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
         medio.setForeground(new java.awt.Color(255, 255, 255));
         medio.setText("MEDIO");
+        medio.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         medio.setBorderPainted(true);
         medio.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         medio.setOpaque(true);
@@ -79,6 +84,7 @@ public class Impostazioni extends javax.swing.JPanel {
         difficile.setFont(new java.awt.Font("Segoe UI Black", 0, 11)); // NOI18N
         difficile.setForeground(new java.awt.Color(255, 255, 255));
         difficile.setText("DIFFICILE");
+        difficile.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         difficile.setBorderPainted(true);
         difficile.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         difficile.setOpaque(true);
@@ -144,7 +150,18 @@ public class Impostazioni extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(217, 217, 217)
+                        .addGap(170, 170, 170)
+                        .addComponent(storia)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(matScolastiche)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(sport)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(geografia)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lingue))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(225, 225, 225)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(facile, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -156,27 +173,14 @@ public class Impostazioni extends javax.swing.JPanel {
                                 .addGap(75, 75, 75)
                                 .addComponent(selezDiffTesto))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(170, 170, 170)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(120, 120, 120)
-                                .addComponent(selezcatTesto))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(storia)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(matScolastiche)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(sport)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(geografia)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lingue)))))
+                        .addGap(287, 287, 287)
+                        .addComponent(selezcatTesto)))
                 .addContainerGap(189, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(65, 65, 65)
+                .addGap(92, 92, 92)
                 .addComponent(selezDiffTesto)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -184,9 +188,9 @@ public class Impostazioni extends javax.swing.JPanel {
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(difficile, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
                         .addComponent(medio, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)))
-                .addGap(91, 91, 91)
+                .addGap(76, 76, 76)
                 .addComponent(selezcatTesto)
-                .addGap(30, 30, 30)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lingue)
                     .addComponent(geografia)

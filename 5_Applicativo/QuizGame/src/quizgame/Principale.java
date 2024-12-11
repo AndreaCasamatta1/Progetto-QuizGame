@@ -19,19 +19,19 @@ public class Principale extends javax.swing.JFrame {
     /**
      * Creates new form Principale
      */
+    //Inizializza le varie pagine jPanel che verranno usate nel jFrame
     QuizGame quizGame = new QuizGame();
     Impostazioni impostazioni1 = new Impostazioni();
     DomandaVeroFalso domande1 = new DomandaVeroFalso(quizGame, impostazioni1);
     DomandaMultipla domande2 = new DomandaMultipla(quizGame, impostazioni1);
     MenuIniziale menu1 = new MenuIniziale(quizGame);
     Classifica classifica = new Classifica(quizGame);
-    private int quantitaDomanda;
-    private int numDomanda;
-    private boolean tipoDomanda = false;
+    private int quantitaDomanda; // le domande che verranno chieste, il numero massimo
+    private int numDomanda; // tiene il conto delle domande
+    private boolean tipoDomanda = false; //viene abilitata la domanda multipla e vero-falso in modo casuale
     Random rd = new Random(); // creating Random object https://www.tutorialspoint.com/generate-random-boolean-in-java
-    private int sceltaGiocatore = 0;
-    private boolean rispostaInviata = false;
-    boolean inizioDomanda = false;
+    private int sceltaGiocatore = 0; // sceglie chi risponde, 0 il primo, poi ogni domanda aggiunge 1 fino che non arriva al limite di giocatori dove ritorna al primo (0)
+    boolean inizioDomanda = false; // abilita le domande
 
     public Principale() {
         initComponents();
@@ -61,6 +61,8 @@ public class Principale extends javax.swing.JFrame {
             }
         });
 
+        PaginaBase.setBackground(new java.awt.Color(51, 153, 255));
+
         javax.swing.GroupLayout PaginaBaseLayout = new javax.swing.GroupLayout(PaginaBase);
         PaginaBase.setLayout(PaginaBaseLayout);
         PaginaBaseLayout.setHorizontalGroup(
@@ -75,9 +77,10 @@ public class Principale extends javax.swing.JFrame {
         getContentPane().add(PaginaBase, java.awt.BorderLayout.CENTER);
         PaginaBase.setVisible(false);  getContentPane().remove(PaginaBase);  getContentPane().add(menu1, java.awt.BorderLayout.CENTER);
 
+        CambioPagina.setBackground(new java.awt.Color(51, 153, 255));
+
         prossima.setBackground(new java.awt.Color(0, 204, 51));
         prossima.setFont(new java.awt.Font("Tw Cen MT", 1, 14)); // NOI18N
-        prossima.setForeground(new java.awt.Color(0, 0, 0));
         prossima.setText("PROSSIMA");
         prossima.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,7 +90,6 @@ public class Principale extends javax.swing.JFrame {
 
         precedente.setBackground(new java.awt.Color(255, 102, 0));
         precedente.setFont(new java.awt.Font("Tw Cen MT", 1, 14)); // NOI18N
-        precedente.setForeground(new java.awt.Color(0, 0, 0));
         precedente.setText("PAGINA INIZIALE");
         precedente.setEnabled(false);
         precedente.setVisible(false);
@@ -140,24 +142,20 @@ public class Principale extends javax.swing.JFrame {
             impostazioni1.setEnabled(true);
             precedente.setVisible(true);
             precedente.setEnabled(true);
-            quantitaDomanda = (4 * (quizGame.getGiocatori().size())) - 1;
+            quantitaDomanda = (4 * (quizGame.getGiocatori().size()+1))+1;
             numDomanda = 0;
 
         }
         if ((quantitaDomanda > numDomanda) && inizioDomanda) {
             numDomanda++;
-            if (rispostaInviata) {
-                domande1.verificaRisposta();
-                domande2.verificaRisposta();
-                rispostaInviata = false;
-            }
-            if (!rispostaInviata) {
-                domande1.scegliGiocatore(sceltaGiocatore);
-                domande2.scegliGiocatore(sceltaGiocatore);
-                sceltaGiocatore++;
-                if (quizGame.getGiocatori().size() == sceltaGiocatore) {
-                    sceltaGiocatore = 0;
-                }
+            domande1.scegliDomanda(numDomanda);
+            domande2.scegliDomanda(numDomanda);
+            domande1.scegliGiocatore(sceltaGiocatore);
+            domande2.scegliGiocatore(sceltaGiocatore);
+            sceltaGiocatore++;
+            if (quizGame.getGiocatori().size() == sceltaGiocatore) {
+                sceltaGiocatore = 0;
+
             }
             if (impostazioni1.isEnabled()) {
 
@@ -171,9 +169,10 @@ public class Principale extends javax.swing.JFrame {
                 precedente.setText("PAGINA DOMANDE");
                 domande1.scegliDomanda(numDomanda);
                 tipoDomanda = true;
+                domande1.verificaRisposta();
+                
 
             } else if ((tipoDomanda) && (rd.nextBoolean() == true)) {
-                domande1.scegliDomanda(numDomanda);
                 domande2.setVisible(false);
                 domande2.setEnabled(false);
                 getContentPane().remove(domande2);
@@ -182,9 +181,10 @@ public class Principale extends javax.swing.JFrame {
                 domande1.setEnabled(true);
                 precedente.setText("PAGINA DOMANDE");
                 tipoDomanda = true;
-                rispostaInviata = true;
+                domande1.verificaRisposta();
+
             } else if ((tipoDomanda) && (rd.nextBoolean() == false)) {
-                domande2.scegliDomanda(numDomanda);
+                
                 domande1.setVisible(false);
                 domande1.setEnabled(false);
                 getContentPane().remove(domande1);
@@ -193,7 +193,7 @@ public class Principale extends javax.swing.JFrame {
                 domande2.setEnabled(true);
                 precedente.setText("PAGINA DOMANDE");
                 tipoDomanda = true;
-                rispostaInviata = true;
+                domande2.verificaRisposta();
 
             }
 

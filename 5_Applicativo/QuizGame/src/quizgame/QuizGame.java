@@ -28,7 +28,8 @@ public class QuizGame {
                     // Leggi il testo della domanda
                     String testo = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
                     if (testo == null || testo.isEmpty()) {
-                        continue; // Salta righe vuote
+                        continue; 
+                       
                     }
                     
                     String categoria = scanner.hasNextLine() ? scanner.nextLine().trim() : null;

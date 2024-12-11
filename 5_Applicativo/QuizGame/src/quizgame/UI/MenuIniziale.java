@@ -47,6 +47,8 @@ public class MenuIniziale extends javax.swing.JPanel {
         nomeUtente1 = new javax.swing.JTextField();
         nomeUtente7 = new javax.swing.JTextField();
 
+        setBackground(new java.awt.Color(51, 153, 255));
+
         aggGiocatore.setText("aggiungi giocatore");
         aggGiocatore.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

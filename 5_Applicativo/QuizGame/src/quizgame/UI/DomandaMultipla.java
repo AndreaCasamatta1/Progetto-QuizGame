@@ -4,6 +4,7 @@
  */
 package quizgame.UI;
 
+import java.awt.event.ActionEvent;
 import java.util.List;
 import java.util.Random;
 import javax.swing.plaf.metal.MetalIconFactory;
@@ -23,7 +24,7 @@ public class DomandaMultipla extends javax.swing.JPanel {
     private QuizGame quizGame;
     private Impostazioni impo1;
 
-    public DomandaMultipla(QuizGame quizGame,Impostazioni impo1) {
+    public DomandaMultipla(QuizGame quizGame, Impostazioni impo1) {
         this.quizGame = quizGame;
         this.impo1 = impo1;
         initComponents();
@@ -47,6 +48,9 @@ public class DomandaMultipla extends javax.swing.JPanel {
         scelta3 = new javax.swing.JRadioButton();
         scelta4 = new javax.swing.JRadioButton();
         contentDomanda = new javax.swing.JLabel();
+
+        setBackground(new java.awt.Color(51, 153, 255));
+        setPreferredSize(new java.awt.Dimension(793, 443));
 
         nomeGiocatore.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 14)); // NOI18N
         nomeGiocatore.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -95,87 +99,95 @@ public class DomandaMultipla extends javax.swing.JPanel {
 
         contentDomanda.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         contentDomanda.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        contentDomanda.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        contentDomanda.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(273, 273, 273)
-                .addComponent(nomeGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(risponde, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 181, Short.MAX_VALUE)
-                .addComponent(numDomanda)
-                .addGap(15, 15, 15))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(189, 189, 189)
+                .addGap(86, 86, 86)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(scelta1)
-                    .addComponent(scelta3))
+                    .addComponent(scelta3)
+                    .addComponent(scelta1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(scelta2)
-                    .addComponent(scelta4))
-                .addGap(187, 187, 187))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(scelta4)
+                    .addComponent(scelta2))
+                .addGap(304, 304, 304))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(contentDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 652, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(59, 59, 59))
+                .addComponent(nomeGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(risponde, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(158, 158, 158)
+                .addComponent(numDomanda)
+                .addGap(115, 115, 115))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(123, 123, 123)
+                .addComponent(contentDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 529, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(139, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(nomeGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(numDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(risponde, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(45, 45, 45)
-                .addComponent(contentDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(nomeGiocatore, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(risponde, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(numDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(33, 33, 33)
+                .addComponent(contentDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(scelta1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(scelta2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(scelta3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(scelta4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(93, 93, 93))
+                .addGap(44, 44, 44))
         );
     }// </editor-fold>//GEN-END:initComponents
     private String rispostaCorretta;
+    private String risposta;
     Giocatore giocatore1;
     private void scelta2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta2ActionPerformed
         // TODO add your handling code here:
+        risposta = scelta2.getText();
     }//GEN-LAST:event_scelta2ActionPerformed
 
     private void scelta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta1ActionPerformed
         // TODO add your handling code here:
+         risposta = scelta1.getText();
     }//GEN-LAST:event_scelta1ActionPerformed
 
     private void scelta3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta3ActionPerformed
         // TODO add your handling code here:
+         risposta = scelta3.getText();
     }//GEN-LAST:event_scelta3ActionPerformed
 
     private void scelta4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta4ActionPerformed
         // TODO add your handling code here:
+         risposta = scelta4.getText();
     }//GEN-LAST:event_scelta4ActionPerformed
 
-    
     public void scegliGiocatore(int numGiocatore) {
         List<Giocatore> nomiGiocatori = quizGame.getGiocatori();
         Giocatore giocatoreScelto = nomiGiocatori.get(numGiocatore);
         nomeGiocatore.setText(giocatoreScelto.getNomeUtente());
         giocatore1 = giocatoreScelto;
     }
-    
-        public void verificaRisposta() {
+
+    public void verificaRisposta() {
         System.out.println("Verifico");
-        giocatore1.aggiornaPunteggio();
+        if (risposta.equals(rispostaCorretta)) {
+            giocatore1.aggiornaPunteggio();
+        }
 
     }
-    
 
     public void scegliDomanda(int numeroDomanda) {
         String cat = impo1.getCategoria();
@@ -194,6 +206,7 @@ public class DomandaMultipla extends javax.swing.JPanel {
             scelta2.setText(scelte.get(1));
             scelta3.setText(scelte.get(2));
             scelta4.setText(scelte.get(3));
+            risposta = scelta2.getText();
             rispostaCorretta = domandaCasuale.getRispostaCorretta();
         } else {
             scegliDomanda(numeroDomanda);
