@@ -194,7 +194,6 @@ public class Principale extends javax.swing.JFrame {
                 precedente.setText("PAGINA DOMANDE");
                 tipoDomanda = true;
                 domande2.verificaRisposta();
-
             }
 
         }

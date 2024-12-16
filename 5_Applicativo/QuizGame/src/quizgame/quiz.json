@@ -1,0 +1,5312 @@
+[
+    {
+        "testo": "Qual è il nome della competizione di club di calcio più prestigiosa d'Europa?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "UEFA Champions League",
+        "risposte": [
+            "Coppa UEFA",
+            "UEFA Europa League",
+            "UEFA Champions League",
+            "Supercoppa UEFA"
+        ]
+    },
+    {
+        "testo": "Il Lago Baikal è il lago più profondo del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Nuuk è la capitale della Groenlandia?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale del Bhutan?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Thimphu",
+        "risposte": [
+            "Kathmandu",
+            "Thimphu",
+            "Dhaka",
+            "Naypyidaw"
+        ]
+    },
+    {
+        "testo": "Il fiume Congo attraversa dieci paesi africani?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "La città di Antananarivo è la capitale del Madagascar?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il deserto del Namib si trova in Namibia?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Vientiane è la capitale del Laos?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale del Turkmenistan?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Ashgabat",
+        "risposte": [
+            "Tashkent",
+            "Baku",
+            "Bishkek",
+            "Ashgabat"
+        ]
+    },
+    {
+        "testo": "Il fiume Mekong attraversa sei paesi?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Yamoussoukro è la capitale della Costa d'Avorio?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è il paese più piccolo del mondo per superficie?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Vaticano",
+        "risposte": [
+            "Monaco",
+            "San Marino",
+            "Vaticano",
+            "Liechtenstein"
+        ]
+    },
+    {
+        "testo": "Il fiume Volga è il più lungo d'Europa?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Malabo è la capitale della Guinea Equatoriale?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale dell'Uzbekistan?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tashkent",
+        "risposte": [
+            "Ashgabat",
+            "Dushanbe",
+            "Tashkent",
+            "Almaty"
+        ]
+    },
+    {
+        "testo": "Il deserto di Atacama si trova in Cile?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Port Louis è la capitale delle Mauritius?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Ouagadougou è la capitale del Burkina Faso?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è il fiume più lungo dell'Asia?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Yangtze",
+        "risposte": [
+            "Gange",
+            "Mekong",
+            "Yangtze",
+            "Ob"
+        ]
+    },
+    {
+        "testo": "La città di N'Djamena è la capitale del Ciad?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Mar Nero confina con sei paesi?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la montagna più alta del Giappone?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Monte Fuji",
+        "risposte": [
+            "Monte Everest",
+            "Monte Fuji",
+            "Monte Kilimanjaro",
+            "Monte K2"
+        ]
+    },
+    {
+        "testo": "La città di Bishkek è la capitale del Kirghizistan?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale della Papua Nuova Guinea?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Port Moresby",
+        "risposte": [
+            "Suva",
+            "Nuku'alofa",
+            "Port Vila",
+            "Port Moresby"
+        ]
+    },
+    {
+        "testo": "La città di Dili è la capitale di Timor Est?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il fiume Zambesi è noto per le Cascate Vittoria?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Tbilisi è la capitale della Georgia?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale del Lesotho?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Maseru",
+        "risposte": [
+            "Pretoria",
+            "Maseru",
+            "Mbabane",
+            "Lobamba"
+        ]
+    },
+    {
+        "testo": "La città di Paramaribo è la capitale del Suriname?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Lago Titicaca si trova tra il Perù e la Bolivia?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Funafuti è la capitale di Tuvalu?",
+        "categoria": "Geografia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il calcio è lo sport più popolare al mondo?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Michael Jordan è famoso per il basket?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Le Olimpiadi si svolgono ogni quattro anni?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la distanza di una maratona?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "42.195 km",
+        "risposte": [
+            "21 km",
+            "42.195 km",
+            "50 km",
+            "100 km"
+        ]
+    },
+    {
+        "testo": "Il rugby è uno sport che si gioca con la palla ovale?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Serena Williams è una tennista famosa?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Tour de France è una gara di ciclismo?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale sport si pratica con una mazza e una palla?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Baseball",
+        "risposte": [
+            "Calcio",
+            "Basket",
+            "Rugby",
+            "Baseball"
+        ]
+    },
+    {
+        "testo": "Lionel Messi è un famoso calciatore argentino?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'NBA è il campionato professionistico di basket degli Stati Uniti?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è il nome della famosa corsa automobilistica che si tiene a Monaco?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Gran Premio di Monaco",
+        "risposte": [
+            "Rally di Montecarlo",
+            "Le Mans",
+            "Gran Premio di Monaco",
+            "Daytona 500"
+        ]
+    },
+    {
+        "testo": "Roger Federer è un famoso tennista svizzero?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Super Bowl è la finale del campionato di football americano?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Usain Bolt è noto per quale sport?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Atletica",
+        "risposte": [
+            "Calcio",
+            "Basket",
+            "Atletica",
+            "Nuoto"
+        ]
+    },
+    {
+        "testo": "Qual è il paese di origine del calcio?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Inghilterra",
+        "risposte": [
+            "Brasile",
+            "Spagna",
+            "Italia",
+            "Inghilterra"
+        ]
+    },
+    {
+        "testo": "Quale sport si gioca su un campo con rete al centro?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tennis",
+        "risposte": [
+            "Calcio",
+            "Pallacanestro",
+            "Rugby",
+            "Tennis"
+        ]
+    },
+    {
+        "testo": "Qual è lo sport nazionale del Giappone?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Sumo",
+        "risposte": [
+            "Judo",
+            "Karate",
+            "Sumo",
+            "Baseball"
+        ]
+    },
+    {
+        "testo": "Pelé è una leggenda di quale sport?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Calcio",
+        "risposte": [
+            "Basket",
+            "Rugby",
+            "Calcio",
+            "Atletica"
+        ]
+    },
+    {
+        "testo": "Il Wimbledon è un torneo di quale sport?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tennis",
+        "risposte": [
+            "Calcio",
+            "Pallacanestro",
+            "Rugby",
+            "Tennis"
+        ]
+    },
+    {
+        "testo": "Qual è la durata di una partita di calcio?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "90 minuti",
+        "risposte": [
+            "60 minuti",
+            "90 minuti",
+            "120 minuti",
+            "45 minuti"
+        ]
+    },
+    {
+        "testo": "Chi è il calciatore che ha vinto il maggior numero di Palloni d'Oro?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Lionel Messi",
+        "risposte": [
+            "Cristiano Ronaldo",
+            "Pelé",
+            "Diego Maradona",
+            "Lionel Messi"
+        ]
+    },
+    {
+        "testo": "Il golf si gioca con una pallina di quale colore?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Bianca",
+        "risposte": [
+            "Gialla",
+            "Verde",
+            "Rossa",
+            "Bianca"
+        ]
+    },
+    {
+        "testo": "Qual è lo sport praticato con una racchetta e volano?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Badminton",
+        "risposte": [
+            "Tennis",
+            "Squash",
+            "Badminton",
+            "Ping Pong"
+        ]
+    },
+    {
+        "testo": "Quale sport è noto come \"lo sport dei re\"?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Polo",
+        "risposte": [
+            "Calcio",
+            "Tennis",
+            "Polo",
+            "Golf"
+        ]
+    },
+    {
+        "testo": "La \"Copa America\" è un torneo di quale sport?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Calcio",
+        "risposte": [
+            "Basket",
+            "Tennis",
+            "Calcio",
+            "Rugby"
+        ]
+    },
+    {
+        "testo": "Qual è lo sport praticato con una mazza e una palla su una vasta area verde?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Golf",
+        "risposte": [
+            "Cricket",
+            "Hockey",
+            "Golf",
+            "Polo"
+        ]
+    },
+    {
+        "testo": "La \"NBA\" è l'acronimo di quale organizzazione sportiva?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "National Basketball Association",
+        "risposte": [
+            "National Baseball Association",
+            "National Basketball Association",
+            "National Bowling Association",
+            "National Billiards Association"
+        ]
+    },
+    {
+        "testo": "Qual è la durata di un match di hockey su ghiaccio?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "60 minuti",
+        "risposte": [
+            "90 minuti",
+            "60 minuti",
+            "45 minuti",
+            "120 minuti"
+        ]
+    },
+    {
+        "testo": "Quale sport si gioca con una mazza e una palla ed è popolare in India?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Cricket",
+        "risposte": [
+            "Rugby",
+            "Hockey",
+            "Cricket",
+            "Calcio"
+        ]
+    },
+    {
+        "testo": "La Coppa del Mondo FIFA si tiene ogni quattro anni?",
+        "categoria": "Sport",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il golf è stato inventato in quale paese?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Scozia",
+        "risposte": [
+            "Inghilterra",
+            "Stati Uniti",
+            "Scozia",
+            "Irlanda"
+        ]
+    },
+    {
+        "testo": "Quanti giocatori ci sono in una squadra di cricket?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "11",
+        "risposte": [
+            "9",
+            "11",
+            "13",
+            "15"
+        ]
+    },
+    {
+        "testo": "La NFL è l'acronimo di quale organizzazione sportiva?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "National Football League",
+        "risposte": [
+            "National Football League",
+            "National Frisbee League",
+            "National Field Hockey League",
+            "National Fencing League"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale dei 100 metri di Usain Bolt?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "9 min e 58 secondi",
+        "risposte": [
+            "9 min e 53 secondi",
+            "9 min e 18 secondi",
+            "7 min e 58 secondi",
+            "9 min e 58 secondi"
+        ]
+    },
+    {
+        "testo": "Qual è il paese ospitante delle Olimpiadi estive del 2016?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Brasile",
+        "risposte": [
+            "Giappone",
+            "Cina",
+            "Brasile",
+            "Regno Unito"
+        ]
+    },
+    {
+        "testo": "La città di Wimbledon ospita un torneo di quale sport?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tennis",
+        "risposte": [
+            "Calcio",
+            "Pallacanestro",
+            "Rugby",
+            "Tennis"
+        ]
+    },
+    {
+        "testo": "Michael Phelps è famoso per quale sport?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Nuoto",
+        "risposte": [
+            "Calcio",
+            "Pallacanestro",
+            "Nuoto",
+            "Tennis"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del torneo di tennis che si tiene a Parigi?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Roland Garros",
+        "risposte": [
+            "Wimbledon",
+            "US Open",
+            "Roland Garros",
+            "Australian Open"
+        ]
+    },
+    {
+        "testo": "Chi ha vinto la Coppa del Mondo FIFA del 2018?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Francia",
+        "risposte": [
+            "Brasile",
+            "Germania",
+            "Francia",
+            "Argentina"
+        ]
+    },
+    {
+        "testo": "Qual è il numero massimo di set in una partita di tennis maschile del Grande Slam?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Cinque",
+        "risposte": [
+            "Tre",
+            "Quattro",
+            "Cinque",
+            "Sei"
+        ]
+    },
+    {
+        "testo": "Quale sport è noto come \"il re degli sport\"?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Calcio",
+        "risposte": [
+            "Basket",
+            "Tennis",
+            "Rugby",
+            "Calcio"
+        ]
+    },
+    {
+        "testo": "Chi ha vinto il maggior numero di titoli del Grande Slam in singolare maschile?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Roger Federer",
+        "risposte": [
+            "Rafael Nadal",
+            "Novak Djokovic",
+            "Roger Federer",
+            "Pete Sampras"
+        ]
+    },
+    {
+        "testo": "Qual è il nome della famosa gara di ciclismo che attraversa l'Italia?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Giro d'Italia",
+        "risposte": [
+            "Tour de France",
+            "Vuelta a Espana",
+            "Giro d'Italia",
+            "Parigi-Roubaix"
+        ]
+    },
+    {
+        "testo": "Qual è la squadra di calcio con il maggior numero di titoli in Serie A?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Juventus",
+        "risposte": [
+            "Inter",
+            "Milan",
+            "Napoli",
+            "Juventus"
+        ]
+    },
+    {
+        "testo": "Quale sport si pratica con una mazza e una palla su un campo di erba sintetica?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Hockey su prato",
+        "risposte": [
+            "Rugby",
+            "Cricket",
+            "Tennis",
+            "Hockey su prato"
+        ]
+    },
+    {
+        "testo": "Qual è la durata di una partita di rugby?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "80 minuti",
+        "risposte": [
+            "60 minuti",
+            "80 minuti",
+            "90 minuti",
+            "120 minuti"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del famoso torneo di rugby che si tiene tra le nazioni del Regno Unito e l'Irlanda?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Sei Nazioni",
+        "risposte": [
+            "Coppa del Mondo di Rugby",
+            "Sei Nazioni",
+            "Rugby Championship",
+            "Heineken Cup"
+        ]
+    },
+    {
+        "testo": "Quale sport si pratica su una superficie ghiacciata con scarpe speciali?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Pattinaggio su ghiaccio",
+        "risposte": [
+            "Hockey su ghiaccio",
+            "Curling",
+            "Pattinaggio su ghiaccio",
+            "Bobsleigh"
+        ]
+    },
+    {
+        "testo": "Qual è il nome della famosa corsa di cavalli che si tiene in Kentucky?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Kentucky Derby",
+        "risposte": [
+            "Royal Ascot",
+            "Melbourne Cup",
+            "Preakness Stakes",
+            "Kentucky Derby"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del famoso torneo di golf che si tiene a Augusta, Georgia?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Masters",
+        "risposte": [
+            "PGA Championship",
+            "The Open",
+            "US Open",
+            "Masters"
+        ]
+    },
+    {
+        "testo": "Quale sport si pratica con una tavola su una superficie acquatica?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Surf",
+        "risposte": [
+            "Windsurf",
+            "Kitesurf",
+            "Sci nautico",
+            "Surf"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del famoso stadio di calcio di Barcellona?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Camp Nou",
+        "risposte": [
+            "Santiago Bernabéu",
+            "Allianz Arena",
+            "Old Trafford",
+            "Camp Nou"
+        ]
+    },
+    {
+        "testo": "Chi ha vinto il maggior numero di titoli di Formula 1?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Michael Schumacher",
+        "risposte": [
+            "Lewis Hamilton",
+            "Ayrton Senna",
+            "Sebastian Vettel",
+            "Michael Schumacher"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del torneo di golf più antico del mondo?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "The Open Championship",
+        "risposte": [
+            "US Open",
+            "Masters",
+            "PGA Championship",
+            "The Open Championship"
+        ]
+    },
+    {
+        "testo": "Qual è il nome della famosa corsa a tappe di ciclismo che attraversa la Francia?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tour de France",
+        "risposte": [
+            "Giro d'Italia",
+            "Vuelta a Espana",
+            "Tour de France",
+            "Paris-Nice"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del famoso torneo di rugby che si tiene in Nuova Zelanda, Australia, Sudafrica e Argentina?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Rugby Championship",
+        "risposte": [
+            "Sei Nazioni",
+            "Coppa del Mondo di Rugby",
+            "Heineken Cup",
+            "Rugby Championship"
+        ]
+    },
+    {
+        "testo": "Qual è la distanza della corsa di velocità nel biathlon?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "10 km",
+        "risposte": [
+            "5 km",
+            "10 km",
+            "15 km",
+            "20 km"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del torneo di tennis che si tiene a Londra?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Wimbledon",
+        "risposte": [
+            "US Open",
+            "Roland Garros",
+            "Australian Open",
+            "Wimbledon"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del primo uomo a correre i 100 metri in meno di 10 secondi?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Jim Hines",
+        "risposte": [
+            "Carl Lewis",
+            "Ben Johnson",
+            "Jim Hines",
+            "Usain Bolt"
+        ]
+    },
+    {
+        "testo": "Qual è il numero massimo di round in un incontro di boxe professionistica?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Dodici",
+        "risposte": [
+            "Dieci",
+            "Dodici",
+            "Quindici",
+            "Venti"
+        ]
+    },
+    {
+        "testo": "Chi è il calciatore con il maggior numero di gol segnati in una singola stagione di Serie A?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Gonzalo Higuaín",
+        "risposte": [
+            "Cristiano Ronaldo",
+            "Francesco Totti",
+            "Gonzalo Higuaín",
+            "Roberto Baggio"
+        ]
+    },
+    {
+        "testo": "Qual è il paese con il maggior numero di medaglie d'oro olimpiche in totale?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Stati Uniti",
+        "risposte": [
+            "Russia",
+            "Cina",
+            "Stati Uniti",
+            "Germania"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale della maratona maschile?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "2:01:39",
+        "risposte": [
+            "2:01:39",
+            "2:02:57",
+            "2:03:45",
+            "2:04:55"
+        ]
+    },
+    {
+        "testo": "Qual è il numero massimo di punti segnati in una singola partita di NBA?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "100",
+        "risposte": [
+            "81",
+            "100",
+            "120",
+            "150"
+        ]
+    },
+    {
+        "testo": "Chi ha vinto il maggior numero di medaglie olimpiche nel nuoto?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Michael Phelps",
+        "risposte": [
+            "Mark Spitz",
+            "Ian Thorpe",
+            "Michael Phelps",
+            "Ryan Lochte"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del primo ciclista a vincere il Tour de France cinque volte?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Jacques Anquetil",
+        "risposte": [
+            "Miguel Indurain",
+            "Bernard Hinault",
+            "Eddy Merckx",
+            "Jacques Anquetil"
+        ]
+    },
+    {
+        "testo": "Chi è il tennista più giovane a vincere un torneo del Grande Slam?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Michael Chang",
+        "risposte": [
+            "Björn Borg",
+            "Boris Becker",
+            "Rafael Nadal",
+            "Michael Chang"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale dei 200 metri di Florence Griffith-Joyner?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "21.34 secondi",
+        "risposte": [
+            "21.56 secondi",
+            "21.62 secondi",
+            "21.34 secondi",
+            "21.72 secondi"
+        ]
+    },
+    {
+        "testo": "Qual è il paese con il maggior numero di Coppe del Mondo di rugby?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Nuova Zelanda",
+        "risposte": [
+            "Sudafrica",
+            "Australia",
+            "Inghilterra",
+            "Nuova Zelanda"
+        ]
+    },
+    {
+        "testo": "Chi ha vinto il maggior numero di titoli di Wimbledon in singolare femminile?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Martina Navratilova",
+        "risposte": [
+            "Serena Williams",
+            "Steffi Graf",
+            "Martina Navratilova",
+            "Billie Jean King"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale del salto in lungo maschile?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "8.95 metri",
+        "risposte": [
+            "8.79 metri",
+            "8.90 metri",
+            "8.95 metri",
+            "9.00 metri"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del primo pilota di Formula 1 a vincere sette titoli mondiali?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Michael Schumacher",
+        "risposte": [
+            "Ayrton Senna",
+            "Lewis Hamilton",
+            "Alain Prost",
+            "Michael Schumacher"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale dei 400 metri di Michael Johnson?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "43.18 secondi",
+        "risposte": [
+            "43.18 secondi",
+            "43.34 secondi",
+            "43.49 secondi",
+            "43.72 secondi"
+        ]
+    },
+    {
+        "testo": "Chi è il calciatore con il maggior numero di gol segnati in competizioni ufficiali?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Pelé",
+        "risposte": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Pelé",
+            "Ferenc Puskás"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale del salto con l'asta maschile?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "6.18 metri",
+        "risposte": [
+            "6.15 metri",
+            "6.16 metri",
+            "6.17 metri",
+            "6.18 metri"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del primo giocatore di basket a segnare 30.000 punti in carriera?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Kareem Abdul-Jabbar",
+        "risposte": [
+            "Michael Jordan",
+            "Karl Malone",
+            "Kareem Abdul-Jabbar",
+            "Wilt Chamberlain"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale del sollevamento pesi maschile nella categoria 105 kg?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "263 kg",
+        "risposte": [
+            "260 kg",
+            "261 kg",
+            "262 kg",
+            "263 kg"
+        ]
+    },
+    {
+        "testo": "Chi ha vinto il maggior numero di Tour de France?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Lance Armstrong",
+        "risposte": [
+            "Jacques Anquetil",
+            "Eddy Merckx",
+            "Lance Armstrong",
+            "Miguel Indurain"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del primo giocatore di baseball a raggiungere 700 home run?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Babe Ruth",
+        "risposte": [
+            "Hank Aaron",
+            "Barry Bonds",
+            "Alex Rodriguez",
+            "Babe Ruth"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale dei 100 metri stile libero di César Cielo?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "46.91 secondi",
+        "risposte": [
+            "46.91 secondi",
+            "47.05 secondi",
+            "47.24 secondi",
+            "47.50 secondi"
+        ]
+    },
+    {
+        "testo": "Chi è il giocatore di football americano con il maggior numero di touchdown in carriera?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Jerry Rice",
+        "risposte": [
+            "Emmitt Smith",
+            "Walter Payton",
+            "Jerry Rice",
+            "Randy Moss"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del primo golfista a vincere quattro major consecutivi?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tiger Woods",
+        "risposte": [
+            "Jack Nicklaus",
+            "Arnold Palmer",
+            "Tiger Woods",
+            "Phil Mickelson"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale dei 50 metri stile libero di Sarah Sjöström?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "23.67 secondi",
+        "risposte": [
+            "23.67 secondi",
+            "23.90 secondi",
+            "24.01 secondi",
+            "24.12 secondi"
+        ]
+    },
+    {
+        "testo": "Chi ha vinto il maggior numero di medaglie d'oro olimpiche in atletica leggera?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Carl Lewis",
+        "risposte": [
+            "Usain Bolt",
+            "Michael Johnson",
+            "Carl Lewis",
+            "Jesse Owens"
+        ]
+    },
+    {
+        "testo": "Qual è il nome del primo pugile a vincere titoli mondiali in cinque categorie di peso?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Sugar Ray Leonard",
+        "risposte": [
+            "Floyd Mayweather Jr.",
+            "Manny Pacquiao",
+            "Oscar De La Hoya",
+            "Sugar Ray Leonard"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale del lancio del giavellotto maschile?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "98.48 metri",
+        "risposte": [
+            "90.57 metri",
+            "93.09 metri",
+            "96.30 metri",
+            "98.48 metri"
+        ]
+    },
+    {
+        "testo": "Chi è il calciatore con il maggior numero di presenze in Nazionale?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Sergio Ramos",
+        "risposte": [
+            "Cafu",
+            "Lothar Matthäus",
+            "Sergio Ramos",
+            "Gianluigi Buffon"
+        ]
+    },
+    {
+        "testo": "Qual è il record mondiale della maratona femminile di Brigid Kosgei?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "2:14:04",
+        "risposte": [
+            "2:14:04",
+            "2:15:25",
+            "2:17:01",
+            "2:18:27"
+        ]
+    },
+    {
+        "testo": "La Prima Guerra Mondiale è iniziata nel 1914?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Giulio Cesare è stato un imperatore romano?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Qual è stata la causa principale della Seconda Guerra Mondiale?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "L'invasione della Polonia",
+        "risposte": [
+            "L'invenzione della stampa",
+            "La scoperta dell'America",
+            "L'invasione della Polonia",
+            "La guerra civile americana"
+        ]
+    },
+    {
+        "testo": "La caduta del Muro di Berlino è avvenuta nel 1989?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Napoleone Bonaparte è nato in Corsica?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Rivoluzione Francese è iniziata nel 1789?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Cristoforo Colombo ha scoperto l'America nel 1492?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha costruito la Grande Muraglia?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Cina",
+        "risposte": [
+            "Giappone",
+            "India",
+            "Cina",
+            "Corea del Sud"
+        ]
+    },
+    {
+        "testo": "Martin Luther King Jr. ha pronunciato il discorso \"I Have a Dream\"?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Antico Egitto è famoso per le piramidi?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Alessandro Magno è nato in Macedonia?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La guerra civile americana è stata combattuta tra il Nord e il Sud?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Le Piramidi di Giza sono una delle sette meraviglie del mondo antico?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Dichiarazione di Indipendenza degli Stati Uniti è stata firmata nel 1776?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Titanic è affondato nel 1912?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Roma è stata fondata secondo la leggenda nel 753 a.C.?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'antica civiltà dei Maya era situata in Mesoamerica?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La rivoluzione russa è avvenuta nel 1917?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Grande Depressione è iniziata nel 1929?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha costruito il Colosseo?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Roma",
+        "risposte": [
+            "Grecia",
+            "Egitto",
+            "Roma",
+            "Persia"
+        ]
+    },
+    {
+        "testo": "Il Trattato di Versailles è stato firmato nel 1919?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Rivoluzione Industriale è iniziata nel XVIII secolo?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il D-Day è avvenuto il 6 giugno 1944?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'impero romano è crollato nel 476 d.C.?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La costruzione della Torre Eiffel è stata completata nel 1889?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Magna Carta è stata firmata nel 1215?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Mahatma Gandhi ha guidato il movimento per l'indipendenza dell'India?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Impero Ottomano è crollato dopo la Prima Guerra Mondiale?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Winston Churchill è stato primo ministro del Regno Unito durante la Seconda Guerra Mondiale?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Antica Roma ha avuto una società schiavista?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La guerra dei Cent'Anni è durata effettivamente 116 anni?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Rinascimento è iniziato in Italia?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stata la principale causa della guerra civile americana?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Schiavitù",
+        "risposte": [
+            "Tasse",
+            "Schiavitù",
+            "Industria",
+            "Territorio"
+        ]
+    },
+    {
+        "testo": "La Rivoluzione Francese è stata influenzata dall'Illuminismo?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Costantinopoli è stata conquistata dagli Ottomani nel 1453?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Rivoluzione Gloriosa ha portato alla deposizione di re Giacomo II d'Inghilterra?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Terra è il terzo pianeta dal Sole?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La capitale dell'Italia è Roma?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Nilo è il fiume più lungo del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale della Francia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Parigi",
+        "risposte": [
+            "Londra",
+            "Berlino",
+            "Madrid",
+            "Parigi"
+        ]
+    },
+    {
+        "testo": "L'Africa è il continente più grande del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il deserto del Sahara si trova in Africa?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Australia è sia un paese che un continente?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Monte Everest è la montagna più alta del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è il più grande oceano della Terra?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Oceano Pacifico",
+        "risposte": [
+            "Oceano Atlantico",
+            "Oceano Indiano",
+            "Oceano Artico",
+            "Oceano Pacifico"
+        ]
+    },
+    {
+        "testo": "La Groenlandia è la più grande isola del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Brasile si trova in America del Sud?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Mar Rosso separa l'Africa dall'Asia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Tokyo è la capitale del Giappone?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il fiume Amazonas attraversa il Brasile?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Russia è il paese più grande del mondo per superficie?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Polo Nord si trova nell'Artico?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Italia ha una forma simile a uno stivale?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di New York si trova negli Stati Uniti?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La capitale della Germania è Berlino?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Canada è il secondo paese più grande del mondo per superficie?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il deserto del Gobi si trova in Asia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Oceania è composta da numerose isole?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Antartide è un continente?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Sydney si trova in Australia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Islanda si trova nell'Oceano Atlantico?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale del Canada?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Ottawa",
+        "risposte": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Ottawa"
+        ]
+    },
+    {
+        "testo": "Il Mar Morto è il punto più basso della superficie terrestre?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La foresta amazzonica si trova in Sud America?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Rio de Janeiro si trova in Brasile?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La capitale dell'Egitto è Il Cairo?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Norvegia confina con la Finlandia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale della Norvegia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Oslo",
+        "risposte": [
+            "Stoccolma",
+            "Copenaghen",
+            "Helsinki",
+            "Oslo"
+        ]
+    },
+    {
+        "testo": "Il deserto dell'Atacama è uno dei luoghi più aridi del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il fiume Danubio attraversa dieci paesi europei?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La capitale del Nepal è Kathmandu?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Mar Caspio è il più grande lago del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Groenlandia è un territorio autonomo della Danimarca?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale dell'Islanda?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Reykjavik",
+        "risposte": [
+            "Oslo",
+            "Stoccolma",
+            "Copenaghen",
+            "Reykjavik"
+        ]
+    },
+    {
+        "testo": "La città di Istanbul si trova sia in Europa che in Asia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il deserto del Kalahari si trova in Africa meridionale?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Canada?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Inglese-Francese",
+        "risposte": [
+            "Inglese",
+            "Francese",
+            "Spagnolo",
+            "Inglese-Francese"
+        ]
+    },
+    {
+        "testo": "Il clima mediterraneo è caratterizzato da estati calde e secche?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La catena montuosa delle Alpi attraversa otto paesi europei?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Mosca è la capitale della Russia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il fiume Huang He è anche conosciuto come il Fiume Giallo?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Atene è la capitale della Grecia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Mar Adriatico si trova tra l'Italia e i Balcani?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale dell'Argentina?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Buenos Aires",
+        "risposte": [
+            "Lima",
+            "Santiago",
+            "Montevideo",
+            "Buenos Aires"
+        ]
+    },
+    {
+        "testo": "L'isola di Madagascar si trova nell'Oceano Indiano?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'Himalaya è la catena montuosa più alta del mondo?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Bangkok è la capitale della Thailandia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Lago Vittoria si trova in Africa?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Dubai si trova negli Emirati Arabi Uniti?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Monte Kilimanjaro si trova in Tanzania?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Wellington è la capitale della Nuova Zelanda?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale dell'Italia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Roma",
+        "risposte": [
+            "Milano",
+            "Roma",
+            "Montevideo",
+            "Buenos Aires"
+        ]
+    },
+    {
+        "testo": "La città di Lima è la capitale del Perù?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale del Ticino?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Bellinzona",
+        "risposte": [
+            "Lugano",
+            "Bellinzona",
+            "Chiasso",
+            "Mendrisio"
+        ]
+    },
+    {
+        "testo": "La città di Seoul è la capitale della Corea del Sud?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Dublino è la capitale dell'Irlanda?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato il primo paese a utilizzare carri armati in battaglia?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Regno Unito",
+        "risposte": [
+            "Francia",
+            "Germania",
+            "Regno Unito",
+            "Stati Uniti"
+        ]
+    },
+    {
+        "testo": "L'Impero Bizantino è durato più di 1000 anni?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Cartagine è stata distrutta dai Romani nella Terza Guerra Punica?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale rivoluzione ha portato all'abolizione della monarchia in Francia?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Rivoluzione Francese",
+        "risposte": [
+            "Rivoluzione Americana",
+            "Rivoluzione Russa",
+            "Rivoluzione Francese",
+            "Rivoluzione Cinese"
+        ]
+    },
+    {
+        "testo": "La guerra fredda è stata caratterizzata da un confronto tra USA e URSS?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha lanciato il primo satellite artificiale?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "URSS",
+        "risposte": [
+            "Stati Uniti",
+            "URSS",
+            "Cina",
+            "Giappone"
+        ]
+    },
+    {
+        "testo": "La Rivoluzione Americana è iniziata nel 1775?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La dinastia dei Ming ha governato la Cina per quasi 300 anni?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato l'ultimo imperatore della Russia?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Nicola II",
+        "risposte": [
+            "Pietro il Grande",
+            "Alessandro II",
+            "Nicola II",
+            "Ivan il Terribile"
+        ]
+    },
+    {
+        "testo": "La guerra di Crimea è stata combattuta tra il 1853 e il 1856?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha subito il bombardamento atomico di Hiroshima?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Giappone",
+        "risposte": [
+            "Germania",
+            "Giappone",
+            "Corea",
+            "Vietnam"
+        ]
+    },
+    {
+        "testo": "La Rivoluzione Cubana è stata guidata da Fidel Castro?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese è stato il primo a raggiungere il Polo Sud?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Norvegia",
+        "risposte": [
+            "Regno Unito",
+            "Stati Uniti",
+            "Norvegia",
+            "Russia"
+        ]
+    },
+    {
+        "testo": "La guerra civile spagnola è stata combattuta tra il 1936 e il 1939?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La scoperta dell'America da parte di Cristoforo Colombo ha avuto luogo durante il Rinascimento?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Rivoluzione d'Ottobre ha portato alla nascita dell'Unione Sovietica?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Baghdad è stata fondata dagli Abbasidi nel 762 d.C.?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha subito la guerra civile più lunga del XX secolo?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Guatemala",
+        "risposte": [
+            "Spagna",
+            "Colombia",
+            "Guatemala",
+            "Cina"
+        ]
+    },
+    {
+        "testo": "L'impero Inca era situato in Sud America?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale città è stata l'antica capitale dell'Impero Persiano?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Persepolis",
+        "risposte": [
+            "Susa",
+            "Babilonia",
+            "Persepolis",
+            "Teheran"
+        ]
+    },
+    {
+        "testo": "La dinastia Han ha governato la Cina per più di 400 anni?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha subito la Rivoluzione Meiji?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Giappone",
+        "risposte": [
+            "Corea del Sud",
+            "Cina",
+            "Thailandia",
+            "Giappone"
+        ]
+    },
+    {
+        "testo": "La guerra dei Trent'Anni è stata combattuta principalmente in Germania?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha subito il colpo di stato militare di Pinochet?",
+        "categoria": "Storia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Cile",
+        "risposte": [
+            "Argentina",
+            "Cile",
+            "Brasile",
+            "Perù"
+        ]
+    },
+    {
+        "testo": "Qual è stato l'evento che ha dato inizio alla Prima Guerra Mondiale?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "L'assassinio dell'arciduca Francesco Ferdinando",
+        "risposte": [
+            "La crisi dei missili di Cuba",
+            "L'assassinio di Abraham Lincoln",
+            "La dichiarazione di guerra della Germania",
+            "L'assassinio dell'arciduca Francesco Ferdinando"
+        ]
+    },
+    {
+        "testo": "La dinastia dei Medici è stata influente nel Rinascimento italiano?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha subito la guerra civile più lunga del XX secolo?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Guatemala",
+        "risposte": [
+            "Spagna",
+            "Colombia",
+            "Guatemala",
+            "Cina"
+        ]
+    },
+    {
+        "testo": "La battaglia di Waterloo ha segnato la fine di Napoleone Bonaparte?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato il trattato che ha messo fine alla Prima Guerra Mondiale?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Trattato di Versailles",
+        "risposte": [
+            "Trattato di Parigi",
+            "Trattato di Vienna",
+            "Trattato di Versailles",
+            "Trattato di Tordesillas"
+        ]
+    },
+    {
+        "testo": "Quale impero ha dominato la Mesopotamia nel secondo millennio a.C.?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Babilonese",
+        "risposte": [
+            "Assiro",
+            "Babilonese",
+            "Sumerico",
+            "Persiano"
+        ]
+    },
+    {
+        "testo": "La dinastia Qing è stata l'ultima dinastia imperiale della Cina?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato il principale risultato della Conferenza di Yalta nel 1945?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Divisione della Germania",
+        "risposte": [
+            "Fine della guerra fredda",
+            "Divisione della Germania",
+            "Creazione dell'ONU",
+            "Indipendenza dell'India"
+        ]
+    },
+    {
+        "testo": "La città di Tenochtitlán era la capitale dell'Impero Azteco?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha subito l'invasione delle truppe mongole di Gengis Khan?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Cina",
+        "risposte": [
+            "India",
+            "Persia",
+            "Cina",
+            "Russia"
+        ]
+    },
+    {
+        "testo": "Qual è stata la causa principale della guerra civile inglese?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Conflitto tra re e parlamento",
+        "risposte": [
+            "Conflitto religioso",
+            "Rivoluzione industriale",
+            "Conflitto tra re e parlamento",
+            "Invasione straniera"
+        ]
+    },
+    {
+        "testo": "La città di Petra è stata fondata dagli Nabatei?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato l'obiettivo principale delle crociate?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Conquistare la Terra Santa",
+        "risposte": [
+            "Colonizzare il Nord America",
+            "Conquistare la Terra Santa",
+            "Scoprire nuove rotte commerciali",
+            "Sconfiggere l'impero bizantino"
+        ]
+    },
+    {
+        "testo": "La dinastia degli Asburgo ha governato l'Austria per più di 600 anni?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stata la causa principale della guerra dei trent'anni?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Conflitto religioso",
+        "risposte": [
+            "Conflitto territoriale",
+            "Conflitto dinastico",
+            "Conflitto commerciale",
+            "Conflitto religioso"
+        ]
+    },
+    {
+        "testo": "Il trattato di Tordesillas ha diviso il nuovo mondo tra Spagna e Portogallo?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La città di Timbuctù era un importante centro di commercio nell'Africa occidentale?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato il principale risultato della Rivoluzione Gloriosa del 1688 in Inghilterra?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Consolidamento del potere parlamentare",
+        "risposte": [
+            "Abolizione della monarchia",
+            "Creazione della Banca d'Inghilterra",
+            "Espansione dell'impero coloniale",
+            "Consolidamento del potere parlamentare"
+        ]
+    },
+    {
+        "testo": "La battaglia di Hastings nel 1066 ha portato alla conquista normanna dell'Inghilterra?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato il principale risultato della pace di Westfalia del 1648?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Fine della guerra dei trent'anni",
+        "risposte": [
+            "Riconoscimento dell'indipendenza degli Stati Uniti",
+            "Fine della guerra dei trent'anni",
+            "Fondazione dell'ONU",
+            "Abolizione della schiavitù"
+        ]
+    },
+    {
+        "testo": "La città di Alessandria è stata fondata da Alessandro Magno?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale paese ha subito la rivoluzione meiji?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Giappone",
+        "risposte": [
+            "Corea del Sud",
+            "Cina",
+            "Thailandia",
+            "Giappone"
+        ]
+    },
+    {
+        "testo": "La città di Angkor Wat è un antico complesso templare situato in quale paese?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Cambogia",
+        "risposte": [
+            "India",
+            "Cambogia",
+            "Thailandia",
+            "Myanmar"
+        ]
+    },
+    {
+        "testo": "Qual è stata la principale causa della rivoluzione americana?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tassazione senza rappresentanza",
+        "risposte": [
+            "Schiavitù",
+            "Conflitto religioso",
+            "Tassazione senza rappresentanza",
+            "Espansione territoriale"
+        ]
+    },
+    {
+        "testo": "La dinastia degli Abbasidi ha governato il califfato islamico per circa 500 anni?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato il principale risultato del Congresso di Vienna del 1815?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Restaurazione dell'equilibrio di potere in Europa",
+        "risposte": [
+            "Abolizione della schiavitù",
+            "Restaurazione dell'equilibrio di potere in Europa",
+            "Creazione dell'Unione Europea",
+            "Fine della guerra dei trent'anni"
+        ]
+    },
+    {
+        "testo": "La città di Cuzco era la capitale dell'Impero Inca?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale evento ha segnato l'inizio della rivoluzione francese?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Presa della Bastiglia",
+        "risposte": [
+            "Dichiarazione dei diritti dell'uomo e del cittadino",
+            "Esecuzione di Luigi XVI",
+            "Dichiarazione di guerra all'Austria",
+            "Presa della Bastiglia"
+        ]
+    },
+    {
+        "testo": "La battaglia di Trafalgar ha visto la sconfitta della flotta francese da parte della marina britannica?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è stato il principale risultato della rivoluzione industriale?",
+        "categoria": "Storia",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Avvento della produzione meccanizzata",
+        "risposte": [
+            "Fine della schiavitù",
+            "Espansione dell'impero britannico",
+            "Creazione dell'ONU",
+            "Avvento della produzione meccanizzata"
+        ]
+    },
+    {
+        "testo": "L'inglese è la lingua ufficiale dell'Australia?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il francese è una lingua romanza?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Brasile?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Portoghese",
+        "risposte": [
+            "Spagnolo",
+            "Italiano",
+            "Francese",
+            "Portoghese"
+        ]
+    },
+    {
+        "testo": "Lo spagnolo è parlato in più paesi rispetto al francese?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il tedesco è parlato in Svizzera?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'italiano è una lingua ufficiale della Svizzera?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'inglese è la lingua più parlata nel mondo?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il giapponese è una lingua tonale?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il mandarino è una delle lingue parlate in Cina?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il portoghese è una lingua ufficiale di più di un paese?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Russia?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Russo",
+        "risposte": [
+            "Inglese",
+            "Spagnolo",
+            "Russo",
+            "Tedesco"
+        ]
+    },
+    {
+        "testo": "Lo swahili è parlato in Africa?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il francese è una lingua ufficiale in Canada?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'arabo è una lingua semitica?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Brasile?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Portoghese",
+        "risposte": [
+            "Spagnolo",
+            "Italiano",
+            "Inglese",
+            "Portoghese"
+        ]
+    },
+    {
+        "testo": "Il russo è scritto con l'alfabeto cirillico?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Argentina?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Spagnolo",
+        "risposte": [
+            "Portoghese",
+            "Italiano",
+            "Spagnolo",
+            "Francese"
+        ]
+    },
+    {
+        "testo": "L'italiano è parlato in Italia?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il francese è parlato in Francia?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Giappone?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Giapponese",
+        "risposte": [
+            "Coreano",
+            "Cinese",
+            "Giapponese",
+            "Tailandese"
+        ]
+    },
+    {
+        "testo": "Quale lingua si parla in Spagna?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Spagnolo",
+        "risposte": [
+            "Portoghese",
+            "Italiano",
+            "Inglese",
+            "Spagnolo"
+        ]
+    },
+    {
+        "testo": "L'inglese è parlato in India?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il mandarino è una lingua tonale?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Germania?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tedesco",
+        "risposte": [
+            "Francese",
+            "Inglese",
+            "Italiano",
+            "Tedesco"
+        ]
+    },
+    {
+        "testo": "Il francese è parlato in Belgio?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il portoghese è una lingua romanza?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Messico?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Spagnolo",
+        "risposte": [
+            "Portoghese",
+            "Italiano",
+            "Inglese",
+            "Spagnolo"
+        ]
+    },
+    {
+        "testo": "Il turco è la lingua ufficiale della Turchia?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Corea del Sud?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Coreano",
+        "risposte": [
+            "Giapponese",
+            "Cinese",
+            "Coreano",
+            "Inglese"
+        ]
+    },
+    {
+        "testo": "L'arabo è una delle lingue ufficiali degli Emirati Arabi Uniti?",
+        "categoria": "Lingue",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il finlandese è parlato in Finlandia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Kenya?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Inglese e Swahili",
+        "risposte": [
+            "Inglese",
+            "Swahili",
+            "Francese",
+            "Inglese e Swahili"
+        ]
+    },
+    {
+        "testo": "L'uzbeko è la lingua ufficiale dell'Uzbekistan?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Marocco?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Arabo",
+        "risposte": [
+            "Francese",
+            "Inglese",
+            "Italiano",
+            "Arabo"
+        ]
+    },
+    {
+        "testo": "Il coreano è una lingua tonale?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Bangladesh?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Bengalese",
+        "risposte": [
+            "Urdu",
+            "Hindi",
+            "Bengali",
+            "Bengalese"
+        ]
+    },
+    {
+        "testo": "Il vietnamita è una lingua monosillabica?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Norvegia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Norvegese",
+        "risposte": [
+            "Svedese",
+            "Danese",
+            "Norvegese",
+            "Finlandese"
+        ]
+    },
+    {
+        "testo": "Il malgascio è parlato in Madagascar?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale delle Filippine?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Filipino e Inglese",
+        "risposte": [
+            "Inglese",
+            "Spagnolo",
+            "Tagalog",
+            "Filipino e Inglese"
+        ]
+    },
+    {
+        "testo": "Il tamil è una delle lingue ufficiali dello Sri Lanka?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Svezia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Svedese",
+        "risposte": [
+            "Norvegese",
+            "Danese",
+            "Svedese",
+            "Finlandese"
+        ]
+    },
+    {
+        "testo": "Il catalano è parlato in Catalogna?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Nigeria?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Inglese",
+        "risposte": [
+            "Francese",
+            "Inglese",
+            "Portoghese",
+            "Swahili"
+        ]
+    },
+    {
+        "testo": "Il polacco è una lingua slava?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Bhutan?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Dzongkha",
+        "risposte": [
+            "Nepalese",
+            "Hindi",
+            "Dzongkha",
+            "Tibetano"
+        ]
+    },
+    {
+        "testo": "Il turkmeno è parlato in Turkmenistan?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Olanda?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Olandese",
+        "risposte": [
+            "Inglese",
+            "Tedesco",
+            "Francese",
+            "Olandese"
+        ]
+    },
+    {
+        "testo": "L'ebraico è una lingua semitica?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Thailandia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Thailandese",
+        "risposte": [
+            "Laotiano",
+            "Cambogiano",
+            "Thailandese",
+            "Burmese"
+        ]
+    },
+    {
+        "testo": "Il khmer è parlato in Cambogia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Svizzera oltre al tedesco, francese e italiano?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Romansh",
+        "risposte": [
+            "Catalano",
+            "Ladino",
+            "Romansh",
+            "Friulano"
+        ]
+    },
+    {
+        "testo": "Il maori è una lingua ufficiale della Nuova Zelanda?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Libano?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Arabo",
+        "risposte": [
+            "Francese",
+            "Inglese",
+            "Armeno",
+            "Arabo"
+        ]
+    },
+    {
+        "testo": "Il georgiano è parlato in Georgia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Mongolia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Mongolo",
+        "risposte": [
+            "Russo",
+            "Cinese",
+            "Mongolo",
+            "Coreano"
+        ]
+    },
+    {
+        "testo": "Il serbo-croato è parlato in Serbia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale dell'Etiopia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Amarico",
+        "risposte": [
+            "Arabo",
+            "Inglese",
+            "Francese",
+            "Amarico"
+        ]
+    },
+    {
+        "testo": "Il rumeno è una lingua romanza?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Bielorussia?",
+        "categoria": "Lingue",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Bielorusso",
+        "risposte": [
+            "Russo",
+            "Ucraino",
+            "Polacco",
+            "Bielorusso"
+        ]
+    },
+    {
+        "testo": "Il basco è una lingua isolata?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Bhutan?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Dzongkha",
+        "risposte": [
+            "Nepalese",
+            "Hindi",
+            "Dzongkha",
+            "Tibetano"
+        ]
+    },
+    {
+        "testo": "L'albanese è una lingua indoeuropea?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale lingua si parla in Eritrea?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tigrino",
+        "risposte": [
+            "Arabo",
+            "Swahili",
+            "Amarico",
+            "Tigrino"
+        ]
+    },
+    {
+        "testo": "Il guarani è una delle lingue ufficiali del Paraguay?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Kirghizistan?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Kirghiso",
+        "risposte": [
+            "Kazako",
+            "Russo",
+            "Kirghiso",
+            "Turkmeno"
+        ]
+    },
+    {
+        "testo": "Il maltese è una lingua semitica?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Moldavia?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Rumeno",
+        "risposte": [
+            "Russo",
+            "Ucraino",
+            "Bulgaro",
+            "Rumeno"
+        ]
+    },
+    {
+        "testo": "L'estone è una lingua ugro-finnica?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Nepal?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Nepalese",
+        "risposte": [
+            "Hindi",
+            "Bengalese",
+            "Nepali",
+            "Tibetano"
+        ]
+    },
+    {
+        "testo": "Il basco è parlato nei Paesi Baschi?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Georgia?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Georgiano",
+        "risposte": [
+            "Russo",
+            "Turco",
+            "Georgiano",
+            "Armeno"
+        ]
+    },
+    {
+        "testo": "Il kinyarwanda è parlato in Ruanda?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Lituania?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Lituano",
+        "risposte": [
+            "Russo",
+            "Polacco",
+            "Lettone",
+            "Lituano"
+        ]
+    },
+    {
+        "testo": "Il samoano è una lingua ufficiale di Samoa?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Botswana?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Inglese-Setswana",
+        "risposte": [
+            "Inglese",
+            "Setswana",
+            "Zulu",
+            "Inglese-Setswana"
+        ]
+    },
+    {
+        "testo": "L'armeno è parlato in Armenia?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Laos?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Laotiano",
+        "risposte": [
+            "Vietnamita",
+            "Laotiano",
+            "Tailandese",
+            "Birmano"
+        ]
+    },
+    {
+        "testo": "Il swahili è una lingua bantu?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Qatar?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Arabo",
+        "risposte": [
+            "Inglese",
+            "Arabo",
+            "Urdu",
+            "Hindi"
+        ]
+    },
+    {
+        "testo": "Il tswana è una lingua ufficiale del Botswana?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Nicaragua?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Spagnolo",
+        "risposte": [
+            "Inglese",
+            "Francese",
+            "Portoghese",
+            "Spagnolo"
+        ]
+    },
+    {
+        "testo": "Il wolof è parlato in Senegal?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale della Macedonia del Nord?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Macedone",
+        "risposte": [
+            "Albanese",
+            "Macedone",
+            "Serbo",
+            "Greco"
+        ]
+    },
+    {
+        "testo": "Il cebuano è parlato nelle Filippine?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale del Montenegro?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Montenegrino",
+        "risposte": [
+            "Serbo",
+            "Croato",
+            "Bosniaco",
+            "Montenegrino"
+        ]
+    },
+    {
+        "testo": "Il soninke è parlato in Mali?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale delle Isole Figi?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Inglese-Fijiano",
+        "risposte": [
+            "Inglese",
+            "Hindi",
+            "Fijiano",
+            "Inglese-Fijiano"
+        ]
+    },
+    {
+        "testo": "Il tetum è una lingua ufficiale di Timor Est?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la lingua ufficiale dell'Angola?",
+        "categoria": "Lingue",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Portoghese",
+        "risposte": [
+            "Inglese",
+            "Francese",
+            "Spagnolo",
+            "Portoghese"
+        ]
+    },
+    {
+        "testo": "La biologia studia gli esseri viventi?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La matematica è una scienza esatta?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La fisica studia le leggi dell'universo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è il risultato di 2 + 2?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "4",
+        "risposte": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "testo": "La chimica si occupa delle reazioni tra le sostanze?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'inglese è una materia scolastica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La geografia studia la Terra e le sue caratteristiche?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La storia studia gli eventi del passato?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La letteratura riguarda lo studio dei testi scritti?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'educazione fisica promuove l'attività motoria?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'arte è una materia che studia le espressioni visive e plastiche?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La musica è una disciplina scolastica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La chimica studia gli elementi e i composti?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La fisica studia i fenomeni naturali?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La biologia studia le piante e gli animali?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La matematica include l'algebra e la geometria?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'informatica studia l'uso dei computer e dei sistemi informatici?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La filosofia è una materia che esplora le questioni esistenziali?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'economia studia la produzione, distribuzione e consumo delle risorse?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La geologia studia la composizione della Terra?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La matematica comprende l'analisi e il calcolo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La letteratura studia i testi narrativi, poetici e drammatici?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La chimica organica studia i composti del carbonio?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La fisica quantistica studia le particelle subatomiche?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La geografia umana studia le popolazioni e le loro culture?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La biologia marina studia gli organismi marini?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La statistica è una branca della matematica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La psicologia studia la mente e il comportamento umano?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'antropologia studia l'uomo e le sue culture?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La sociologia studia le relazioni sociali e le strutture delle società?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'epigenetica studia le modifiche ereditabili nell'espressione genica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La trigonometria è una branca della matematica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La termodinamica studia le leggi del calore e dell'energia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale elemento chimico ha simbolo \"O\"?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Ossigeno",
+        "risposte": [
+            "Oro",
+            "Ozono",
+            "Osmio",
+            "Ossigeno"
+        ]
+    },
+    {
+        "testo": "La teoria della relatività è stata formulata da Albert Einstein?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La sintassi è una parte della linguistica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La biomeccanica studia le leggi del movimento degli esseri viventi?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale filosofo ha scritto \"La Repubblica\"?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Platone",
+        "risposte": [
+            "Aristotele",
+            "Socrate",
+            "Platone",
+            "Kant"
+        ]
+    },
+    {
+        "testo": "La fotosintesi clorofilliana è un processo chimico?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale dell'Italia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Roma",
+        "risposte": [
+            "Milano",
+            "Napoli",
+            "Torino",
+            "Roma"
+        ]
+    },
+    {
+        "testo": "La teoria evolutiva è associata a Charles Darwin?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'algebra lineare studia i sistemi di equazioni lineari?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la formula chimica dell'acqua?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "H₂O",
+        "risposte": [
+            "CO₂",
+            "H₂O",
+            "O₂",
+            "HCl"
+        ]
+    },
+    {
+        "testo": "La corrente alternata è stata sviluppata da Nikola Tesla?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La struttura dell'atomo è composta da protoni, neutroni ed elettroni?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale della Francia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Parigi",
+        "risposte": [
+            "Lione",
+            "Marsiglia",
+            "Bordeaux",
+            "Parigi"
+        ]
+    },
+    {
+        "testo": "La teoria del Big Bang spiega l'origine dell'universo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La linguistica studia le lingue e i loro processi?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la principale teoria dell'origine delle specie?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Evoluzione",
+        "risposte": [
+            "Creazionismo",
+            "Evoluzione",
+            "Big Bang",
+            "Intelligent Design"
+        ]
+    },
+    {
+        "testo": "L'anatomia umana studia la struttura del corpo umano?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale filosofo ha scritto \"Critica della Ragion Pura\"?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Immanuel Kant",
+        "risposte": [
+            "Friedrich Nietzsche",
+            "Immanuel Kant",
+            "Jean-Paul Sartre",
+            "Michel Foucault"
+        ]
+    },
+    {
+        "testo": "La teoria dei giochi è utilizzata in economia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale della Germania?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Berlino",
+        "risposte": [
+            "Amburgo",
+            "Monaco",
+            "Francoforte",
+            "Berlino"
+        ]
+    },
+    {
+        "testo": "La teoria della meccanica quantistica descrive il comportamento delle particelle subatomiche?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La filosofia morale studia i principi del giusto e dello sbagliato?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale scienziato ha sviluppato la teoria della gravità universale?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Isaac Newton",
+        "risposte": [
+            "Galileo Galilei",
+            "Albert Einstein",
+            "Isaac Newton",
+            "Niels Bohr"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Spagna?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Madrid",
+        "risposte": [
+            "Barcellona",
+            "Valencia",
+            "Madrid",
+            "Siviglia"
+        ]
+    },
+    {
+        "testo": "La teoria dei sistemi è utilizzata in diverse discipline scientifiche?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La microbiologia studia i microrganismi?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale del Canada?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Ottawa",
+        "risposte": [
+            "Toronto",
+            "Montreal",
+            "Vancouver",
+            "Ottawa"
+        ]
+    },
+    {
+        "testo": "La teoria delle stringhe cerca di unificare la relatività generale e la meccanica quantistica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale chimico ha scoperto il principio di esclusione?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Wolfgang Pauli",
+        "risposte": [
+            "Niels Bohr",
+            "Erwin Schrödinger",
+            "Wolfgang Pauli",
+            "Max Planck"
+        ]
+    },
+    {
+        "testo": "La teoria della relatività generale descrive la gravità come una curvatura dello spaziotempo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è il nome del filosofo che ha scritto \"Fenomenologia dello Spirito\"?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Georg Wilhelm Friedrich Hegel",
+        "risposte": [
+            "Karl Marx",
+            "Friedrich Nietzsche",
+            "Georg Wilhelm Friedrich Hegel",
+            "Jean-Paul Sartre"
+        ]
+    },
+    {
+        "testo": "La teoria dell'evoluzione moderna combina le scoperte di Darwin e Mendel?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la formula chimica dell'acido solforico?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "H₂SO₄",
+        "risposte": [
+            "H₂SO₃",
+            "HCl",
+            "H₂SO₄",
+            "HNO₃"
+        ]
+    },
+    {
+        "testo": "La termodinamica ha quattro principi fondamentali?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale biologo ha scoperto la struttura del DNA insieme a Francis Crick?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "James Watson",
+        "risposte": [
+            "Rosalind Franklin",
+            "Linus Pauling",
+            "James Watson",
+            "Maurice Wilkins"
+        ]
+    },
+    {
+        "testo": "La teoria delle onde quantistiche descrive il comportamento delle particelle subatomiche?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale matematico ha formulato l'ipotesi di Riemann?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Bernhard Riemann",
+        "risposte": [
+            "Carl Friedrich Gauss",
+            "Bernhard Riemann",
+            "Leonhard Euler",
+            "David Hilbert"
+        ]
+    },
+    {
+        "testo": "La teoria dei quanti è stata sviluppata all'inizio del XX secolo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale scienziato ha scoperto i neutroni?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "James Chadwick",
+        "risposte": [
+            "Enrico Fermi",
+            "James Chadwick",
+            "Ernest Rutherford",
+            "Niels Bohr"
+        ]
+    },
+    {
+        "testo": "La filosofia del linguaggio studia la natura del significato e della comunicazione?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale filosofo ha scritto \"Essere e Tempo\"?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Martin Heidegger",
+        "risposte": [
+            "Jean-Paul Sartre",
+            "Ludwig Wittgenstein",
+            "Martin Heidegger",
+            "Michel Foucault"
+        ]
+    },
+    {
+        "testo": "La biologia molecolare studia i processi biologici a livello molecolare?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la formula chimica del metano?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "CH₄",
+        "risposte": [
+            "CO₂",
+            "H₂O",
+            "CH₄",
+            "C₂H₆"
+        ]
+    },
+    {
+        "testo": "La relatività speciale è stata formulata da Albert Einstein nel 1905?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale chimico ha formulato la legge dei gas ideali?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Amedeo Avogadro",
+        "risposte": [
+            "Robert Boyle",
+            "Amedeo Avogadro",
+            "Antoine Lavoisier",
+            "Dmitri Mendeleev"
+        ]
+    },
+    {
+        "testo": "La teoria delle probabilità è utilizzata in statistica e fisica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la formula chimica dell'ammoniaca?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "NH₃",
+        "risposte": [
+            "H₂O",
+            "HCl",
+            "NH₄",
+            "NH₃"
+        ]
+    },
+    {
+        "testo": "La geologia studia la storia della Terra e i suoi processi?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale scienziato ha sviluppato la teoria della relatività ristretta?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Albert Einstein",
+        "risposte": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Werner Heisenberg"
+        ]
+    },
+    {
+        "testo": "La meccanica dei fluidi studia il comportamento dei fluidi in movimento e a riposo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Quale filosofo ha scritto \"La Critica del Giudizio\"?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Immanuel Kant",
+        "risposte": [
+            "Friedrich Nietzsche",
+            "Jean-Paul Sartre",
+            "Immanuel Kant",
+            "Michel Foucault"
+        ]
+    },
+    {
+        "testo": "La teoria del caos studia i sistemi dinamici non lineari?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la capitale del Bhutan?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Thimphu",
+        "risposte": [
+            "Kathmandu",
+            "Thimphu",
+            "Dhaka",
+            "Naypyidaw"
+        ]
+    },
+    {
+        "testo": "La teoria delle stringhe cerca di unificare la relatività generale e la meccanica quantistica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Qual è la formula chimica del glucosio?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "C₆H₁₂O₆",
+        "risposte": [
+            "C₆H₁₂O₆",
+            "C₆H₁₀O₅",
+            "C₆H₆O₆",
+            "C₆H₄O₄"
+        ]
+    },
+    {
+        "testo": "La teoria del caos è utilizzata in fisica e matematica?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il record mondiale della maratona maschile è 2:01:39?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Michael Phelps ha vinto più medaglie olimpiche di qualsiasi altro atleta?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il record mondiale del salto in lungo maschile è di 8,95 metri?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Usain Bolt ha vinto otto medaglie d'oro olimpiche in atletica?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Tour de France è stato vinto per la prima volta nel 1903?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il calcio è lo sport più praticato al mondo?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il record mondiale dei 100 metri è 9.58 secondi?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Super Bowl è la finale del campionato di football americano?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Coppa del Mondo FIFA è stata ospitata per la prima volta nel 1930?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Roger Federer ha vinto più di 20 titoli del Grande Slam?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Lionel Messi ha vinto il suo primo Pallone d'Oro nel 2009?",
+        "categoria": "Sport",
+        "difficolta": "Difficile",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },    {
+        "testo": "Qual è la capitale della Francia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Parigi",
+        "risposte": [
+            "Lione",
+            "Marsiglia",
+            "Parigi",
+            "Nizza"
+        ]
+    },
+    {
+        "testo": "Qual è il risultato di 5 + 3?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "8",
+        "risposte": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale dell'Italia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Roma",
+        "risposte": [
+            "Milano",
+            "Roma",
+            "Napoli",
+            "Torino"
+        ]
+    },
+    {
+        "testo": "Qual è il più grande oceano del mondo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Oceano Pacifico",
+        "risposte": [
+            "Oceano Indiano",
+            "Oceano Atlantico",
+            "Oceano Pacifico",
+            "Oceano Artico"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Germania?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Berlino",
+        "risposte": [
+            "Amburgo",
+            "Monaco",
+            "Berlino",
+            "Colonia"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Regno Unito?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Londra",
+        "risposte": [
+            "Manchester",
+            "Londra",
+            "Liverpool",
+            "Birmingham"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Spagna?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Madrid",
+        "risposte": [
+            "Barcellona",
+            "Valencia",
+            "Madrid",
+            "Siviglia"
+        ]
+    },
+    {
+        "testo": "Qual è il risultato di 7 × 2?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "14",
+        "risposte": [
+            "12",
+            "14",
+            "16",
+            "18"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Giappone?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tokyo",
+        "risposte": [
+            "Osaka",
+            "Tokyo",
+            "Kyoto",
+            "Hiroshima"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Brasile?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Brasilia",
+        "risposte": [
+            "Rio de Janeiro",
+            "San Paolo",
+            "Brasilia",
+            "Salvador"
+        ]
+    },
+    {
+        "testo": "Qual è il risultato di 10 - 6?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "4",
+        "risposte": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Russia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Mosca",
+        "risposte": [
+            "San Pietroburgo",
+            "Mosca",
+            "Kazan",
+            "Novosibirsk"
+        ]
+    },
+    {
+        "testo": "Qual è il risultato di 9 ÷ 3?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "3",
+        "risposte": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Messico?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Città del Messico",
+        "risposte": [
+            "Cancún",
+            "Città del Messico",
+            "Monterrey",
+            "Guadalajara"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale dell'Australia?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Canberra",
+        "risposte": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+        ]
+    },
+    {
+        "testo": "Qual è il risultato di 15 ÷ 5?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "3",
+        "risposte": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Portogallo?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Lisbona",
+        "risposte": [
+            "Porto",
+            "Lisbona",
+            "Faro",
+            "Coimbra"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Cina?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Pechino",
+        "risposte": [
+            "Shanghai",
+            "Hong Kong",
+            "Pechino",
+            "Guangzhou"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Corea del Sud?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Seul",
+        "risposte": [
+            "Busan",
+            "Incheon",
+            "Seul",
+            "Daegu"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale dell'India?",
+        "categoria": "Materie scolastiche",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Nuova Delhi",
+        "risposte": [
+            "Mumbai",
+            "Kolkata",
+            "Nuova Delhi",
+            "Bangalore"
+        ]
+    },    {
+        "testo": "Il Tour de France è una gara di ciclismo su strada?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il tennis è uno sport che si gioca su un campo con rete centrale?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La FIFA organizza la Coppa del Mondo ogni sei anni?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "La pallavolo è stata introdotta come sport olimpico nel 1964?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il nuoto sincronizzato è uno sport olimpico?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La squadra di basket NBA dei Los Angeles Lakers è stata fondata nel 1950?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il Brasile ha vinto cinque volte la Coppa del Mondo FIFA?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il cricket si gioca su un campo quadrato?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il rugby è diviso in due principali varianti: a 13 e a 15 giocatori?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il baseball prevede un massimo di nove inning per partita?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Formula 1 ha introdotto per la prima volta la Safety Car nel 1993?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Wimbledon è un torneo di tennis giocato su terra battuta?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "La maratona moderna misura 42,195 chilometri?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La Ryder Cup è una competizione di golf tra squadre di Europa e Stati Uniti?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il pentathlon moderno include il tiro con l'arco?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il campionato mondiale di pallavolo si svolge ogni due anni?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il campionato mondiale di calcio femminile è stato istituito nel 1991?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "La distanza olimpica della marcia è di 20 chilometri per uomini e donne?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il salto in alto prevede una rincorsa di almeno 15 metri?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },
+    {
+        "testo": "Il ciclismo su pista è una disciplina presente alle Olimpiadi estive?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il Giappone ha ospitato per la prima volta le Olimpiadi nel 1964?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il judo è stato introdotto come sport olimpico maschile nel 1964?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "L'NBA è stata fondata nel 1946?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il pugilato è stato introdotto alle Olimpiadi nell'antica Grecia?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Vero"
+    },
+    {
+        "testo": "Il calcio femminile è stato introdotto alle Olimpiadi nel 2000?",
+        "categoria": "Sport",
+        "difficolta": "Medio",
+        "tipo": "VF",
+        "rispostaCorretta": "Falso"
+    },    {
+        "testo": "Qual è la capitale dell'Italia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Roma",
+        "risposte": [
+            "Milano",
+            "Napoli",
+            "Roma",
+            "Firenze"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Francia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Parigi",
+        "risposte": [
+            "Marsiglia",
+            "Parigi",
+            "Lione",
+            "Tolosa"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Germania?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Berlino",
+        "risposte": [
+            "Amburgo",
+            "Berlino",
+            "Monaco",
+            "Colonia"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Brasile?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Brasilia",
+        "risposte": [
+            "Rio de Janeiro",
+            "San Paolo",
+            "Brasilia",
+            "Fortaleza"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Giappone?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Tokyo",
+        "risposte": [
+            "Osaka",
+            "Kyoto",
+            "Tokyo",
+            "Hiroshima"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Canada?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Ottawa",
+        "risposte": [
+            "Toronto",
+            "Vancouver",
+            "Montreal",
+            "Ottawa"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Spagna?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Madrid",
+        "risposte": [
+            "Barcellona",
+            "Siviglia",
+            "Valencia",
+            "Madrid"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale dell'Australia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Canberra",
+        "risposte": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Cina?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Pechino",
+        "risposte": [
+            "Shanghai",
+            "Hong Kong",
+            "Pechino",
+            "Guangzhou"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Corea del Sud?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Seul",
+        "risposte": [
+            "Busan",
+            "Incheon",
+            "Seul",
+            "Daegu"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Messico?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Città del Messico",
+        "risposte": [
+            "Cancún",
+            "Guadalajara",
+            "Città del Messico",
+            "Monterrey"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Russia?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Mosca",
+        "risposte": [
+            "San Pietroburgo",
+            "Kazan",
+            "Mosca",
+            "Novosibirsk"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Regno Unito?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Londra",
+        "risposte": [
+            "Manchester",
+            "Londra",
+            "Liverpool",
+            "Birmingham"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Svizzera?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Berna",
+        "risposte": [
+            "Zurigo",
+            "Ginevra",
+            "Berna",
+            "Losanna"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Portogallo?",
+        "categoria": "Geografia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Lisbona",
+        "risposte": [
+            "Porto",
+            "Coimbra",
+            "Lisbona",
+            "Faro"
+        ]
+    },    {
+        "testo": "Qual è la capitale della Norvegia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Oslo",
+        "risposte": [
+            "Copenaghen",
+            "Stoccolma",
+            "Oslo",
+            "Helsinki"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Marocco?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Rabat",
+        "risposte": [
+            "Casablanca",
+            "Marrakech",
+            "Rabat",
+            "Fes"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Turchia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Ankara",
+        "risposte": [
+            "Istanbul",
+            "Izmir",
+            "Ankara",
+            "Bursa"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Sudafrica?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Pretoria",
+        "risposte": [
+            "Cape Town",
+            "Johannesburg",
+            "Pretoria",
+            "Durban"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Nuova Zelanda?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Wellington",
+        "risposte": [
+            "Auckland",
+            "Christchurch",
+            "Wellington",
+            "Hamilton"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Thailandia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Bangkok",
+        "risposte": [
+            "Chiang Mai",
+            "Pattaya",
+            "Bangkok",
+            "Phuket"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Pakistan?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Islamabad",
+        "risposte": [
+            "Karachi",
+            "Lahore",
+            "Islamabad",
+            "Rawalpindi"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale dell'Arabia Saudita?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Riyadh",
+        "risposte": [
+            "Jeddah",
+            "Mecca",
+            "Riyadh",
+            "Medina"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Polonia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Varsavia",
+        "risposte": [
+            "Cracovia",
+            "Gdansk",
+            "Varsavia",
+            "Poznan"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Vietnam?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Hanoi",
+        "risposte": [
+            "Ho Chi Minh",
+            "Da Nang",
+            "Hanoi",
+            "Hue"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Kenya?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Nairobi",
+        "risposte": [
+            "Mombasa",
+            "Kisumu",
+            "Nairobi",
+            "Nakuru"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Portogallo?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Lisbona",
+        "risposte": [
+            "Porto",
+            "Braga",
+            "Lisbona",
+            "Coimbra"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Malesia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Kuala Lumpur",
+        "risposte": [
+            "Malacca",
+            "Johor Bahru",
+            "Kuala Lumpur",
+            "Penang"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale della Grecia?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Atene",
+        "risposte": [
+            "Salonicco",
+            "Patrasso",
+            "Atene",
+            "Heraklion"
+        ]
+    },
+    {
+        "testo": "Qual è la capitale del Perù?",
+        "categoria": "Geografia",
+        "difficolta": "Medio",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Lima",
+        "risposte": [
+            "Cusco",
+            "Arequipa",
+            "Lima",
+            "Trujillo"
+        ]
+    },    {
+        "testo": "Quale evento ha segnato l'inizio della Prima Guerra Mondiale?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "L'assassinio dell'arciduca Francesco Ferdinando",
+        "risposte": [
+            "L'attacco a Pearl Harbor",
+            "L'assassinio dell'arciduca Francesco Ferdinando",
+            "La firma del Trattato di Versailles",
+            "L'invasione della Polonia"
+        ]
+    },
+    {
+        "testo": "Quale paese ha costruito la Grande Muraglia?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Cina",
+        "risposte": [
+            "Giappone",
+            "India",
+            "Cina",
+            "Corea del Sud"
+        ]
+    },
+    {
+        "testo": "Qual è stata la causa principale della Rivoluzione Francese?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "La crisi finanziaria e sociale",
+        "risposte": [
+            "La crisi finanziaria e sociale",
+            "L'invasione della Polonia",
+            "La scoperta dell'America",
+            "La guerra civile americana"
+        ]
+    },
+    {
+        "testo": "Qual è stato l'obiettivo principale delle Crociate?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Conquistare la Terra Santa",
+        "risposte": [
+            "Conquistare la Terra Santa",
+            "Espandere l'Impero Romano",
+            "Fondare nuove città",
+            "Scoprire nuove rotte commerciali"
+        ]
+    },
+    {
+        "testo": "Quale evento ha portato alla fine dell'Impero Romano d'Occidente?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "La deposizione di Romolo Augusto",
+        "risposte": [
+            "La costruzione del Colosseo",
+            "La deposizione di Romolo Augusto",
+            "La caduta di Costantinopoli",
+            "La guerra dei Trent'Anni"
+        ]
+    },
+    {
+        "testo": "Chi ha guidato il movimento per l'indipendenza dell'India?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Mahatma Gandhi",
+        "risposte": [
+            "Jawaharlal Nehru",
+            "Subhas Chandra Bose",
+            "Mahatma Gandhi",
+            "Indira Gandhi"
+        ]
+    },
+    {
+        "testo": "Qual è stata la causa principale della Guerra Civile Americana?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "La questione della schiavitù",
+        "risposte": [
+            "Le tasse sul tè",
+            "La scoperta dell'America",
+            "La questione della schiavitù",
+            "La costruzione del Canale di Panama"
+        ]
+    },
+    {
+        "testo": "Chi ha scritto la Dichiarazione d'Indipendenza degli Stati Uniti?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Thomas Jefferson",
+        "risposte": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Benjamin Franklin",
+            "John Adams"
+        ]
+    },
+    {
+        "testo": "Quale fu la principale causa della Guerra Fredda?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "Il conflitto ideologico tra USA e URSS",
+        "risposte": [
+            "L'invasione della Polonia",
+            "La scoperta dell'America",
+            "Il conflitto ideologico tra USA e URSS",
+            "La Rivoluzione Francese"
+        ]
+    },
+    {
+        "testo": "Quale fu il principale risultato della Rivoluzione Industriale?",
+        "categoria": "Storia",
+        "difficolta": "Facile",
+        "tipo": "Multipla",
+        "rispostaCorretta": "L'introduzione della produzione meccanizzata",
+        "risposte": [
+            "La fine della schiavitù",
+            "L'introduzione della produzione meccanizzata",
+            "La scoperta dell'America",
+            "La caduta dell'Impero Romano"
+        ]
+    }
+   
+]

@@ -5,6 +5,7 @@
 package quizgame.UI;
 
 import java.awt.event.ActionEvent;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import javax.swing.plaf.metal.MetalIconFactory;
@@ -161,17 +162,17 @@ public class DomandaMultipla extends javax.swing.JPanel {
 
     private void scelta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta1ActionPerformed
         // TODO add your handling code here:
-         risposta = scelta1.getText();
+        risposta = scelta1.getText();
     }//GEN-LAST:event_scelta1ActionPerformed
 
     private void scelta3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta3ActionPerformed
         // TODO add your handling code here:
-         risposta = scelta3.getText();
+        risposta = scelta3.getText();
     }//GEN-LAST:event_scelta3ActionPerformed
 
     private void scelta4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta4ActionPerformed
         // TODO add your handling code here:
-         risposta = scelta4.getText();
+        risposta = scelta4.getText();
     }//GEN-LAST:event_scelta4ActionPerformed
 
     public void scegliGiocatore(int numGiocatore) {
@@ -182,7 +183,7 @@ public class DomandaMultipla extends javax.swing.JPanel {
     }
 
     public void verificaRisposta() {
-        System.out.println("Verifico");
+        System.out.println("Verifico Multipla");
         if (risposta.equals(rispostaCorretta)) {
             giocatore1.aggiornaPunteggio();
         }
@@ -195,11 +196,20 @@ public class DomandaMultipla extends javax.swing.JPanel {
         contentDomanda.setText("");
         numDomanda.setText(Integer.toString(numeroDomanda));
         quizGame.QuizGame();
-        List<Domanda> domande = quizGame.getDomande();
-        Random random = new Random();
-        int indiceCasuale = random.nextInt(0, domande.size());
-        Domanda domandaCasuale = domande.get(indiceCasuale);
-        if ((domandaCasuale.getTipoRisposta().equals("Multipla")) && domandaCasuale.getCategoria().equals(cat) && domandaCasuale.getDifficolta().equals(diff)) {
+        List<Domanda> domanda = quizGame.getDomande();
+        List<Domanda> domandeUtili = new ArrayList<>();
+        int contaDomande = 0;
+        for (int i = 0; i < domanda.size(); i++) {
+            if ((domanda.get(i).getTipoRisposta().equals("Multipla")) && (domanda.get(i).getCategoria().equals(cat)) && (domanda.get(i).getDifficolta().equals(diff))) {
+                domandeUtili.add(domanda.get(i));
+                contaDomande++;
+            }
+        }
+
+        if (contaDomande > 0) {
+            Random random = new Random();
+            int indiceCasuale = random.nextInt(contaDomande);
+            Domanda domandaCasuale = domandeUtili.get(indiceCasuale);
             contentDomanda.setText(domandaCasuale.getTesto());
             List<String> scelte = domandaCasuale.getRisposte();
             scelta1.setText(scelte.get(0));
@@ -208,12 +218,9 @@ public class DomandaMultipla extends javax.swing.JPanel {
             scelta4.setText(scelte.get(3));
             risposta = scelta2.getText();
             rispostaCorretta = domandaCasuale.getRispostaCorretta();
-        } else {
-            scegliDomanda(numeroDomanda);
+
         }
-
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JLabel contentDomanda;

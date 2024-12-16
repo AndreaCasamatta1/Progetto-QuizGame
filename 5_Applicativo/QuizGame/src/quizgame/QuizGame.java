@@ -5,6 +5,11 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import java.io.FileReader;
 
 /**
  *
@@ -14,43 +19,37 @@ public class QuizGame {
 
     private List<Giocatore> giocatori = new ArrayList<>();
     private List<Domanda> domande = new ArrayList<>();
-    
+
     public void QuizGame() {
         caricaDomande();
     }
-    
 
-    private void caricaDomande()  {     //Generato da AI
+    public void caricaDomande() { //Generato da AI
         try {
-            File file = new File(System.getProperty("user.dir") + "/src/quizgame/Quiz.txt");
-            try (Scanner scanner = new Scanner(file)) {
-                while (scanner.hasNextLine()) {
-                    // Leggi il testo della domanda
-                    String testo = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
-                    if (testo == null || testo.isEmpty()) {
-                        continue; 
-                       
-                    }
-                    
-                    String categoria = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
-                    
-                    String difficolta = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
-                    // Leggi il tipo di domanda
-                    String tipo = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
-                    
-                    // Leggi la risposta corretta
-                    String rispostaCorretta = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
+            // Percorso del file JSON
+            File file = new File(System.getProperty("user.dir") + "/src/quizgame/quiz.json");
 
+            // Lettura del file JSON
+            Gson gson = new Gson();
+            try (FileReader reader = new FileReader(file)) {
+                JsonArray jsonArray = gson.fromJson(reader, JsonArray.class);
 
+                for (JsonElement element : jsonArray) {
+                    JsonObject jsonObject = element.getAsJsonObject();
+
+                    // Estrai i campi necessari
+                    String testo = jsonObject.has("testo") ? jsonObject.get("testo").getAsString() : null;
+                    String categoria = jsonObject.has("categoria") ? jsonObject.get("categoria").getAsString() : null;
+                    String difficolta = jsonObject.has("difficolta") ? jsonObject.get("difficolta").getAsString() : null;
+                    String tipo = jsonObject.has("tipo") ? jsonObject.get("tipo").getAsString() : null;
+                    String rispostaCorretta = jsonObject.has("rispostaCorretta") ? jsonObject.get("rispostaCorretta").getAsString() : null;
+
+                    // Lista delle risposte (per domande multiple)
                     List<String> risposte = new ArrayList<>();
-                    if ("Multipla".equalsIgnoreCase(tipo)) {
-                        // Leggi le risposte multiple
-                        String opzioni = scanner.hasNextLine() ? scanner.nextLine().trim() : null;
-                        if (opzioni != null) {
-                            String[] opzioniArray = opzioni.split(",");
-                            for (String opzione : opzioniArray) {
-                                risposte.add(opzione.trim());
-                            }
+                    if (jsonObject.has("risposte")) {
+                        JsonArray risposteArray = jsonObject.getAsJsonArray("risposte");
+                        for (JsonElement risposta : risposteArray) {
+                            risposte.add(risposta.getAsString());
                         }
                     }
 
@@ -59,15 +58,8 @@ public class QuizGame {
                         Domanda domanda = new Domanda(testo, null, null, null, categoria, difficolta, tipo, rispostaCorretta, risposte);
                         domande.add(domanda);
                     }
-
-                    // Salta eventuali linee vuote tra le domande
-                    if (scanner.hasNextLine()) {
-                        scanner.nextLine();
-                    }
                 }
             }
-        } catch (FileNotFoundException e) {
-            System.err.println("File non trovato: " + e.getMessage());
         } catch (Exception e) {
             System.err.println("Errore durante il caricamento delle domande: " + e.getMessage());
         }

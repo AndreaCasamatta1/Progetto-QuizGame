@@ -5,6 +5,7 @@
 package quizgame.UI;
 
 import java.awt.Color;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.logging.Level;
@@ -147,8 +148,8 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
     }
 
     public void verificaRisposta() {
-        System.out.println("Verifico");
-        if(risposta.equals(rispostaCorretta)){
+        System.out.println("Verifico vero-falso");
+        if (risposta.equals(rispostaCorretta)) {
             giocatore1.aggiornaPunteggio();
         }
     }
@@ -160,17 +161,22 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         numDomanda.setText(Integer.toString(numeroDomanda));
         quizGame.QuizGame();
         List<Domanda> domande = quizGame.getDomande();
-        Random random = new Random();
-        int indiceCasuale = random.nextInt(0, domande.size());
-        Domanda domandaCasuale = domande.get(indiceCasuale);
-        if ((domandaCasuale.getTipoRisposta().equals("VF")) && domandaCasuale.getCategoria().equals(cat)&& domandaCasuale.getDifficolta().equals(diff)) {
+        List<Domanda> domandeUtili = new ArrayList<>();
+        int contaDomande = 0;
+        for (int i = 0; i < domande.size(); i++) {
+            if ((domande.get(i).getTipoRisposta().equals("VF"))&& (domande.get(i).getCategoria().equals(cat)) && (domande.get(i).getDifficolta().equals(diff))) {
+                domandeUtili.add(domande.get(i));
+                contaDomande++;
+            }
+        }
+
+        if (contaDomande > 0) {
+            Random random = new Random();
+            int indiceCasuale = random.nextInt(contaDomande);
+            Domanda domandaCasuale = domandeUtili.get(indiceCasuale);
             contentDomanda.setText(domandaCasuale.getTesto());
             rispostaCorretta = domandaCasuale.getRispostaCorretta();
         }
-        else{
-            scegliDomanda(numeroDomanda);
-        }
-
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
