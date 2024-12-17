@@ -223,7 +223,7 @@ public class Impostazioni extends javax.swing.JPanel {
 
     private void matScolasticheActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_matScolasticheActionPerformed
         // TODO add your handling code here:
-        cat = "Materia";
+        cat = "Materie scolastiche";
     }//GEN-LAST:event_matScolasticheActionPerformed
 
     private void sportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sportActionPerformed

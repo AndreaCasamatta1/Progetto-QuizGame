@@ -264,6 +264,7 @@ public class MenuIniziale extends javax.swing.JPanel {
             if (fields[i].isEnabled()) {
                 utenti[i] = new Giocatore(fields[i].getText(), 0);    
                 quizGame.aggiungiGiocatore(utenti[i]);
+                utenti[i].setNomeUtente(fields[i].getText());
             }
         }
     }

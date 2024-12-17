@@ -11,6 +11,7 @@ import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JLabel;
+import javax.swing.border.Border;
 import quizgame.Domanda;
 import quizgame.Giocatore;
 import quizgame.QuizGame;
@@ -64,6 +65,8 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
 
         buttonGroup1.add(vero);
         vero.setText("VERO");
+        vero.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        vero.setBorderPainted(true);
         vero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 veroActionPerformed(evt);
@@ -73,6 +76,8 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         buttonGroup1.add(falso);
         falso.setSelected(true);
         falso.setText("FALSO");
+        falso.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        falso.setBorderPainted(true);
         falso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 falsoActionPerformed(evt);
@@ -119,7 +124,7 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
                     .addComponent(risponde, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(59, 59, 59)
                 .addComponent(contentDomanda, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 92, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 148, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(vero, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(falso, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -147,11 +152,13 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         giocatore1 = giocatoreScelto;
     }
 
-    public void verificaRisposta() {
+    public void verificaRisposta() throws InterruptedException {
         System.out.println("Verifico vero-falso");
         if (risposta.equals(rispostaCorretta)) {
             giocatore1.aggiornaPunteggio();
-        }
+
+        }            
+        System.out.println(giocatore1.getPunteggio());
     }
 
     public void scegliDomanda(int numeroDomanda) {
@@ -164,7 +171,7 @@ public class DomandaVeroFalso extends javax.swing.JPanel {
         List<Domanda> domandeUtili = new ArrayList<>();
         int contaDomande = 0;
         for (int i = 0; i < domande.size(); i++) {
-            if ((domande.get(i).getTipoRisposta().equals("VF"))&& (domande.get(i).getCategoria().equals(cat)) && (domande.get(i).getDifficolta().equals(diff))) {
+            if ((domande.get(i).getTipoRisposta().equals("VF")) && (domande.get(i).getCategoria().equals(cat)) && (domande.get(i).getDifficolta().equals(diff))) {
                 domandeUtili.add(domande.get(i));
                 contaDomande++;
             }

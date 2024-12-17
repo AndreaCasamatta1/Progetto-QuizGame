@@ -24,12 +24,11 @@ public class Giocatore extends QuizGame {
     }
 
     public void setNomeUtente(String nomeUtente) {
-        if(nomeUtente.length() < 1){
+        if(nomeUtente.isEmpty()){
             String alfabeto = "abcdefghijklmnopqrstuvwxyz";
             int numeroLettereAlfabeto = alfabeto.length();
             String parola = "";
             for (int i = 0; i < 5; i++) {
-                // scelgo una delle lettere dell'alfabeto.
                 int j = (int)(Math.random()*numeroLettereAlfabeto);
                 parola += alfabeto.charAt(j);
             }
