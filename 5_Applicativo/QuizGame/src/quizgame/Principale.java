@@ -29,7 +29,7 @@ public class Principale extends javax.swing.JFrame {
     private int quantitaDomanda; // le domande che verranno chieste, il numero massimo
     private int numDomanda; // tiene il conto delle domande
     private boolean tipoDomanda = false; //viene abilitata la domanda multipla e vero-falso in modo casuale
-    Random rd = new Random(); // creating Random object https://www.tutorialspoint.com/generate-random-boolean-in-java
+    Random rd = new Random(); // creating Random object 
     private int sceltaGiocatore = 0; // sceglie chi risponde, 0 il primo, poi ogni domanda aggiunge 1 fino che non arriva al limite di giocatori dove ritorna al primo (0)
     boolean inizioDomanda = false; // abilita le domande
 

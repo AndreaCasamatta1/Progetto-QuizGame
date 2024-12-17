@@ -16,9 +16,9 @@ public class MenuIniziale extends javax.swing.JPanel {
 
     /**
      * Creates new form MenuIniziale
-     */    
+     */
     private QuizGame quizGame;
-    
+
     public MenuIniziale(QuizGame quizGame) {
         this.quizGame = quizGame;
         initComponents();
@@ -172,35 +172,27 @@ public class MenuIniziale extends javax.swing.JPanel {
 
     private void aggGiocatoreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aggGiocatoreActionPerformed
 
-        if (nomeUtente9.isEnabled()){
+        if (nomeUtente9.isEnabled()) {
             aggGiocatore.setEnabled(false);
             aggGiocatore.setText("massimo raggiunto");
         }
-        if(nomeUtente9.isEnabled()){
+        if (nomeUtente9.isEnabled()) {
             nomeUtente10.setEnabled(true);
-        }
-        else if(nomeUtente8.isEnabled()){
+        } else if (nomeUtente8.isEnabled()) {
             nomeUtente9.setEnabled(true);
-        }
-        else if(nomeUtente7.isEnabled()){
+        } else if (nomeUtente7.isEnabled()) {
             nomeUtente8.setEnabled(true);
-        }
-        else if(nomeUtente6.isEnabled()){
+        } else if (nomeUtente6.isEnabled()) {
             nomeUtente7.setEnabled(true);
-        }
-        else if(nomeUtente5.isEnabled()){
+        } else if (nomeUtente5.isEnabled()) {
             nomeUtente6.setEnabled(true);
-        }
-        else if(nomeUtente4.isEnabled()){
+        } else if (nomeUtente4.isEnabled()) {
             nomeUtente5.setEnabled(true);
-        }
-        else if(nomeUtente3.isEnabled()){
+        } else if (nomeUtente3.isEnabled()) {
             nomeUtente4.setEnabled(true);
-        }
-        else if(nomeUtente2.isEnabled()){
+        } else if (nomeUtente2.isEnabled()) {
             nomeUtente3.setEnabled(true);
-        }
-        else if(nomeUtente1.isEnabled()){
+        } else if (nomeUtente1.isEnabled()) {
             nomeUtente2.setEnabled(true);
 
         }
@@ -215,37 +207,30 @@ public class MenuIniziale extends javax.swing.JPanel {
 
     private void rimGiocatoreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rimGiocatoreActionPerformed
         // TODO add your handling code here:
-        if(!nomeUtente3.isEnabled()){
+        if (!nomeUtente3.isEnabled()) {
             nomeUtente2.setEnabled(false);
             nomeUtente2.setText("Inserisci nome");
             rimGiocatore.setEnabled(false);
             rimGiocatore.setText("Minimo raggiunto");
-        }
-        else if(!nomeUtente4.isEnabled()){
+        } else if (!nomeUtente4.isEnabled()) {
             nomeUtente3.setEnabled(false);
             nomeUtente3.setText("Inserisci nome");
-        }
-        else if(!nomeUtente5.isEnabled()){
+        } else if (!nomeUtente5.isEnabled()) {
             nomeUtente4.setEnabled(false);
             nomeUtente4.setText("Inserisci nome");
-        }
-        else if(!nomeUtente6.isEnabled()){
+        } else if (!nomeUtente6.isEnabled()) {
             nomeUtente5.setEnabled(false);
             nomeUtente5.setText("Inserisci nome");
-        }
-        else if(!nomeUtente7.isEnabled()){
+        } else if (!nomeUtente7.isEnabled()) {
             nomeUtente6.setEnabled(false);
             nomeUtente6.setText("Inserisci nome");
-        }
-        else if(!nomeUtente8.isEnabled()){
+        } else if (!nomeUtente8.isEnabled()) {
             nomeUtente7.setEnabled(false);
             nomeUtente7.setText("Inserisci nome");
-        }
-        else if(!nomeUtente9.isEnabled()){
+        } else if (!nomeUtente9.isEnabled()) {
             nomeUtente8.setEnabled(false);
             nomeUtente8.setText("Inserisci nome");
-        }
-        else if(!nomeUtente10.isEnabled()){
+        } else if (!nomeUtente10.isEnabled()) {
             nomeUtente9.setEnabled(false);
             nomeUtente9.setText("Inserisci nome");
         }
@@ -255,14 +240,13 @@ public class MenuIniziale extends javax.swing.JPanel {
         aggGiocatore.setEnabled(true);
     }//GEN-LAST:event_rimGiocatoreActionPerformed
 
-
-    public void inviaNomi(){
+    public void inviaNomi() {
         quizGame.rimuoviGiocatore();
         JTextField fields[] = {nomeUtente1, nomeUtente2, nomeUtente3, nomeUtente4, nomeUtente5, nomeUtente6, nomeUtente7, nomeUtente8, nomeUtente9, nomeUtente10};
         Giocatore utenti[] = new Giocatore[fields.length];
         for (int i = 0; i < fields.length; i++) {
             if (fields[i].isEnabled()) {
-                utenti[i] = new Giocatore(fields[i].getText(), 0);    
+                utenti[i] = new Giocatore(fields[i].getText(), 0);
                 quizGame.aggiungiGiocatore(utenti[i]);
                 utenti[i].setNomeUtente(fields[i].getText());
             }

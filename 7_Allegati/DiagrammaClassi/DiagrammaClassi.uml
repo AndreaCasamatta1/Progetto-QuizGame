@@ -2,7 +2,7 @@
 class Giocatore {
   - nomeUtente: String
   - punteggio: int
-  + aggiornaPunteggio(punti: int): void
+  + aggiornaPunteggio(): void
 }
 
 class Domanda {
@@ -14,20 +14,19 @@ class Domanda {
   - difficolta: String
   - tipoRisposta: String
   - rispostaCorretta: String
+  - risposte: List<String>
   + verificaRisposta(risposta: String): boolean
 }
 
 class QuizGame {
-  - domande: List<Domanda>
   - giocatori: List<Giocatore>
+  - domande: List<Domanda>
+  + QuizGame()
+  + caricaDomande(): void
   + aggiungiGiocatore(giocatore: Giocatore): void
   + rimuoviGiocatore(): void
-  + aggiornaClassifica(): void
-  + visualizzaClassifica(): void
 }
 
-Giocatore-u->QuizGame
-Domanda-u->QuizGame
-
-
+Giocatore --> QuizGame
+Domanda --> QuizGame
 @enduml
