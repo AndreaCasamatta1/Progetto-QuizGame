@@ -153,53 +153,56 @@ public class DomandaMultipla extends javax.swing.JPanel {
     private String risposta;
     Giocatore giocatore1;
     private void scelta2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta2ActionPerformed
-        // TODO add your handling code here:
         risposta = scelta2.getText();
     }//GEN-LAST:event_scelta2ActionPerformed
 
     private void scelta1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta1ActionPerformed
-        // TODO add your handling code here:
         risposta = scelta1.getText();
     }//GEN-LAST:event_scelta1ActionPerformed
 
     private void scelta3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta3ActionPerformed
-        // TODO add your handling code here:
         risposta = scelta3.getText();
     }//GEN-LAST:event_scelta3ActionPerformed
 
     private void scelta4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scelta4ActionPerformed
-        // TODO add your handling code here:
         risposta = scelta4.getText();
     }//GEN-LAST:event_scelta4ActionPerformed
 
     public void scegliGiocatore(int numGiocatore) {
         List<Giocatore> nomiGiocatori = quizGame.getGiocatori();
+        //sceglie il giocatore dalla lista dei giocatori
         Giocatore giocatoreScelto = nomiGiocatori.get(numGiocatore);
         nomeGiocatore.setText(giocatoreScelto.getNomeUtente());
+        //imposta il giocatore scelto come giocatore corrente
         giocatore1 = giocatoreScelto;
     }
 
     public void verificaRisposta() {
         System.out.println("Verifico Multipla");
         if (risposta.equals(rispostaCorretta)) {
+            //nel caso la risposta è corretta aggirona il punteggio del giocatore che sta rispondendo alla domanda
             giocatore1.aggiornaPunteggio();
-            
+
         }
         System.out.println(giocatore1.getPunteggio());
 
     }
 
     public void scegliDomanda(int numeroDomanda) {
+        //prende categoria e difficolta scelta dall'utente
         String cat = impo1.getCategoria();
         String diff = impo1.getDifficolta();
+        //imposta il testo  della domanda vuota
         contentDomanda.setText("");
         numDomanda.setText(Integer.toString(numeroDomanda));
         quizGame.QuizGame();
         List<Domanda> domanda = quizGame.getDomande();
+        //le domandeUtili sono le domande che rispettano le impoostazioni delle domande inserite dall'utente
         List<Domanda> domandeUtili = new ArrayList<>();
         int contaDomande = 0;
         for (int i = 0; i < domanda.size(); i++) {
             if ((domanda.get(i).getTipoRisposta().equals("Multipla")) && (domanda.get(i).getCategoria().equals(cat)) && (domanda.get(i).getDifficolta().equals(diff))) {
+                //aggiunge le domande che rispecchiano le scelte dell'utente alla lista
                 domandeUtili.add(domanda.get(i));
                 contaDomande++;
             }

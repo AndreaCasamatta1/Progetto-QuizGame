@@ -98,7 +98,7 @@ public class Domanda extends QuizGame {
     public void setRisposte(List<String> risposte) {
         this.risposte = risposte;
     }
-
+    //verifica la risposta del giocatore
     public boolean verificaRisposta(String risposta) {
         return this.rispostaCorretta.equals(risposta);
     }

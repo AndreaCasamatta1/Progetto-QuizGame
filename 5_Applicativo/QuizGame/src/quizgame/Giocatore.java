@@ -22,7 +22,7 @@ public class Giocatore extends QuizGame {
     public String getNomeUtente() {
         return nomeUtente;
     }
-
+    //metodo che inserisce in modo casuale 5 lettere dell'alfabeto nel caso il giocatore non ha un nome
     public void setNomeUtente(String nomeUtente) {
         if(nomeUtente.isEmpty()){
             String alfabeto = "abcdefghijklmnopqrstuvwxyz";

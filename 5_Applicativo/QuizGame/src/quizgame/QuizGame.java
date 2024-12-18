@@ -27,8 +27,7 @@ public class QuizGame {
     public void caricaDomande() { //Generato da AI
         try {
             // Percorso del file JSON
-            File file = new File(System.getProperty("user.dir") + "/src/quizgame/quiz.json");
-
+            File file = new File(System.getProperty("user.dir") + "/quiz.json");
             // Lettura del file JSON
             Gson gson = new Gson();
             try (FileReader reader = new FileReader(file)) {
@@ -37,7 +36,7 @@ public class QuizGame {
                 for (JsonElement element : jsonArray) {
                     JsonObject jsonObject = element.getAsJsonObject();
 
-                    // Estrai i campi necessari
+                    // Estrai i campi necessari dal json tramite la validazione della chiave
                     String testo = jsonObject.has("testo") ? jsonObject.get("testo").getAsString() : null;
                     String categoria = jsonObject.has("categoria") ? jsonObject.get("categoria").getAsString() : null;
                     String difficolta = jsonObject.has("difficolta") ? jsonObject.get("difficolta").getAsString() : null;
@@ -53,8 +52,8 @@ public class QuizGame {
                         }
                     }
 
-                    // Controlla che i campi essenziali siano presenti
-                    if (testo != null && tipo != null && difficolta != null && rispostaCorretta != null && categoria != null) {
+                    // Controlla che i campi essenziali siano presenti in Java
+                    if ((testo != null && !testo.isEmpty())  && (tipo != null && !tipo.isEmpty()) && (difficolta != null && !difficolta.isEmpty()) && (rispostaCorretta != null && !rispostaCorretta.isEmpty()) && (categoria != null && !categoria.isEmpty())) {
                         Domanda domanda = new Domanda(testo, null, null, null, categoria, difficolta, tipo, rispostaCorretta, risposte);
                         domande.add(domanda);
                     }
