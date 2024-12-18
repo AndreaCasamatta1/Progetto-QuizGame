@@ -131,13 +131,9 @@ public class Classifica extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 public void aggiornaClassifica() {
-        //giocatori dalla classe QuizGame
         List<Giocatore> giocatori = quizGame.getGiocatori();
-
         // Ordina i giocatori in base al punteggio 
         giocatori.sort((g1, g2) -> Integer.compare(g2.getPunteggio(), g1.getPunteggio()));
-
-        // arraay per le colonne della classifica
         String[] posizioni = new String[giocatori.size()];
         String[] nomi = new String[giocatori.size()];
         String[] punteggi = new String[giocatori.size()];
